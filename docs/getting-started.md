@@ -10,15 +10,19 @@ training. Windows users should use WSL2.
 Start the browser interface:
 
 ```bash
-cellcompass web --host 127.0.0.1 --port 8000 --device cpu
+cellcompass --llm-model gpt-5.5 --llm-thinking-level high web --host 127.0.0.1 --port 8000 --device cpu
 ```
 
-Open http://localhost:8000. The setup screen lets you select a provider and model,
-enter an API key, and choose a directory for your results. For an OpenAI-compatible
-provider, also enter its API base URL. Use a model that supports tool calling.
-For example, select **OpenAI**, enter your API key, and use a tool-calling model
-available to your account. Keep the provider's default base URL.
-Click **Initialize Agent** to open the conversation.
+Open http://localhost:8000. The setup screen lets you select a provider and model
+and choose a directory for results. For API access, select **OpenAI** and enter
+an API key, or select an OpenAI-compatible provider and enter its API base URL.
+For Codex access, follow the sign-in instructions below instead.
+
+Use model **gpt-5.5** and, under **Advanced settings → Model auth & details**,
+set **Reasoning effort** to **High**. The command above sets both options
+explicitly. Other tool-calling models can be selected if needed.
+Click **Initialize Agent** to open
+the conversation. For algorithm design, also enable the stop hook described below.
 
 CellCompass saves configuration and conversations under `~/.cellcompass/`.
 Keep this directory private. The agent can execute analysis code and create files
@@ -30,6 +34,55 @@ Check that your PyTorch installation detects the GPU:
 
 ```bash
 python -c "import torch; print(torch.cuda.is_available())"
+```
+
+## Codex sign-in
+
+Run the following in an interactive terminal on the machine running CellCompass:
+
+```bash
+cellcompass auth codex-login
+```
+
+Open the URL printed in the terminal and complete sign-in. If prompted, paste
+the returned code or redirect URL into the terminal. Node.js is required, and
+the login helper installs its dependencies on first use. Check the saved login:
+
+```bash
+cellcompass auth profiles status
+```
+
+In the setup screen, select **OpenAI Codex OAuth**, model **gpt-5.5**, and
+**Reasoning effort: High**. Under advanced settings, use **Auth mode: Codex OAuth**.
+No API key is needed for this route. The account must have access to the selected
+model. Account limits still apply. OpenAI distinguishes subscription sign-in from
+API-key access in its [authentication documentation](https://learn.chatgpt.com/docs/auth).
+
+The same settings can be passed when starting CellCompass:
+
+```bash
+cellcompass --llm-provider openai-codex --llm-auth-mode codex_oauth --llm-model gpt-5.5 --llm-thinking-level high web --host 127.0.0.1 --port 8000 --device cpu
+```
+
+## Algorithm-design settings
+
+Before starting a model-design study, open **Advanced settings → Review and stop
+hook**. Switch **Planner stop hook** on, choose **LLM prompt evaluator**, and
+leave **Max triggers** at **20**. Keep the supplied stop-hook instructions, which
+check whether the proposal, implementation, staged evaluations and final
+confirmation have been completed.
+
+When the agent tries to finish with work still outstanding, the hook directs it
+to continue. It is not an unlimited loop: reaching the trigger limit pauses the
+run for review. The **Stop** button can interrupt the run at any time.
+Continuation also consumes model usage. Ordinary data inspection does not need
+the hook.
+
+These settings are saved with the model configuration. For terminal use, enabling
+the hook explicitly is also possible after configuring its mode in the interface:
+
+```bash
+CYTOBRIDGE_STOP_HOOK_ENABLED=1 cellcompass --llm-model gpt-5.5 --llm-thinking-level high interactive /path/to/data.h5ad --output ./output/my_study --device cpu
 ```
 
 ## Try a small example
@@ -103,8 +156,8 @@ own computer:
 ssh -L 8000:127.0.0.1:8000 your-user@your-server
 ```
 
-Then open http://localhost:8000 on your computer. Node.js is needed to build the
-browser interface, but not for API-key-based terminal use. Optional literature
+Then open http://localhost:8000 on your computer. Node.js is needed for the
+browser build and Codex sign-in, but not for API-key-based terminal use. Optional literature
 search requires a separately prepared local literature collection.
 
 ## If something does not start

@@ -231,8 +231,8 @@
   },
   {
     "path": "README.md",
-    "sha256": "4d96936c6cc9bb991c52537ea6aa359cc82a67472baa6a43627e3ae65dbec4a4",
-    "bytes": 2416
+    "sha256": "b727601365b002e605d923ebef2f32e5ce72afa021723d2cc66420b8a99cd395",
+    "bytes": 3111
   },
   {
     "path": "algorithms/brgusfm_rh5_0613/IMPLEMENTATION_MAP.md",
@@ -2646,8 +2646,8 @@
   },
   {
     "path": "docs/getting-started.md",
-    "sha256": "ed29b2f689acc93d8317e44c186b7c94807c6849064443f26dab1c7d9af65535",
-    "bytes": 4962
+    "sha256": "61553183219b2341c0ca1222153b21f0744a523ff994a70bdbcd0c7015dbe424",
+    "bytes": 7332
   },
   {
     "path": "docs/runtime-upstream.md",
