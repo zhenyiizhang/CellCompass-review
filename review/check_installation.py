@@ -40,16 +40,16 @@ def main():
         item=load_training_algorithm(record.algorithm_id,[ROOT/'algorithms'])
         config=yaml.safe_load((item.root_dir/'config.yaml').read_text())
         context=TrainingAlgorithmContext(algorithm_id=item.algorithm_id,input_adata_path='',
-            output_dir=str(ROOT/'output/smoke'),stage='pilot',base_config_name=None,
+            output_dir=str(ROOT/'output/installation_check'),stage='pilot',base_config_name=None,
             resolved_base_config=config,metadata={'algorithm_dir':str(item.root_dir)})
         spec=item.build_spec(context)
         assert spec.algorithm_id==record.algorithm_id
         loaded.append(record.algorithm_id)
     result={'status':'passed','device':'cpu','synthetic_cells':32,'max_endpoint_error':error,
             'algorithms_loaded':loaded,'elapsed_seconds':round(time.perf_counter()-started,2),
-            'scope':'Software smoke check, not full biological training or agent evaluation.'}
+            'scope':'Installation check using synthetic data and model loading.'}
     out=ROOT/'output';out.mkdir(exist_ok=True)
-    (out/'runtime_smoke.json').write_text(json.dumps(result,indent=2)+'\n')
+    (out/'installation_check.json').write_text(json.dumps(result,indent=2)+'\n')
     print(json.dumps(result,indent=2))
 
 if __name__=='__main__':main()

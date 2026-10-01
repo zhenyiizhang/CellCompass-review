@@ -17,12 +17,12 @@ model fitting, establish the correctness of the biological conclusions, or test
 pixel identity with manually assembled manuscript artwork. The current SI
 excludes the three C. elegans figures present in the earlier plotting archive.
 
-## Runtime smoke check
+## Installation check
 
 The packaged source was imported using the existing Python 3.10 scientific
 environment, with the reference versions listed in
 `requirements-runtime-constraints.txt`. This was not a fresh runtime installation.
-The CLI help command succeeded. `python review/smoke_runtime.py` completed in
+The CLI help command succeeded. `python review/check_installation.py` completed in
 10.48 seconds on CPU. It checked endpoint coupling and flow matching for 32
 synthetic cells and fitted a constant velocity with maximum endpoint error
 1.67e-6. All four archived custom algorithms loaded and constructed their training

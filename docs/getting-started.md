@@ -60,10 +60,10 @@ agent's proposed model and evaluation. You can then ask it to fit a small model
 on CPU and compare generated populations with the observed data. Run time and
 API usage depend on the model and the analysis requested.
 
-To check the numerical dependencies without making language-model calls:
+To check the installation without making language-model calls:
 
 ```bash
-python review/smoke_runtime.py
+python review/check_installation.py
 ```
 
 ## Use your own data

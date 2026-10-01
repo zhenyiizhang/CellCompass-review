@@ -8,10 +8,10 @@ biological analysis, and retains supported methods for use in later studies.
 
 ## Installation
 
-You will need Conda and Node.js 22.12 or later. The commands below create a Python
-3.10 environment. An API key for a supported language-model
-provider is needed to use the agent. A CPU is enough to explore the interface and
-small examples. We recommend an NVIDIA GPU for biological model training.
+Requirements: Conda, Node.js 22.12 or later, and an API key for a supported
+language-model provider. The installation uses Python 3.10. CPU execution is
+supported for small examples. An NVIDIA GPU is recommended for biological model
+training.
 
 ```bash
 git clone https://github.com/zhenyiizhang/CellCompass-review.git

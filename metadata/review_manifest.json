@@ -231,8 +231,8 @@
   },
   {
     "path": "README.md",
-    "sha256": "5cef8cd818cd04fdc6f4c77a9ce4d859e2678ac000bf4f54776920de694c9cc0",
-    "bytes": 2472
+    "sha256": "4d96936c6cc9bb991c52537ea6aa359cc82a67472baa6a43627e3ae65dbec4a4",
+    "bytes": 2416
   },
   {
     "path": "algorithms/brgusfm_rh5_0613/IMPLEMENTATION_MAP.md",
@@ -2646,8 +2646,8 @@
   },
   {
     "path": "docs/getting-started.md",
-    "sha256": "212250dec68a292a3684e8c6b710ed4beba19ab4211ba72cd7e2251bf29e83ec",
-    "bytes": 4967
+    "sha256": "ed29b2f689acc93d8317e44c186b7c94807c6849064443f26dab1c7d9af65535",
+    "bytes": 4962
   },
   {
     "path": "docs/runtime-upstream.md",
@@ -5366,8 +5366,8 @@
   },
   {
     "path": "review/VALIDATION.md",
-    "sha256": "a54ea5ac25572650e40e8f41d907b1b52f5853ec4d08ddcf17420f9ad70f5719",
-    "bytes": 3568
+    "sha256": "35b6736204d160da4b7a2dc00f7a4007fcc7bffafa9cb997e151f6089af41117",
+    "bytes": 3572
   },
   {
     "path": "review/check_archive.py",
@@ -5375,14 +5375,14 @@
     "bytes": 1481
   },
   {
+    "path": "review/check_installation.py",
+    "sha256": "4ae71852a392e0a2350b100823c36e998931c874ddd8216c12e40264f35aa449",
+    "bytes": 2670
+  },
+  {
     "path": "review/reproduce_figures.py",
     "sha256": "692d7b2dafbe1f0a24610f537452a1e0311ed60474dfe6332fce07a569736329",
     "bytes": 2429
-  },
-  {
-    "path": "review/smoke_runtime.py",
-    "sha256": "0682e9f8c124a1303101ef97904c63339dfdf19798885ad5ec5c8cf2c75beff7",
-    "bytes": 2665
   },
   {
     "path": "setup.py",
