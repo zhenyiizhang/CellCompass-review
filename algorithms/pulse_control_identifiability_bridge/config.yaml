@@ -1,0 +1,75 @@
+model:
+  components:
+  - velocity
+  velocity_net:
+    hidden_dim: 256
+    n_layers: 5
+    residual: false
+ckpt_dir: /data/cytobridge/runs/night_wave_20260621_0140/existing_deep_raw_a/training_runs/20260620T232051049855Z__pilot__pulse_control_identifiability_bridge__campaign_20260-trial_20260620-pcib_welltem/artifacts/checkpoints
+pcib:
+  nuisance_rank: 3
+  nuisance_rank_cap: 5
+  baseline_pair_max: 4096
+  nuisance_energy_threshold: 0.9
+  min_anchor_confidence: 0.05
+  max_train_anchors_per_time: 4096
+  max_metric_anchors_per_time: 2048
+  max_metric_particles_per_time: 4096
+  nearest_chunk: 512
+  endpoint_cost_weight: 1.0
+  pulse_cost_weight: 0.65
+  nuisance_cost_weight: 0.15
+  residual_cost_weight: 0.01
+  selector_tau: 0.25
+  residual_scale: 0.3
+  residual_max_norm: 5.0
+  velocity_loss_weight: 0.06
+  velocity_leakage_weight: 0.01
+  metric_leakage_weight: 0.25
+  nuisance_budget_quantile: 0.9
+  nuisance_budget_floor: 0.02
+  nuisance_budget_ceiling: 0.5
+  min_train_anchor_support_per_time: 100
+  min_projected_pulse_fraction: 0.1
+  endpoint_min_pulse_cosine: -0.25
+  residual_endpoint_fraction: 0.5
+  metric_subsample_seed: 1729
+  claim_metric_name: pcib_pulse_control_identifiability_error
+  unsupported_metric_value: 1000000.0
+  min_baseline_control_count: 10
+  min_baseline_labeled0_train_count: 10
+  require_nonempty_nuisance_basis: true
+training:
+  defaults:
+    lr: 0.0001
+    lambda_ot: 1.0
+    lambda_mass: 0.0
+    lambda_energy: 0.01
+    sigma: 0.0
+    batch_size: 400
+  plan:
+  - name: Train_PCIB_FM
+    mode: flow_matching
+    lr: 0.005
+    epochs: 3000
+    sigma: 0.0
+    train_strategy: v
+    batch_size: 256
+    scheduler_type: cosine
+    save_strategy: best
+    pcib:
+      enabled: true
+    flow_matching:
+      backend: pcib_balanced_pulse_control
+      lambda_penalty: 0
+      coupling:
+        method: sinkhorn
+        reg: 0.05
+        use_mini_batch_balanced: true
+        chunk_size: 1000
+        normalize_cost: false
+        auto_normalize_large_cost: true
+      path:
+        sigma: 0.0
+      mass:
+        kind: none

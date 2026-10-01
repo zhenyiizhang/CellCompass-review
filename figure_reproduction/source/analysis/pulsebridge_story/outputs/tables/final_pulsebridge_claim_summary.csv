@@ -1,0 +1,8 @@
+claim,evidence,interpretation,status
+Well-TEMP-seq source-paper consistency,DKK1/GAS5 new RNA and total RNA rise after 5-AZA-CdR; EREG total/old RNA decreases.,Consistent with demethylation/reactivation and partial oncogene-repression axes.,supported
+Boundary case,MALAT1 increases in the local prepared PulseBridge table instead of decreasing.,Do not use MALAT1 as positive source-paper reproduction evidence.,caution
+PulseBridge dynamic insight,Generated route is 3.46x longer than endpoint shortcut and matches observed day states.,"Drug response is a staged route, not a static endpoint contrast.",new dynamic analysis
+State timing,Early states fall from 0.650 to 0.048 observed; late states rise from 0.069 to 0.600 observed.,The response is carried by a late state redistribution that the generated trajectory reproduces.,new dynamic analysis
+Gene-space directional validation,MT-RNR2/RPS2/MT-CO1 real same-sign fractions are 98%/92%/79% versus random near 50%.,Metabolic alignment is visible in gene space and not explained by random velocity.,validated model-specific evidence
+New hypothesis candidates,"SAT1/polyamine, LGALS1/adaptive adhesion, mitochondrial, and proteostasis/iron programs are time-ordered along rollout.","These are PulseBridge-nominated follow-up hypotheses, not causal mechanisms.",hypothesis-generating
+Counterfactual perturbation readiness,PulseBridge learns a continuous vector field that can be queried from chosen initial states and intervention/context labels when such labels are available.,The HCT116 case validates the route and direction needed for counterfactual use; multi-drug or dose counterfactual claims require additional perturbation arms.,"model capability, not fully validated in this single-drug case"

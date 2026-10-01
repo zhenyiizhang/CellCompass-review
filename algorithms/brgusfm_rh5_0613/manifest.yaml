@@ -1,0 +1,23 @@
+algorithm_id: brgusfm_rh5_0613
+api_version: 1
+entrypoint: algorithm.py
+entry_function: build_training_algorithm
+description: Branch-Regulatory Gene-space Unbalanced Stochastic Flow Matching for
+  DB100-style six-output DynBench total-score dynamics; source-relaxed UOT stochastic
+  flow/growth matching with branch posterior and regulatory drift artifacts.
+requirements: Implements approved proposal proposal_20260613T235954411760Z. Must preserve
+  models_unbalanced_mass semantics; source-relaxed target-constrained UOT endpoint
+  plan; stochastic bridge flow/score/growth targets; branch posterior q_eta from transport-induced
+  future-label DP; sparse regulatory A_psi inside drift with Jacobian/residual constraints;
+  model-native six-file DynBench export without hidden data, case IDs, answer lookup,
+  scorer edits, or metric-specific post-hoc correction.
+base_config: ./config.yaml
+base_config_seed: vgfm
+minibatch_required: false
+minibatch_policy: scale_dependent
+scalability_required: true
+default_chunk_size: 1000
+tags:
+- flow-matching
+- custom
+author: agent

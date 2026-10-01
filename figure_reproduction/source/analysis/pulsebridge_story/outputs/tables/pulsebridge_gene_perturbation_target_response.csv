@@ -1,0 +1,13 @@
+perturbation_module,target_program,strength_z,target_score,delta_from_baseline,program_label,perturbation_label,genes_used
+reactivation,reactivation,0.0,0.1956273466348648,0.0,DKK1/GAS5,DKK1/GAS5 reactivation,
+reactivation,reactivation,-5.0,0.049392446875572205,-0.1462348997592926,DKK1/GAS5,DKK1/GAS5 reactivation,"DKK1,GAS5"
+reactivation,reactivation,5.0,0.3542788028717041,0.1586514562368393,DKK1/GAS5,DKK1/GAS5 reactivation,"DKK1,GAS5"
+immune_surface,immune_surface,0.0,0.28183713555336,0.0,B2M/HLA/IFITM3,B2M/HLA/IFITM3 immune surface,
+immune_surface,immune_surface,-5.0,0.13050752878189087,-0.15132960677146912,B2M/HLA/IFITM3,B2M/HLA/IFITM3 immune surface,"B2M,HLA-A,HLA-B,HLA-C,IFITM3"
+immune_surface,immune_surface,5.0,0.44614943861961365,0.16431230306625366,B2M/HLA/IFITM3,B2M/HLA/IFITM3 immune surface,"B2M,HLA-A,HLA-B,HLA-C,IFITM3"
+proliferation_genes,proliferation_repression,0.0,0.1529223620891571,0.0,EREG/PCNA down,EREG/PCNA repression readout,
+proliferation_genes,proliferation_repression,-5.0,0.17559324204921722,0.02267087996006012,EREG/PCNA down,EREG/PCNA repression readout,"EREG,PCNA"
+proliferation_genes,proliferation_repression,5.0,0.12954218685626984,-0.023380175232887268,EREG/PCNA down,EREG/PCNA repression readout,"EREG,PCNA"
+adaptive_metabolic,adaptive_metabolic,0.0,0.4809962511062622,0.0,SAT1/LGALS1/MT,SAT1/LGALS1/MT adaptive,
+adaptive_metabolic,adaptive_metabolic,-5.0,0.28884580731391907,-0.19215044379234314,SAT1/LGALS1/MT,SAT1/LGALS1/MT adaptive,"SAT1,LGALS1,MT-CO1,MT-CO2,MT-CO3,MT-ND4,MT-CYB"
+adaptive_metabolic,adaptive_metabolic,5.0,0.6224102973937988,0.14141404628753662,SAT1/LGALS1/MT,SAT1/LGALS1/MT adaptive,"SAT1,LGALS1,MT-CO1,MT-CO2,MT-CO3,MT-ND4,MT-CYB"

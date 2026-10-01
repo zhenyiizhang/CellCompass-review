@@ -1,0 +1,145 @@
+module,label,claim_class,expected,genes,time,state,cell_count,mean_score
+tumor_suppressor_reactivation,DKK1/GAS5 reactivation,desired_anti_tumor_like,up,DKK1;GAS5,0.0,state_1,3014,0.7468385100364685
+tumor_suppressor_reactivation,DKK1/GAS5 reactivation,desired_anti_tumor_like,up,DKK1;GAS5,0.0,state_2,2183,0.7172373533248901
+tumor_suppressor_reactivation,DKK1/GAS5 reactivation,desired_anti_tumor_like,up,DKK1;GAS5,0.0,state_3,1411,0.6746006608009338
+tumor_suppressor_reactivation,DKK1/GAS5 reactivation,desired_anti_tumor_like,up,DKK1;GAS5,0.0,state_4,840,0.7078919410705566
+tumor_suppressor_reactivation,DKK1/GAS5 reactivation,desired_anti_tumor_like,up,DKK1;GAS5,0.0,state_5,418,0.7416719198226929
+tumor_suppressor_reactivation,DKK1/GAS5 reactivation,desired_anti_tumor_like,up,DKK1;GAS5,0.0,state_6,134,0.855918824672699
+tumor_suppressor_reactivation,DKK1/GAS5 reactivation,desired_anti_tumor_like,up,DKK1;GAS5,1.0,state_1,296,1.347195029258728
+tumor_suppressor_reactivation,DKK1/GAS5 reactivation,desired_anti_tumor_like,up,DKK1;GAS5,1.0,state_2,922,1.1852775812149048
+tumor_suppressor_reactivation,DKK1/GAS5 reactivation,desired_anti_tumor_like,up,DKK1;GAS5,1.0,state_3,1116,1.1403840780258179
+tumor_suppressor_reactivation,DKK1/GAS5 reactivation,desired_anti_tumor_like,up,DKK1;GAS5,1.0,state_4,932,1.0465753078460693
+tumor_suppressor_reactivation,DKK1/GAS5 reactivation,desired_anti_tumor_like,up,DKK1;GAS5,1.0,state_5,527,1.0993295907974243
+tumor_suppressor_reactivation,DKK1/GAS5 reactivation,desired_anti_tumor_like,up,DKK1;GAS5,1.0,state_6,207,1.09991455078125
+tumor_suppressor_reactivation,DKK1/GAS5 reactivation,desired_anti_tumor_like,up,DKK1;GAS5,2.0,state_1,2,0.0
+tumor_suppressor_reactivation,DKK1/GAS5 reactivation,desired_anti_tumor_like,up,DKK1;GAS5,2.0,state_2,58,1.1142646074295044
+tumor_suppressor_reactivation,DKK1/GAS5 reactivation,desired_anti_tumor_like,up,DKK1;GAS5,2.0,state_3,298,1.2519032955169678
+tumor_suppressor_reactivation,DKK1/GAS5 reactivation,desired_anti_tumor_like,up,DKK1;GAS5,2.0,state_4,662,1.1825201511383057
+tumor_suppressor_reactivation,DKK1/GAS5 reactivation,desired_anti_tumor_like,up,DKK1;GAS5,2.0,state_5,1232,1.3870830535888672
+tumor_suppressor_reactivation,DKK1/GAS5 reactivation,desired_anti_tumor_like,up,DKK1;GAS5,2.0,state_6,1748,1.4123362302780151
+tumor_suppressor_reactivation,DKK1/GAS5 reactivation,desired_anti_tumor_like,up,DKK1;GAS5,3.0,state_1,22,1.2772547006607056
+tumor_suppressor_reactivation,DKK1/GAS5 reactivation,desired_anti_tumor_like,up,DKK1;GAS5,3.0,state_2,170,1.1435543298721313
+tumor_suppressor_reactivation,DKK1/GAS5 reactivation,desired_anti_tumor_like,up,DKK1;GAS5,3.0,state_3,508,1.0631202459335327
+tumor_suppressor_reactivation,DKK1/GAS5 reactivation,desired_anti_tumor_like,up,DKK1;GAS5,3.0,state_4,899,1.0089974403381348
+tumor_suppressor_reactivation,DKK1/GAS5 reactivation,desired_anti_tumor_like,up,DKK1;GAS5,3.0,state_5,1156,1.0957986116409302
+tumor_suppressor_reactivation,DKK1/GAS5 reactivation,desired_anti_tumor_like,up,DKK1;GAS5,3.0,state_6,1245,1.1581025123596191
+oncogene_proliferation_repression,EREG/PCNA repression,desired_anti_tumor_like,down,EREG;PCNA,0.0,state_1,3014,0.9121382236480713
+oncogene_proliferation_repression,EREG/PCNA repression,desired_anti_tumor_like,down,EREG;PCNA,0.0,state_2,2183,0.7694700956344604
+oncogene_proliferation_repression,EREG/PCNA repression,desired_anti_tumor_like,down,EREG;PCNA,0.0,state_3,1411,0.7325475215911865
+oncogene_proliferation_repression,EREG/PCNA repression,desired_anti_tumor_like,down,EREG;PCNA,0.0,state_4,840,0.7022983431816101
+oncogene_proliferation_repression,EREG/PCNA repression,desired_anti_tumor_like,down,EREG;PCNA,0.0,state_5,418,0.6113402247428894
+oncogene_proliferation_repression,EREG/PCNA repression,desired_anti_tumor_like,down,EREG;PCNA,0.0,state_6,134,0.5870256423950195
+oncogene_proliferation_repression,EREG/PCNA repression,desired_anti_tumor_like,down,EREG;PCNA,1.0,state_1,296,1.1847209930419922
+oncogene_proliferation_repression,EREG/PCNA repression,desired_anti_tumor_like,down,EREG;PCNA,1.0,state_2,922,1.009036660194397
+oncogene_proliferation_repression,EREG/PCNA repression,desired_anti_tumor_like,down,EREG;PCNA,1.0,state_3,1116,0.871547281742096
+oncogene_proliferation_repression,EREG/PCNA repression,desired_anti_tumor_like,down,EREG;PCNA,1.0,state_4,932,0.7511212825775146
+oncogene_proliferation_repression,EREG/PCNA repression,desired_anti_tumor_like,down,EREG;PCNA,1.0,state_5,527,0.6030528545379639
+oncogene_proliferation_repression,EREG/PCNA repression,desired_anti_tumor_like,down,EREG;PCNA,1.0,state_6,207,0.4805071949958801
+oncogene_proliferation_repression,EREG/PCNA repression,desired_anti_tumor_like,down,EREG;PCNA,2.0,state_1,2,0.0
+oncogene_proliferation_repression,EREG/PCNA repression,desired_anti_tumor_like,down,EREG;PCNA,2.0,state_2,58,0.5553033351898193
+oncogene_proliferation_repression,EREG/PCNA repression,desired_anti_tumor_like,down,EREG;PCNA,2.0,state_3,298,0.521342396736145
+oncogene_proliferation_repression,EREG/PCNA repression,desired_anti_tumor_like,down,EREG;PCNA,2.0,state_4,662,0.40503814816474915
+oncogene_proliferation_repression,EREG/PCNA repression,desired_anti_tumor_like,down,EREG;PCNA,2.0,state_5,1232,0.4394310414791107
+oncogene_proliferation_repression,EREG/PCNA repression,desired_anti_tumor_like,down,EREG;PCNA,2.0,state_6,1748,0.4008523225784302
+oncogene_proliferation_repression,EREG/PCNA repression,desired_anti_tumor_like,down,EREG;PCNA,3.0,state_1,22,0.9021082520484924
+oncogene_proliferation_repression,EREG/PCNA repression,desired_anti_tumor_like,down,EREG;PCNA,3.0,state_2,170,0.6097629070281982
+oncogene_proliferation_repression,EREG/PCNA repression,desired_anti_tumor_like,down,EREG;PCNA,3.0,state_3,508,0.4679073989391327
+oncogene_proliferation_repression,EREG/PCNA repression,desired_anti_tumor_like,down,EREG;PCNA,3.0,state_4,899,0.44270408153533936
+oncogene_proliferation_repression,EREG/PCNA repression,desired_anti_tumor_like,down,EREG;PCNA,3.0,state_5,1156,0.40505754947662354
+oncogene_proliferation_repression,EREG/PCNA repression,desired_anti_tumor_like,down,EREG;PCNA,3.0,state_6,1245,0.3497115969657898
+immune_surface_interferon_like,B2M/HLA/IFITM3 immune surface,desired_immune_like,up,B2M;HLA-A;HLA-B;HLA-C;IFITM3,0.0,state_1,3014,0.7763006091117859
+immune_surface_interferon_like,B2M/HLA/IFITM3 immune surface,desired_immune_like,up,B2M;HLA-A;HLA-B;HLA-C;IFITM3,0.0,state_2,2183,0.7537202835083008
+immune_surface_interferon_like,B2M/HLA/IFITM3 immune surface,desired_immune_like,up,B2M;HLA-A;HLA-B;HLA-C;IFITM3,0.0,state_3,1411,0.7666847705841064
+immune_surface_interferon_like,B2M/HLA/IFITM3 immune surface,desired_immune_like,up,B2M;HLA-A;HLA-B;HLA-C;IFITM3,0.0,state_4,840,0.7822020053863525
+immune_surface_interferon_like,B2M/HLA/IFITM3 immune surface,desired_immune_like,up,B2M;HLA-A;HLA-B;HLA-C;IFITM3,0.0,state_5,418,0.8859739899635315
+immune_surface_interferon_like,B2M/HLA/IFITM3 immune surface,desired_immune_like,up,B2M;HLA-A;HLA-B;HLA-C;IFITM3,0.0,state_6,134,0.9291954040527344
+immune_surface_interferon_like,B2M/HLA/IFITM3 immune surface,desired_immune_like,up,B2M;HLA-A;HLA-B;HLA-C;IFITM3,1.0,state_1,296,1.1680893898010254
+immune_surface_interferon_like,B2M/HLA/IFITM3 immune surface,desired_immune_like,up,B2M;HLA-A;HLA-B;HLA-C;IFITM3,1.0,state_2,922,0.9535187482833862
+immune_surface_interferon_like,B2M/HLA/IFITM3 immune surface,desired_immune_like,up,B2M;HLA-A;HLA-B;HLA-C;IFITM3,1.0,state_3,1116,0.8618938326835632
+immune_surface_interferon_like,B2M/HLA/IFITM3 immune surface,desired_immune_like,up,B2M;HLA-A;HLA-B;HLA-C;IFITM3,1.0,state_4,932,0.8406054973602295
+immune_surface_interferon_like,B2M/HLA/IFITM3 immune surface,desired_immune_like,up,B2M;HLA-A;HLA-B;HLA-C;IFITM3,1.0,state_5,527,0.8400762677192688
+immune_surface_interferon_like,B2M/HLA/IFITM3 immune surface,desired_immune_like,up,B2M;HLA-A;HLA-B;HLA-C;IFITM3,1.0,state_6,207,0.9376522898674011
+immune_surface_interferon_like,B2M/HLA/IFITM3 immune surface,desired_immune_like,up,B2M;HLA-A;HLA-B;HLA-C;IFITM3,2.0,state_1,2,1.4809679985046387
+immune_surface_interferon_like,B2M/HLA/IFITM3 immune surface,desired_immune_like,up,B2M;HLA-A;HLA-B;HLA-C;IFITM3,2.0,state_2,58,0.8691504001617432
+immune_surface_interferon_like,B2M/HLA/IFITM3 immune surface,desired_immune_like,up,B2M;HLA-A;HLA-B;HLA-C;IFITM3,2.0,state_3,298,0.9686471819877625
+immune_surface_interferon_like,B2M/HLA/IFITM3 immune surface,desired_immune_like,up,B2M;HLA-A;HLA-B;HLA-C;IFITM3,2.0,state_4,662,1.0228527784347534
+immune_surface_interferon_like,B2M/HLA/IFITM3 immune surface,desired_immune_like,up,B2M;HLA-A;HLA-B;HLA-C;IFITM3,2.0,state_5,1232,1.119375228881836
+immune_surface_interferon_like,B2M/HLA/IFITM3 immune surface,desired_immune_like,up,B2M;HLA-A;HLA-B;HLA-C;IFITM3,2.0,state_6,1748,1.2221364974975586
+immune_surface_interferon_like,B2M/HLA/IFITM3 immune surface,desired_immune_like,up,B2M;HLA-A;HLA-B;HLA-C;IFITM3,3.0,state_1,22,1.342479944229126
+immune_surface_interferon_like,B2M/HLA/IFITM3 immune surface,desired_immune_like,up,B2M;HLA-A;HLA-B;HLA-C;IFITM3,3.0,state_2,170,1.1311171054840088
+immune_surface_interferon_like,B2M/HLA/IFITM3 immune surface,desired_immune_like,up,B2M;HLA-A;HLA-B;HLA-C;IFITM3,3.0,state_3,508,1.0369958877563477
+immune_surface_interferon_like,B2M/HLA/IFITM3 immune surface,desired_immune_like,up,B2M;HLA-A;HLA-B;HLA-C;IFITM3,3.0,state_4,899,1.0931285619735718
+immune_surface_interferon_like,B2M/HLA/IFITM3 immune surface,desired_immune_like,up,B2M;HLA-A;HLA-B;HLA-C;IFITM3,3.0,state_5,1156,1.181040644645691
+immune_surface_interferon_like,B2M/HLA/IFITM3 immune surface,desired_immune_like,up,B2M;HLA-A;HLA-B;HLA-C;IFITM3,3.0,state_6,1245,1.2967101335525513
+polyamine_mito_adaptive_stress,SAT1/LGALS1/mitochondrial stress,adaptive_stress_caution,up,SAT1;LGALS1;MT-CO1;MT-CO2;MT-CO3;MT-ND4;MT-CYB,0.0,state_1,3014,2.489306688308716
+polyamine_mito_adaptive_stress,SAT1/LGALS1/mitochondrial stress,adaptive_stress_caution,up,SAT1;LGALS1;MT-CO1;MT-CO2;MT-CO3;MT-ND4;MT-CYB,0.0,state_2,2183,2.5700302124023438
+polyamine_mito_adaptive_stress,SAT1/LGALS1/mitochondrial stress,adaptive_stress_caution,up,SAT1;LGALS1;MT-CO1;MT-CO2;MT-CO3;MT-ND4;MT-CYB,0.0,state_3,1411,2.696274518966675
+polyamine_mito_adaptive_stress,SAT1/LGALS1/mitochondrial stress,adaptive_stress_caution,up,SAT1;LGALS1;MT-CO1;MT-CO2;MT-CO3;MT-ND4;MT-CYB,0.0,state_4,840,2.826669692993164
+polyamine_mito_adaptive_stress,SAT1/LGALS1/mitochondrial stress,adaptive_stress_caution,up,SAT1;LGALS1;MT-CO1;MT-CO2;MT-CO3;MT-ND4;MT-CYB,0.0,state_5,418,3.043119430541992
+polyamine_mito_adaptive_stress,SAT1/LGALS1/mitochondrial stress,adaptive_stress_caution,up,SAT1;LGALS1;MT-CO1;MT-CO2;MT-CO3;MT-ND4;MT-CYB,0.0,state_6,134,3.225224256515503
+polyamine_mito_adaptive_stress,SAT1/LGALS1/mitochondrial stress,adaptive_stress_caution,up,SAT1;LGALS1;MT-CO1;MT-CO2;MT-CO3;MT-ND4;MT-CYB,1.0,state_1,296,2.96842360496521
+polyamine_mito_adaptive_stress,SAT1/LGALS1/mitochondrial stress,adaptive_stress_caution,up,SAT1;LGALS1;MT-CO1;MT-CO2;MT-CO3;MT-ND4;MT-CYB,1.0,state_2,922,2.8984158039093018
+polyamine_mito_adaptive_stress,SAT1/LGALS1/mitochondrial stress,adaptive_stress_caution,up,SAT1;LGALS1;MT-CO1;MT-CO2;MT-CO3;MT-ND4;MT-CYB,1.0,state_3,1116,2.9144575595855713
+polyamine_mito_adaptive_stress,SAT1/LGALS1/mitochondrial stress,adaptive_stress_caution,up,SAT1;LGALS1;MT-CO1;MT-CO2;MT-CO3;MT-ND4;MT-CYB,1.0,state_4,932,2.867948293685913
+polyamine_mito_adaptive_stress,SAT1/LGALS1/mitochondrial stress,adaptive_stress_caution,up,SAT1;LGALS1;MT-CO1;MT-CO2;MT-CO3;MT-ND4;MT-CYB,1.0,state_5,527,2.890928030014038
+polyamine_mito_adaptive_stress,SAT1/LGALS1/mitochondrial stress,adaptive_stress_caution,up,SAT1;LGALS1;MT-CO1;MT-CO2;MT-CO3;MT-ND4;MT-CYB,1.0,state_6,207,3.064255952835083
+polyamine_mito_adaptive_stress,SAT1/LGALS1/mitochondrial stress,adaptive_stress_caution,up,SAT1;LGALS1;MT-CO1;MT-CO2;MT-CO3;MT-ND4;MT-CYB,2.0,state_1,2,3.3417224884033203
+polyamine_mito_adaptive_stress,SAT1/LGALS1/mitochondrial stress,adaptive_stress_caution,up,SAT1;LGALS1;MT-CO1;MT-CO2;MT-CO3;MT-ND4;MT-CYB,2.0,state_2,58,3.4679672718048096
+polyamine_mito_adaptive_stress,SAT1/LGALS1/mitochondrial stress,adaptive_stress_caution,up,SAT1;LGALS1;MT-CO1;MT-CO2;MT-CO3;MT-ND4;MT-CYB,2.0,state_3,298,3.4716813564300537
+polyamine_mito_adaptive_stress,SAT1/LGALS1/mitochondrial stress,adaptive_stress_caution,up,SAT1;LGALS1;MT-CO1;MT-CO2;MT-CO3;MT-ND4;MT-CYB,2.0,state_4,662,3.5952646732330322
+polyamine_mito_adaptive_stress,SAT1/LGALS1/mitochondrial stress,adaptive_stress_caution,up,SAT1;LGALS1;MT-CO1;MT-CO2;MT-CO3;MT-ND4;MT-CYB,2.0,state_5,1232,3.7299301624298096
+polyamine_mito_adaptive_stress,SAT1/LGALS1/mitochondrial stress,adaptive_stress_caution,up,SAT1;LGALS1;MT-CO1;MT-CO2;MT-CO3;MT-ND4;MT-CYB,2.0,state_6,1748,3.8107736110687256
+polyamine_mito_adaptive_stress,SAT1/LGALS1/mitochondrial stress,adaptive_stress_caution,up,SAT1;LGALS1;MT-CO1;MT-CO2;MT-CO3;MT-ND4;MT-CYB,3.0,state_1,22,3.621940851211548
+polyamine_mito_adaptive_stress,SAT1/LGALS1/mitochondrial stress,adaptive_stress_caution,up,SAT1;LGALS1;MT-CO1;MT-CO2;MT-CO3;MT-ND4;MT-CYB,3.0,state_2,170,3.443188428878784
+polyamine_mito_adaptive_stress,SAT1/LGALS1/mitochondrial stress,adaptive_stress_caution,up,SAT1;LGALS1;MT-CO1;MT-CO2;MT-CO3;MT-ND4;MT-CYB,3.0,state_3,508,3.484968423843384
+polyamine_mito_adaptive_stress,SAT1/LGALS1/mitochondrial stress,adaptive_stress_caution,up,SAT1;LGALS1;MT-CO1;MT-CO2;MT-CO3;MT-ND4;MT-CYB,3.0,state_4,899,3.6059160232543945
+polyamine_mito_adaptive_stress,SAT1/LGALS1/mitochondrial stress,adaptive_stress_caution,up,SAT1;LGALS1;MT-CO1;MT-CO2;MT-CO3;MT-ND4;MT-CYB,3.0,state_5,1156,3.6289215087890625
+polyamine_mito_adaptive_stress,SAT1/LGALS1/mitochondrial stress,adaptive_stress_caution,up,SAT1;LGALS1;MT-CO1;MT-CO2;MT-CO3;MT-ND4;MT-CYB,3.0,state_6,1245,3.757535696029663
+proteostasis_iron_reduction,HSP/FTL reduction,remodeling_support,down,HSP90AB1;HSP90AA1;HSPD1;FTL,0.0,state_1,3014,2.926055908203125
+proteostasis_iron_reduction,HSP/FTL reduction,remodeling_support,down,HSP90AB1;HSP90AA1;HSPD1;FTL,0.0,state_2,2183,2.9871153831481934
+proteostasis_iron_reduction,HSP/FTL reduction,remodeling_support,down,HSP90AB1;HSP90AA1;HSPD1;FTL,0.0,state_3,1411,3.1448593139648438
+proteostasis_iron_reduction,HSP/FTL reduction,remodeling_support,down,HSP90AB1;HSP90AA1;HSPD1;FTL,0.0,state_4,840,3.246472120285034
+proteostasis_iron_reduction,HSP/FTL reduction,remodeling_support,down,HSP90AB1;HSP90AA1;HSPD1;FTL,0.0,state_5,418,3.2781362533569336
+proteostasis_iron_reduction,HSP/FTL reduction,remodeling_support,down,HSP90AB1;HSP90AA1;HSPD1;FTL,0.0,state_6,134,3.199953079223633
+proteostasis_iron_reduction,HSP/FTL reduction,remodeling_support,down,HSP90AB1;HSP90AA1;HSPD1;FTL,1.0,state_1,296,3.319453477859497
+proteostasis_iron_reduction,HSP/FTL reduction,remodeling_support,down,HSP90AB1;HSP90AA1;HSPD1;FTL,1.0,state_2,922,3.1160647869110107
+proteostasis_iron_reduction,HSP/FTL reduction,remodeling_support,down,HSP90AB1;HSP90AA1;HSPD1;FTL,1.0,state_3,1116,3.0243730545043945
+proteostasis_iron_reduction,HSP/FTL reduction,remodeling_support,down,HSP90AB1;HSP90AA1;HSPD1;FTL,1.0,state_4,932,2.903718948364258
+proteostasis_iron_reduction,HSP/FTL reduction,remodeling_support,down,HSP90AB1;HSP90AA1;HSPD1;FTL,1.0,state_5,527,2.739147186279297
+proteostasis_iron_reduction,HSP/FTL reduction,remodeling_support,down,HSP90AB1;HSP90AA1;HSPD1;FTL,1.0,state_6,207,2.6083147525787354
+proteostasis_iron_reduction,HSP/FTL reduction,remodeling_support,down,HSP90AB1;HSP90AA1;HSPD1;FTL,2.0,state_1,2,2.0579535961151123
+proteostasis_iron_reduction,HSP/FTL reduction,remodeling_support,down,HSP90AB1;HSP90AA1;HSPD1;FTL,2.0,state_2,58,2.391709327697754
+proteostasis_iron_reduction,HSP/FTL reduction,remodeling_support,down,HSP90AB1;HSP90AA1;HSPD1;FTL,2.0,state_3,298,2.3436028957366943
+proteostasis_iron_reduction,HSP/FTL reduction,remodeling_support,down,HSP90AB1;HSP90AA1;HSPD1;FTL,2.0,state_4,662,2.215196132659912
+proteostasis_iron_reduction,HSP/FTL reduction,remodeling_support,down,HSP90AB1;HSP90AA1;HSPD1;FTL,2.0,state_5,1232,2.2164804935455322
+proteostasis_iron_reduction,HSP/FTL reduction,remodeling_support,down,HSP90AB1;HSP90AA1;HSPD1;FTL,2.0,state_6,1748,2.0832056999206543
+proteostasis_iron_reduction,HSP/FTL reduction,remodeling_support,down,HSP90AB1;HSP90AA1;HSPD1;FTL,3.0,state_1,22,2.9280550479888916
+proteostasis_iron_reduction,HSP/FTL reduction,remodeling_support,down,HSP90AB1;HSP90AA1;HSPD1;FTL,3.0,state_2,170,2.4314632415771484
+proteostasis_iron_reduction,HSP/FTL reduction,remodeling_support,down,HSP90AB1;HSP90AA1;HSPD1;FTL,3.0,state_3,508,2.2858386039733887
+proteostasis_iron_reduction,HSP/FTL reduction,remodeling_support,down,HSP90AB1;HSP90AA1;HSPD1;FTL,3.0,state_4,899,2.2961528301239014
+proteostasis_iron_reduction,HSP/FTL reduction,remodeling_support,down,HSP90AB1;HSP90AA1;HSPD1;FTL,3.0,state_5,1156,2.2543509006500244
+proteostasis_iron_reduction,HSP/FTL reduction,remodeling_support,down,HSP90AB1;HSP90AA1;HSPD1;FTL,3.0,state_6,1245,2.227632522583008
+malat1_caution,MALAT1 caution,not_reproduced_caution,down,MALAT1,0.0,state_1,3014,2.705634355545044
+malat1_caution,MALAT1 caution,not_reproduced_caution,down,MALAT1,0.0,state_2,2183,2.098067045211792
+malat1_caution,MALAT1 caution,not_reproduced_caution,down,MALAT1,0.0,state_3,1411,1.594477891921997
+malat1_caution,MALAT1 caution,not_reproduced_caution,down,MALAT1,0.0,state_4,840,1.3885678052902222
+malat1_caution,MALAT1 caution,not_reproduced_caution,down,MALAT1,0.0,state_5,418,1.2715895175933838
+malat1_caution,MALAT1 caution,not_reproduced_caution,down,MALAT1,0.0,state_6,134,1.5051079988479614
+malat1_caution,MALAT1 caution,not_reproduced_caution,down,MALAT1,1.0,state_1,296,3.137462615966797
+malat1_caution,MALAT1 caution,not_reproduced_caution,down,MALAT1,1.0,state_2,922,2.807803153991699
+malat1_caution,MALAT1 caution,not_reproduced_caution,down,MALAT1,1.0,state_3,1116,2.7101171016693115
+malat1_caution,MALAT1 caution,not_reproduced_caution,down,MALAT1,1.0,state_4,932,2.4279518127441406
+malat1_caution,MALAT1 caution,not_reproduced_caution,down,MALAT1,1.0,state_5,527,2.239177703857422
+malat1_caution,MALAT1 caution,not_reproduced_caution,down,MALAT1,1.0,state_6,207,2.1597461700439453
+malat1_caution,MALAT1 caution,not_reproduced_caution,down,MALAT1,2.0,state_1,2,4.670919895172119
+malat1_caution,MALAT1 caution,not_reproduced_caution,down,MALAT1,2.0,state_2,58,3.9920575618743896
+malat1_caution,MALAT1 caution,not_reproduced_caution,down,MALAT1,2.0,state_3,298,3.412806510925293
+malat1_caution,MALAT1 caution,not_reproduced_caution,down,MALAT1,2.0,state_4,662,3.350006580352783
+malat1_caution,MALAT1 caution,not_reproduced_caution,down,MALAT1,2.0,state_5,1232,3.4526748657226562
+malat1_caution,MALAT1 caution,not_reproduced_caution,down,MALAT1,2.0,state_6,1748,3.195802927017212
+malat1_caution,MALAT1 caution,not_reproduced_caution,down,MALAT1,3.0,state_1,22,3.7535240650177
+malat1_caution,MALAT1 caution,not_reproduced_caution,down,MALAT1,3.0,state_2,170,3.32806396484375
+malat1_caution,MALAT1 caution,not_reproduced_caution,down,MALAT1,3.0,state_3,508,3.0248193740844727
+malat1_caution,MALAT1 caution,not_reproduced_caution,down,MALAT1,3.0,state_4,899,2.768122434616089
+malat1_caution,MALAT1 caution,not_reproduced_caution,down,MALAT1,3.0,state_5,1156,2.4726760387420654
+malat1_caution,MALAT1 caution,not_reproduced_caution,down,MALAT1,3.0,state_6,1245,2.2085418701171875

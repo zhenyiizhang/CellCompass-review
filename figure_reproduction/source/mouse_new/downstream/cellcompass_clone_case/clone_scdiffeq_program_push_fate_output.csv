@@ -1,0 +1,122 @@
+scenario,program,strength_z,fate,fraction,genes_used,n_source_cells
+baseline,baseline,0.0,Baso,0.11710934053571784,,360
+baseline,baseline,0.0,Ccr7_DC,9.019469236740816e-07,,360
+baseline,baseline,0.0,Eos,0.005895360504627257,,360
+baseline,baseline,0.0,Erythroid,0.007131391176830616,,360
+baseline,baseline,0.0,Lymphoid,0.0030582844667678575,,360
+baseline,baseline,0.0,Mast,0.0312735710609576,,360
+baseline,baseline,0.0,Meg,0.03667147314729087,,360
+baseline,baseline,0.0,Monocyte,0.1308902700533327,,360
+baseline,baseline,0.0,Neutrophil,0.22178018605562266,,360
+baseline,baseline,0.0,Undifferentiated,0.44601268247672315,,360
+baseline,baseline,0.0,pDC,0.00017653857520594931,,360
+Stem/progenitor -5z,Stem/progenitor,-5.0,Baso,0.12757892745476876,"Meis1,Mecom,Procr,Mpl,Kit",360
+Stem/progenitor -5z,Stem/progenitor,-5.0,Ccr7_DC,7.136394291338325e-07,"Meis1,Mecom,Procr,Mpl,Kit",360
+Stem/progenitor -5z,Stem/progenitor,-5.0,Eos,0.004666998626461049,"Meis1,Mecom,Procr,Mpl,Kit",360
+Stem/progenitor -5z,Stem/progenitor,-5.0,Erythroid,0.005706768406418699,"Meis1,Mecom,Procr,Mpl,Kit",360
+Stem/progenitor -5z,Stem/progenitor,-5.0,Lymphoid,0.002580662042143558,"Meis1,Mecom,Procr,Mpl,Kit",360
+Stem/progenitor -5z,Stem/progenitor,-5.0,Mast,0.02377511649113858,"Meis1,Mecom,Procr,Mpl,Kit",360
+Stem/progenitor -5z,Stem/progenitor,-5.0,Meg,0.03445955699245451,"Meis1,Mecom,Procr,Mpl,Kit",360
+Stem/progenitor -5z,Stem/progenitor,-5.0,Monocyte,0.12893867063256712,"Meis1,Mecom,Procr,Mpl,Kit",360
+Stem/progenitor -5z,Stem/progenitor,-5.0,Neutrophil,0.2378423980339557,"Meis1,Mecom,Procr,Mpl,Kit",360
+Stem/progenitor -5z,Stem/progenitor,-5.0,Undifferentiated,0.4343963698009683,"Meis1,Mecom,Procr,Mpl,Kit",360
+Stem/progenitor -5z,Stem/progenitor,-5.0,pDC,5.381787969450632e-05,"Meis1,Mecom,Procr,Mpl,Kit",360
+Stem/progenitor +5z,Stem/progenitor,5.0,Baso,0.10421652911670011,"Meis1,Mecom,Procr,Mpl,Kit",360
+Stem/progenitor +5z,Stem/progenitor,5.0,Ccr7_DC,1.1584763144584454e-06,"Meis1,Mecom,Procr,Mpl,Kit",360
+Stem/progenitor +5z,Stem/progenitor,5.0,Eos,0.006618269026473762,"Meis1,Mecom,Procr,Mpl,Kit",360
+Stem/progenitor +5z,Stem/progenitor,5.0,Erythroid,0.007426315329952768,"Meis1,Mecom,Procr,Mpl,Kit",360
+Stem/progenitor +5z,Stem/progenitor,5.0,Lymphoid,0.0034988036857384764,"Meis1,Mecom,Procr,Mpl,Kit",360
+Stem/progenitor +5z,Stem/progenitor,5.0,Mast,0.045567721082524416,"Meis1,Mecom,Procr,Mpl,Kit",360
+Stem/progenitor +5z,Stem/progenitor,5.0,Meg,0.037320483349190886,"Meis1,Mecom,Procr,Mpl,Kit",360
+Stem/progenitor +5z,Stem/progenitor,5.0,Monocyte,0.1252316383683165,"Meis1,Mecom,Procr,Mpl,Kit",360
+Stem/progenitor +5z,Stem/progenitor,5.0,Neutrophil,0.20412393165941303,"Meis1,Mecom,Procr,Mpl,Kit",360
+Stem/progenitor +5z,Stem/progenitor,5.0,Undifferentiated,0.46580375726702805,"Meis1,Mecom,Procr,Mpl,Kit",360
+Stem/progenitor +5z,Stem/progenitor,5.0,pDC,0.00019139263834776676,"Meis1,Mecom,Procr,Mpl,Kit",360
+Neutrophil -5z,Neutrophil,-5.0,Baso,0.1342744206493818,"Cebpe,Lyz2,S100a8",360
+Neutrophil -5z,Neutrophil,-5.0,Ccr7_DC,6.581392634266634e-07,"Cebpe,Lyz2,S100a8",360
+Neutrophil -5z,Neutrophil,-5.0,Eos,0.003423479535441767,"Cebpe,Lyz2,S100a8",360
+Neutrophil -5z,Neutrophil,-5.0,Erythroid,0.005508967944518425,"Cebpe,Lyz2,S100a8",360
+Neutrophil -5z,Neutrophil,-5.0,Lymphoid,0.0032064580782187645,"Cebpe,Lyz2,S100a8",360
+Neutrophil -5z,Neutrophil,-5.0,Mast,0.027004115039505668,"Cebpe,Lyz2,S100a8",360
+Neutrophil -5z,Neutrophil,-5.0,Meg,0.03221324115771369,"Cebpe,Lyz2,S100a8",360
+Neutrophil -5z,Neutrophil,-5.0,Monocyte,0.09674828687397026,"Cebpe,Lyz2,S100a8",360
+Neutrophil -5z,Neutrophil,-5.0,Neutrophil,0.07467209129491237,"Cebpe,Lyz2,S100a8",360
+Neutrophil -5z,Neutrophil,-5.0,Undifferentiated,0.6227382268252584,"Cebpe,Lyz2,S100a8",360
+Neutrophil -5z,Neutrophil,-5.0,pDC,0.000210054461815072,"Cebpe,Lyz2,S100a8",360
+Neutrophil +5z,Neutrophil,5.0,Baso,0.1036002965909157,"Cebpe,Lyz2,S100a8",360
+Neutrophil +5z,Neutrophil,5.0,Ccr7_DC,1.4743019356283266e-06,"Cebpe,Lyz2,S100a8",360
+Neutrophil +5z,Neutrophil,5.0,Eos,0.008115303679614992,"Cebpe,Lyz2,S100a8",360
+Neutrophil +5z,Neutrophil,5.0,Erythroid,0.008918620501548126,"Cebpe,Lyz2,S100a8",360
+Neutrophil +5z,Neutrophil,5.0,Lymphoid,0.0014679411986498732,"Cebpe,Lyz2,S100a8",360
+Neutrophil +5z,Neutrophil,5.0,Mast,0.02962098388770581,"Cebpe,Lyz2,S100a8",360
+Neutrophil +5z,Neutrophil,5.0,Meg,0.03579278379054532,"Cebpe,Lyz2,S100a8",360
+Neutrophil +5z,Neutrophil,5.0,Monocyte,0.12565309991455392,"Cebpe,Lyz2,S100a8",360
+Neutrophil +5z,Neutrophil,5.0,Neutrophil,0.39218851765537976,"Cebpe,Lyz2,S100a8",360
+Neutrophil +5z,Neutrophil,5.0,Undifferentiated,0.2945920930134448,"Cebpe,Lyz2,S100a8",360
+Neutrophil +5z,Neutrophil,5.0,pDC,4.888546570634919e-05,"Cebpe,Lyz2,S100a8",360
+Monocyte -5z,Monocyte,-5.0,Baso,0.14121039282795284,"Irf8,Csf1r,Lyz2",360
+Monocyte -5z,Monocyte,-5.0,Ccr7_DC,5.771049479148403e-07,"Irf8,Csf1r,Lyz2",360
+Monocyte -5z,Monocyte,-5.0,Eos,0.00516370233986561,"Irf8,Csf1r,Lyz2",360
+Monocyte -5z,Monocyte,-5.0,Erythroid,0.006222063136323117,"Irf8,Csf1r,Lyz2",360
+Monocyte -5z,Monocyte,-5.0,Lymphoid,0.0026494271403888743,"Irf8,Csf1r,Lyz2",360
+Monocyte -5z,Monocyte,-5.0,Mast,0.03237007346973102,"Irf8,Csf1r,Lyz2",360
+Monocyte -5z,Monocyte,-5.0,Meg,0.03884613687394862,"Irf8,Csf1r,Lyz2",360
+Monocyte -5z,Monocyte,-5.0,Monocyte,0.05839527116288132,"Irf8,Csf1r,Lyz2",360
+Monocyte -5z,Monocyte,-5.0,Neutrophil,0.231804315171339,"Irf8,Csf1r,Lyz2",360
+Monocyte -5z,Monocyte,-5.0,Undifferentiated,0.48329972896175205,"Irf8,Csf1r,Lyz2",360
+Monocyte -5z,Monocyte,-5.0,pDC,3.831181086958762e-05,"Irf8,Csf1r,Lyz2",360
+Monocyte +5z,Monocyte,5.0,Baso,0.09759329077660417,"Irf8,Csf1r,Lyz2",360
+Monocyte +5z,Monocyte,5.0,Ccr7_DC,1.2145548694517121e-06,"Irf8,Csf1r,Lyz2",360
+Monocyte +5z,Monocyte,5.0,Eos,0.005643803530318561,"Irf8,Csf1r,Lyz2",360
+Monocyte +5z,Monocyte,5.0,Erythroid,0.006887591050251828,"Irf8,Csf1r,Lyz2",360
+Monocyte +5z,Monocyte,5.0,Lymphoid,0.0019599926553517883,"Irf8,Csf1r,Lyz2",360
+Monocyte +5z,Monocyte,5.0,Mast,0.028119565176164835,"Irf8,Csf1r,Lyz2",360
+Monocyte +5z,Monocyte,5.0,Meg,0.03360354436935845,"Irf8,Csf1r,Lyz2",360
+Monocyte +5z,Monocyte,5.0,Monocyte,0.21077352294873247,"Irf8,Csf1r,Lyz2",360
+Monocyte +5z,Monocyte,5.0,Neutrophil,0.18115269345622298,"Irf8,Csf1r,Lyz2",360
+Monocyte +5z,Monocyte,5.0,Undifferentiated,0.434023663808269,"Irf8,Csf1r,Lyz2",360
+Monocyte +5z,Monocyte,5.0,pDC,0.00024111767385628807,"Irf8,Csf1r,Lyz2",360
+Baso/Mast -5z,Baso/Mast,-5.0,Baso,0.04681533695507505,"Gata2,Ms4a2,Cpa3",360
+Baso/Mast -5z,Baso/Mast,-5.0,Ccr7_DC,6.661512153770233e-07,"Gata2,Ms4a2,Cpa3",360
+Baso/Mast -5z,Baso/Mast,-5.0,Eos,0.002861393780620197,"Gata2,Ms4a2,Cpa3",360
+Baso/Mast -5z,Baso/Mast,-5.0,Erythroid,0.007849444425131028,"Gata2,Ms4a2,Cpa3",360
+Baso/Mast -5z,Baso/Mast,-5.0,Lymphoid,0.003630251839154551,"Gata2,Ms4a2,Cpa3",360
+Baso/Mast -5z,Baso/Mast,-5.0,Mast,0.0161891618396876,"Gata2,Ms4a2,Cpa3",360
+Baso/Mast -5z,Baso/Mast,-5.0,Meg,0.0282140428599858,"Gata2,Ms4a2,Cpa3",360
+Baso/Mast -5z,Baso/Mast,-5.0,Monocyte,0.1768616866813979,"Gata2,Ms4a2,Cpa3",360
+Baso/Mast -5z,Baso/Mast,-5.0,Neutrophil,0.23494942742701094,"Gata2,Ms4a2,Cpa3",360
+Baso/Mast -5z,Baso/Mast,-5.0,Undifferentiated,0.48223249876216817,"Gata2,Ms4a2,Cpa3",360
+Baso/Mast -5z,Baso/Mast,-5.0,pDC,0.0003960892785531923,"Gata2,Ms4a2,Cpa3",360
+Baso/Mast +5z,Baso/Mast,5.0,Baso,0.27678215959446006,"Gata2,Ms4a2,Cpa3",360
+Baso/Mast +5z,Baso/Mast,5.0,Ccr7_DC,3.2745158547769662e-06,"Gata2,Ms4a2,Cpa3",360
+Baso/Mast +5z,Baso/Mast,5.0,Eos,0.006620215329164295,"Gata2,Ms4a2,Cpa3",360
+Baso/Mast +5z,Baso/Mast,5.0,Erythroid,0.00421168394691255,"Gata2,Ms4a2,Cpa3",360
+Baso/Mast +5z,Baso/Mast,5.0,Lymphoid,0.001244121374567588,"Gata2,Ms4a2,Cpa3",360
+Baso/Mast +5z,Baso/Mast,5.0,Mast,0.07343159373154577,"Gata2,Ms4a2,Cpa3",360
+Baso/Mast +5z,Baso/Mast,5.0,Meg,0.03516858047681699,"Gata2,Ms4a2,Cpa3",360
+Baso/Mast +5z,Baso/Mast,5.0,Monocyte,0.06865282415213816,"Gata2,Ms4a2,Cpa3",360
+Baso/Mast +5z,Baso/Mast,5.0,Neutrophil,0.16232970715612088,"Gata2,Ms4a2,Cpa3",360
+Baso/Mast +5z,Baso/Mast,5.0,Undifferentiated,0.3715355672616953,"Gata2,Ms4a2,Cpa3",360
+Baso/Mast +5z,Baso/Mast,5.0,pDC,2.027246072371338e-05,"Gata2,Ms4a2,Cpa3",360
+Meg/Ery -5z,Meg/Ery,-5.0,Baso,0.11719004920358375,"Pf4,Ppbp,Itga2b,Car1,Car2",360
+Meg/Ery -5z,Meg/Ery,-5.0,Ccr7_DC,1.087377794786884e-06,"Pf4,Ppbp,Itga2b,Car1,Car2",360
+Meg/Ery -5z,Meg/Ery,-5.0,Eos,0.004753030788922358,"Pf4,Ppbp,Itga2b,Car1,Car2",360
+Meg/Ery -5z,Meg/Ery,-5.0,Erythroid,0.005429938857911862,"Pf4,Ppbp,Itga2b,Car1,Car2",360
+Meg/Ery -5z,Meg/Ery,-5.0,Lymphoid,0.0030799660541527053,"Pf4,Ppbp,Itga2b,Car1,Car2",360
+Meg/Ery -5z,Meg/Ery,-5.0,Mast,0.026508301607099705,"Pf4,Ppbp,Itga2b,Car1,Car2",360
+Meg/Ery -5z,Meg/Ery,-5.0,Meg,0.020984652008828993,"Pf4,Ppbp,Itga2b,Car1,Car2",360
+Meg/Ery -5z,Meg/Ery,-5.0,Monocyte,0.13946821442513846,"Pf4,Ppbp,Itga2b,Car1,Car2",360
+Meg/Ery -5z,Meg/Ery,-5.0,Neutrophil,0.2420241997427746,"Pf4,Ppbp,Itga2b,Car1,Car2",360
+Meg/Ery -5z,Meg/Ery,-5.0,Undifferentiated,0.4403176719000796,"Pf4,Ppbp,Itga2b,Car1,Car2",360
+Meg/Ery -5z,Meg/Ery,-5.0,pDC,0.0002428880337127995,"Pf4,Ppbp,Itga2b,Car1,Car2",360
+Meg/Ery +5z,Meg/Ery,5.0,Baso,0.1239919683213502,"Pf4,Ppbp,Itga2b,Car1,Car2",360
+Meg/Ery +5z,Meg/Ery,5.0,Ccr7_DC,7.504660065389046e-07,"Pf4,Ppbp,Itga2b,Car1,Car2",360
+Meg/Ery +5z,Meg/Ery,5.0,Eos,0.005809489564340709,"Pf4,Ppbp,Itga2b,Car1,Car2",360
+Meg/Ery +5z,Meg/Ery,5.0,Erythroid,0.009051064108143013,"Pf4,Ppbp,Itga2b,Car1,Car2",360
+Meg/Ery +5z,Meg/Ery,5.0,Lymphoid,0.0028029423174540545,"Pf4,Ppbp,Itga2b,Car1,Car2",360
+Meg/Ery +5z,Meg/Ery,5.0,Mast,0.029830307373637843,"Pf4,Ppbp,Itga2b,Car1,Car2",360
+Meg/Ery +5z,Meg/Ery,5.0,Meg,0.06494893890422672,"Pf4,Ppbp,Itga2b,Car1,Car2",360
+Meg/Ery +5z,Meg/Ery,5.0,Monocyte,0.11081755576051003,"Pf4,Ppbp,Itga2b,Car1,Car2",360
+Meg/Ery +5z,Meg/Ery,5.0,Neutrophil,0.18188734379478608,"Pf4,Ppbp,Itga2b,Car1,Car2",360
+Meg/Ery +5z,Meg/Ery,5.0,Undifferentiated,0.47083234202371593,"Pf4,Ppbp,Itga2b,Car1,Car2",360
+Meg/Ery +5z,Meg/Ery,5.0,pDC,2.7297365829126615e-05,"Pf4,Ppbp,Itga2b,Car1,Car2",360

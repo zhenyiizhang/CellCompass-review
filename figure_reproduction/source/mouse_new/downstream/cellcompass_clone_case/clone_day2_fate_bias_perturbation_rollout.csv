@@ -1,0 +1,100 @@
+scenario,target,module,strength_z,fate,future_probability,genes_used,n_source_cells
+baseline,baseline,baseline,0.0,Baso,0.14153977306718538,,1728
+baseline,baseline,baseline,0.0,Ccr7_DC,0.0010695659934790282,,1728
+baseline,baseline,baseline,0.0,Eos,0.0023525729189584708,,1728
+baseline,baseline,baseline,0.0,Erythroid,0.006494472323219067,,1728
+baseline,baseline,baseline,0.0,Lymphoid,0.002437630027650162,,1728
+baseline,baseline,baseline,0.0,Mast,0.03811011329158483,,1728
+baseline,baseline,baseline,0.0,Meg,0.029212401159193765,,1728
+baseline,baseline,baseline,0.0,Monocyte,0.13344962103783922,,1728
+baseline,baseline,baseline,0.0,Neutrophil,0.1846024323895856,,1728
+baseline,baseline,baseline,0.0,Undifferentiated,0.4599887784973194,,1728
+baseline,baseline,baseline,0.0,pDC,0.0007426392939842762,,1728
+Neutrophil early-state genes -5z,Neutrophil,early-state genes,-5.0,Baso,0.15975382924085296,"Calr,F630028O10Rik,Gsr,Sell,Dstn,Sgms2,Emb,Golga3",1728
+Neutrophil early-state genes -5z,Neutrophil,early-state genes,-5.0,Ccr7_DC,0.0010979912226197004,"Calr,F630028O10Rik,Gsr,Sell,Dstn,Sgms2,Emb,Golga3",1728
+Neutrophil early-state genes -5z,Neutrophil,early-state genes,-5.0,Eos,0.002236930364577825,"Calr,F630028O10Rik,Gsr,Sell,Dstn,Sgms2,Emb,Golga3",1728
+Neutrophil early-state genes -5z,Neutrophil,early-state genes,-5.0,Erythroid,0.007107994852319654,"Calr,F630028O10Rik,Gsr,Sell,Dstn,Sgms2,Emb,Golga3",1728
+Neutrophil early-state genes -5z,Neutrophil,early-state genes,-5.0,Lymphoid,0.003357142228559235,"Calr,F630028O10Rik,Gsr,Sell,Dstn,Sgms2,Emb,Golga3",1728
+Neutrophil early-state genes -5z,Neutrophil,early-state genes,-5.0,Mast,0.04102805884114402,"Calr,F630028O10Rik,Gsr,Sell,Dstn,Sgms2,Emb,Golga3",1728
+Neutrophil early-state genes -5z,Neutrophil,early-state genes,-5.0,Meg,0.03284900675311397,"Calr,F630028O10Rik,Gsr,Sell,Dstn,Sgms2,Emb,Golga3",1728
+Neutrophil early-state genes -5z,Neutrophil,early-state genes,-5.0,Monocyte,0.1326370277224975,"Calr,F630028O10Rik,Gsr,Sell,Dstn,Sgms2,Emb,Golga3",1728
+Neutrophil early-state genes -5z,Neutrophil,early-state genes,-5.0,Neutrophil,0.13867505297192614,"Calr,F630028O10Rik,Gsr,Sell,Dstn,Sgms2,Emb,Golga3",1728
+Neutrophil early-state genes -5z,Neutrophil,early-state genes,-5.0,Undifferentiated,0.4803417890044582,"Calr,F630028O10Rik,Gsr,Sell,Dstn,Sgms2,Emb,Golga3",1728
+Neutrophil early-state genes -5z,Neutrophil,early-state genes,-5.0,pDC,0.0009151767979302447,"Calr,F630028O10Rik,Gsr,Sell,Dstn,Sgms2,Emb,Golga3",1728
+Neutrophil early-state genes +5z,Neutrophil,early-state genes,5.0,Baso,0.1278938448277309,"Calr,F630028O10Rik,Gsr,Sell,Dstn,Sgms2,Emb,Golga3",1728
+Neutrophil early-state genes +5z,Neutrophil,early-state genes,5.0,Ccr7_DC,0.000977429851817552,"Calr,F630028O10Rik,Gsr,Sell,Dstn,Sgms2,Emb,Golga3",1728
+Neutrophil early-state genes +5z,Neutrophil,early-state genes,5.0,Eos,0.0022128651713957622,"Calr,F630028O10Rik,Gsr,Sell,Dstn,Sgms2,Emb,Golga3",1728
+Neutrophil early-state genes +5z,Neutrophil,early-state genes,5.0,Erythroid,0.0056046769909712255,"Calr,F630028O10Rik,Gsr,Sell,Dstn,Sgms2,Emb,Golga3",1728
+Neutrophil early-state genes +5z,Neutrophil,early-state genes,5.0,Lymphoid,0.0017438106536093695,"Calr,F630028O10Rik,Gsr,Sell,Dstn,Sgms2,Emb,Golga3",1728
+Neutrophil early-state genes +5z,Neutrophil,early-state genes,5.0,Mast,0.03635069545137851,"Calr,F630028O10Rik,Gsr,Sell,Dstn,Sgms2,Emb,Golga3",1728
+Neutrophil early-state genes +5z,Neutrophil,early-state genes,5.0,Meg,0.024771567500286373,"Calr,F630028O10Rik,Gsr,Sell,Dstn,Sgms2,Emb,Golga3",1728
+Neutrophil early-state genes +5z,Neutrophil,early-state genes,5.0,Monocyte,0.13319608026989702,"Calr,F630028O10Rik,Gsr,Sell,Dstn,Sgms2,Emb,Golga3",1728
+Neutrophil early-state genes +5z,Neutrophil,early-state genes,5.0,Neutrophil,0.23407357714904367,"Calr,F630028O10Rik,Gsr,Sell,Dstn,Sgms2,Emb,Golga3",1728
+Neutrophil early-state genes +5z,Neutrophil,early-state genes,5.0,Undifferentiated,0.432576153595818,"Calr,F630028O10Rik,Gsr,Sell,Dstn,Sgms2,Emb,Golga3",1728
+Neutrophil early-state genes +5z,Neutrophil,early-state genes,5.0,pDC,0.0005992985380501689,"Calr,F630028O10Rik,Gsr,Sell,Dstn,Sgms2,Emb,Golga3",1728
+Neutrophil mature markers -5z,Neutrophil,mature markers,-5.0,Baso,0.15232099159073081,"Cebpe,Lyz2,S100a8,S100a9",1728
+Neutrophil mature markers -5z,Neutrophil,mature markers,-5.0,Ccr7_DC,0.0010089323698224471,"Cebpe,Lyz2,S100a8,S100a9",1728
+Neutrophil mature markers -5z,Neutrophil,mature markers,-5.0,Eos,0.001578160344351816,"Cebpe,Lyz2,S100a8,S100a9",1728
+Neutrophil mature markers -5z,Neutrophil,mature markers,-5.0,Erythroid,0.005525566705215151,"Cebpe,Lyz2,S100a8,S100a9",1728
+Neutrophil mature markers -5z,Neutrophil,mature markers,-5.0,Lymphoid,0.0026383604997083404,"Cebpe,Lyz2,S100a8,S100a9",1728
+Neutrophil mature markers -5z,Neutrophil,mature markers,-5.0,Mast,0.03442663840126722,"Cebpe,Lyz2,S100a8,S100a9",1728
+Neutrophil mature markers -5z,Neutrophil,mature markers,-5.0,Meg,0.025795224808216083,"Cebpe,Lyz2,S100a8,S100a9",1728
+Neutrophil mature markers -5z,Neutrophil,mature markers,-5.0,Monocyte,0.1231918229311814,"Cebpe,Lyz2,S100a8,S100a9",1728
+Neutrophil mature markers -5z,Neutrophil,mature markers,-5.0,Neutrophil,0.06666753550644622,"Cebpe,Lyz2,S100a8,S100a9",1728
+Neutrophil mature markers -5z,Neutrophil,mature markers,-5.0,Undifferentiated,0.5859809645139236,"Cebpe,Lyz2,S100a8,S100a9",1728
+Neutrophil mature markers -5z,Neutrophil,mature markers,-5.0,pDC,0.0008658023291373514,"Cebpe,Lyz2,S100a8,S100a9",1728
+Neutrophil mature markers +5z,Neutrophil,mature markers,5.0,Baso,0.13043837943650907,"Cebpe,Lyz2,S100a8,S100a9",1728
+Neutrophil mature markers +5z,Neutrophil,mature markers,5.0,Ccr7_DC,0.0010797855252196833,"Cebpe,Lyz2,S100a8,S100a9",1728
+Neutrophil mature markers +5z,Neutrophil,mature markers,5.0,Eos,0.003259277291280673,"Cebpe,Lyz2,S100a8,S100a9",1728
+Neutrophil mature markers +5z,Neutrophil,mature markers,5.0,Erythroid,0.0070911377655709495,"Cebpe,Lyz2,S100a8,S100a9",1728
+Neutrophil mature markers +5z,Neutrophil,mature markers,5.0,Lymphoid,0.001713317060772095,"Cebpe,Lyz2,S100a8,S100a9",1728
+Neutrophil mature markers +5z,Neutrophil,mature markers,5.0,Mast,0.03881960944816338,"Cebpe,Lyz2,S100a8,S100a9",1728
+Neutrophil mature markers +5z,Neutrophil,mature markers,5.0,Meg,0.029859988933249995,"Cebpe,Lyz2,S100a8,S100a9",1728
+Neutrophil mature markers +5z,Neutrophil,mature markers,5.0,Monocyte,0.11701692612313874,"Cebpe,Lyz2,S100a8,S100a9",1728
+Neutrophil mature markers +5z,Neutrophil,mature markers,5.0,Neutrophil,0.3599699999596106,"Cebpe,Lyz2,S100a8,S100a9",1728
+Neutrophil mature markers +5z,Neutrophil,mature markers,5.0,Undifferentiated,0.31006710533317516,"Cebpe,Lyz2,S100a8,S100a9",1728
+Neutrophil mature markers +5z,Neutrophil,mature markers,5.0,pDC,0.0006844731233102058,"Cebpe,Lyz2,S100a8,S100a9",1728
+Monocyte early-state genes -5z,Monocyte,early-state genes,-5.0,Baso,0.15142748334063968,"Casp6,Sirpa,Mef2c,Emb,Il6st,Pou2f2,Fth1,Cd44",1728
+Monocyte early-state genes -5z,Monocyte,early-state genes,-5.0,Ccr7_DC,0.0010852596144403646,"Casp6,Sirpa,Mef2c,Emb,Il6st,Pou2f2,Fth1,Cd44",1728
+Monocyte early-state genes -5z,Monocyte,early-state genes,-5.0,Eos,0.002301594908997234,"Casp6,Sirpa,Mef2c,Emb,Il6st,Pou2f2,Fth1,Cd44",1728
+Monocyte early-state genes -5z,Monocyte,early-state genes,-5.0,Erythroid,0.00686517511332833,"Casp6,Sirpa,Mef2c,Emb,Il6st,Pou2f2,Fth1,Cd44",1728
+Monocyte early-state genes -5z,Monocyte,early-state genes,-5.0,Lymphoid,0.002660878330779034,"Casp6,Sirpa,Mef2c,Emb,Il6st,Pou2f2,Fth1,Cd44",1728
+Monocyte early-state genes -5z,Monocyte,early-state genes,-5.0,Mast,0.04084594852455608,"Casp6,Sirpa,Mef2c,Emb,Il6st,Pou2f2,Fth1,Cd44",1728
+Monocyte early-state genes -5z,Monocyte,early-state genes,-5.0,Meg,0.03061082248489826,"Casp6,Sirpa,Mef2c,Emb,Il6st,Pou2f2,Fth1,Cd44",1728
+Monocyte early-state genes -5z,Monocyte,early-state genes,-5.0,Monocyte,0.08416879177344248,"Casp6,Sirpa,Mef2c,Emb,Il6st,Pou2f2,Fth1,Cd44",1728
+Monocyte early-state genes -5z,Monocyte,early-state genes,-5.0,Neutrophil,0.217932988692016,"Casp6,Sirpa,Mef2c,Emb,Il6st,Pou2f2,Fth1,Cd44",1728
+Monocyte early-state genes -5z,Monocyte,early-state genes,-5.0,Undifferentiated,0.46125369233166785,"Casp6,Sirpa,Mef2c,Emb,Il6st,Pou2f2,Fth1,Cd44",1728
+Monocyte early-state genes -5z,Monocyte,early-state genes,-5.0,pDC,0.000847364885233309,"Casp6,Sirpa,Mef2c,Emb,Il6st,Pou2f2,Fth1,Cd44",1728
+Monocyte early-state genes +5z,Monocyte,early-state genes,5.0,Baso,0.132809882316347,"Casp6,Sirpa,Mef2c,Emb,Il6st,Pou2f2,Fth1,Cd44",1728
+Monocyte early-state genes +5z,Monocyte,early-state genes,5.0,Ccr7_DC,0.0010056293337377157,"Casp6,Sirpa,Mef2c,Emb,Il6st,Pou2f2,Fth1,Cd44",1728
+Monocyte early-state genes +5z,Monocyte,early-state genes,5.0,Eos,0.0018626626969973725,"Casp6,Sirpa,Mef2c,Emb,Il6st,Pou2f2,Fth1,Cd44",1728
+Monocyte early-state genes +5z,Monocyte,early-state genes,5.0,Erythroid,0.005824967598690307,"Casp6,Sirpa,Mef2c,Emb,Il6st,Pou2f2,Fth1,Cd44",1728
+Monocyte early-state genes +5z,Monocyte,early-state genes,5.0,Lymphoid,0.0019178419220994291,"Casp6,Sirpa,Mef2c,Emb,Il6st,Pou2f2,Fth1,Cd44",1728
+Monocyte early-state genes +5z,Monocyte,early-state genes,5.0,Mast,0.03694436158715949,"Casp6,Sirpa,Mef2c,Emb,Il6st,Pou2f2,Fth1,Cd44",1728
+Monocyte early-state genes +5z,Monocyte,early-state genes,5.0,Meg,0.028279161692538125,"Casp6,Sirpa,Mef2c,Emb,Il6st,Pou2f2,Fth1,Cd44",1728
+Monocyte early-state genes +5z,Monocyte,early-state genes,5.0,Monocyte,0.1986470599577953,"Casp6,Sirpa,Mef2c,Emb,Il6st,Pou2f2,Fth1,Cd44",1728
+Monocyte early-state genes +5z,Monocyte,early-state genes,5.0,Neutrophil,0.14875694333613906,"Casp6,Sirpa,Mef2c,Emb,Il6st,Pou2f2,Fth1,Cd44",1728
+Monocyte early-state genes +5z,Monocyte,early-state genes,5.0,Undifferentiated,0.44328530368517705,"Casp6,Sirpa,Mef2c,Emb,Il6st,Pou2f2,Fth1,Cd44",1728
+Monocyte early-state genes +5z,Monocyte,early-state genes,5.0,pDC,0.0006661858733193862,"Casp6,Sirpa,Mef2c,Emb,Il6st,Pou2f2,Fth1,Cd44",1728
+Monocyte mature markers -5z,Monocyte,mature markers,-5.0,Baso,0.15930218689801454,"Irf8,Csf1r,Lyz2,Ly6c2",1728
+Monocyte mature markers -5z,Monocyte,mature markers,-5.0,Ccr7_DC,0.001062410255563714,"Irf8,Csf1r,Lyz2,Ly6c2",1728
+Monocyte mature markers -5z,Monocyte,mature markers,-5.0,Eos,0.002133623886515296,"Irf8,Csf1r,Lyz2,Ly6c2",1728
+Monocyte mature markers -5z,Monocyte,mature markers,-5.0,Erythroid,0.006211716027234657,"Irf8,Csf1r,Lyz2,Ly6c2",1728
+Monocyte mature markers -5z,Monocyte,mature markers,-5.0,Lymphoid,0.0022645488643252476,"Irf8,Csf1r,Lyz2,Ly6c2",1728
+Monocyte mature markers -5z,Monocyte,mature markers,-5.0,Mast,0.03729060467325068,"Irf8,Csf1r,Lyz2,Ly6c2",1728
+Monocyte mature markers -5z,Monocyte,mature markers,-5.0,Meg,0.03148569073407028,"Irf8,Csf1r,Lyz2,Ly6c2",1728
+Monocyte mature markers -5z,Monocyte,mature markers,-5.0,Monocyte,0.08938877445374276,"Irf8,Csf1r,Lyz2,Ly6c2",1728
+Monocyte mature markers -5z,Monocyte,mature markers,-5.0,Neutrophil,0.15945029234327596,"Irf8,Csf1r,Lyz2,Ly6c2",1728
+Monocyte mature markers -5z,Monocyte,mature markers,-5.0,Undifferentiated,0.510694846702508,"Irf8,Csf1r,Lyz2,Ly6c2",1728
+Monocyte mature markers -5z,Monocyte,mature markers,-5.0,pDC,0.0007153051614979549,"Irf8,Csf1r,Lyz2,Ly6c2",1728
+Monocyte mature markers +5z,Monocyte,mature markers,5.0,Baso,0.13000126712878937,"Irf8,Csf1r,Lyz2,Ly6c2",1728
+Monocyte mature markers +5z,Monocyte,mature markers,5.0,Ccr7_DC,0.0010723429544610052,"Irf8,Csf1r,Lyz2,Ly6c2",1728
+Monocyte mature markers +5z,Monocyte,mature markers,5.0,Eos,0.0023983301158465643,"Irf8,Csf1r,Lyz2,Ly6c2",1728
+Monocyte mature markers +5z,Monocyte,mature markers,5.0,Erythroid,0.006592088396043394,"Irf8,Csf1r,Lyz2,Ly6c2",1728
+Monocyte mature markers +5z,Monocyte,mature markers,5.0,Lymphoid,0.0022545550950650683,"Irf8,Csf1r,Lyz2,Ly6c2",1728
+Monocyte mature markers +5z,Monocyte,mature markers,5.0,Mast,0.03777963704849014,"Irf8,Csf1r,Lyz2,Ly6c2",1728
+Monocyte mature markers +5z,Monocyte,mature markers,5.0,Meg,0.02716213972430712,"Irf8,Csf1r,Lyz2,Ly6c2",1728
+Monocyte mature markers +5z,Monocyte,mature markers,5.0,Monocyte,0.1847018016558865,"Irf8,Csf1r,Lyz2,Ly6c2",1728
+Monocyte mature markers +5z,Monocyte,mature markers,5.0,Neutrophil,0.19695589441425534,"Irf8,Csf1r,Lyz2,Ly6c2",1728
+Monocyte mature markers +5z,Monocyte,mature markers,5.0,Undifferentiated,0.4102916517924263,"Irf8,Csf1r,Lyz2,Ly6c2",1728
+Monocyte mature markers +5z,Monocyte,mature markers,5.0,pDC,0.0007902916744296518,"Irf8,Csf1r,Lyz2,Ly6c2",1728

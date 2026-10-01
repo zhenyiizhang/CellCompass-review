@@ -1,0 +1,177 @@
+[
+  {
+    "figure": "Main 1",
+    "title": "CellCompass overview",
+    "scripts": [],
+    "note": "Manual Illustrator artwork. No complete plotting script identified."
+  },
+  {
+    "figure": "Main 2",
+    "title": "DynBench100",
+    "scripts": [
+      "dynbench_results_share_20260618_170313/figure_drafts/plot_dynbench_main_figure.py",
+      "dynbench_results_share_20260618_170313/figure_drafts/plot_dynbench_results_5panel_final.py",
+      "dynbench_results_share_20260618_170313/figure_drafts/plot_dynbench_results_5panel_checked.py"
+    ],
+    "note": "Result-panel generators and checked alternatives. Final panel arrangement is in Illustrator."
+  },
+  {
+    "figure": "Main 3",
+    "title": "EMT",
+    "scripts": [
+      "emt/scripts/downstream/plot_emt_cellcompass_main_panels.py",
+      "emt/scripts/downstream/analyze_emt_condition_dynamics.py",
+      "emt/scripts/downstream/assemble_emt_publication_figure.py"
+    ],
+    "note": "Program trajectories, observed/generated comparisons and assembly."
+  },
+  {
+    "figure": "Main 4",
+    "title": "PulseBridge",
+    "scripts": [
+      "analysis/pulsebridge_story/scripts/make_pulsebridge_algorithm_search_figure.py",
+      "analysis/pulsebridge_story/scripts/make_nature_main_figure_v2.py",
+      "analysis/pulsebridge_story/scripts/make_pulsebridge_gene_perturbation_rollout.py",
+      "analysis/pulsebridge_story/scripts/pulsebridge_story_analysis.py"
+    ],
+    "note": "Panel generators plus Illustrator assembly. Current code may post-date the manuscript export."
+  },
+  {
+    "figure": "Main 5",
+    "title": "LineageBridge",
+    "scripts": [
+      "mouse_new/scripts/downstream/compose_clone_panel_b_algorithm_landscape.py",
+      "mouse_new/scripts/downstream/compose_clone_downstream_story_panels.py",
+      "mouse_new/scripts/downstream/compose_clone_scdiffeq_style_biology.py",
+      "mouse_new/scripts/downstream/compose_clone_panel_c_bmf_early_fate_bias_story.py"
+    ],
+    "note": "Panel generators plus Illustrator assembly."
+  },
+  {
+    "figure": "Main 6",
+    "title": "ProteinBridge",
+    "scripts": [
+      "multi-omics/scripts/downstream/cite_pcfm_algorithm_search_landscape/make_algorithm_search_landscape.py",
+      "multi-omics/scripts/downstream/cite_pcfm_biology_landscape/compose_panel_c_rna_protein_relay.py",
+      "multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig06_rna_protein_regulatory_map.py"
+    ],
+    "note": "Panel generators plus Illustrator assembly."
+  },
+  {
+    "figure": "SI 1",
+    "title": "Model-design lifecycle",
+    "scripts": [
+      "manuscript_finalization/build_supplementary_figure1.py"
+    ],
+    "note": "Generate the lifecycle diagram. Accepted PDF is separately retained."
+  },
+  {
+    "figure": "SI 2",
+    "title": "EMT time courses",
+    "scripts": [
+      "emt/scripts/downstream/plot_emt_cellcompass_main_panels.py"
+    ],
+    "note": "panel02b_observed_generated_emt_core_timecourses"
+  },
+  {
+    "figure": "SI 3",
+    "title": "EMT endpoint validation",
+    "scripts": [
+      "emt/scripts/downstream/plot_emt_cellcompass_main_panels.py"
+    ],
+    "note": "panel03_endpoint_validation_scatter"
+  },
+  {
+    "figure": "SI 4",
+    "title": "EMT routes and program layers",
+    "scripts": [
+      "emt/scripts/downstream/redraw_emt_cell_nbt_story.py"
+    ],
+    "note": "panel04_route_phase_diagram and panel05_program_layer_summary"
+  },
+  {
+    "figure": "SI 5",
+    "title": "PulseBridge direction and observed-state comparisons",
+    "scripts": [
+      "analysis/pulsebridge_story/scripts/pulsebridge_story_analysis.py",
+      "analysis/pulsebridge_story/scripts/compute_pcie_gene_space_decomposition.py",
+      "analysis/pulsebridge_story/scripts/plot_pcie_gene_velocity_umap.py",
+      "analysis/pulsebridge_story/scripts/plot_pcie_random_velocity_umap.py"
+    ],
+    "note": "Multiple component plots assembled in the SI. Check original output stems against accepted PDF."
+  },
+  {
+    "figure": "SI 6",
+    "title": "PulseBridge perturbation controls",
+    "scripts": [
+      "analysis/pulsebridge_story/scripts/compute_pulsebridge_gene_perturbation_random_controls.py",
+      "analysis/pulsebridge_story/scripts/make_pulsebridge_gene_perturbation_rollout.py"
+    ],
+    "note": "Random-control analysis and program perturbation plots."
+  },
+  {
+    "figure": "SI 7",
+    "title": "State-matched fate divergence",
+    "scripts": [
+      "mouse_new/scripts/downstream/compose_clone_state_matched_fate_divergence.py"
+    ],
+    "note": "panel_c_state_matched_fate_divergence"
+  },
+  {
+    "figure": "SI 8",
+    "title": "Branch-mixture evidence",
+    "scripts": [
+      "mouse_new/scripts/downstream/compose_clone_downstream_story_panels.py"
+    ],
+    "note": "panel_c3_branch_mixture_evidence"
+  },
+  {
+    "figure": "SI 9",
+    "title": "Clone case studies",
+    "scripts": [
+      "mouse_new/scripts/downstream/compose_clone_downstream_story_panels.py"
+    ],
+    "note": "panel_c4_larry_clone_trajectory_case_studies"
+  },
+  {
+    "figure": "SI 10",
+    "title": "Lineage program perturbations",
+    "scripts": [
+      "mouse_new/scripts/downstream/compose_clone_scdiffeq_style_biology.py"
+    ],
+    "note": "panel_c10_scdiffeq_style_program_push_stackbar"
+  },
+  {
+    "figure": "SI 11",
+    "title": "Selected-fate predictions",
+    "scripts": [
+      "mouse_new/scripts/downstream/clone_fate_spring_final.py",
+      "mouse_new/scripts/downstream/clone_fate_spring_diagnostics.py"
+    ],
+    "note": "Eligible-only (1,728 cells) fate probability maps, redrawn in reproduce/si_lineage.py."
+  },
+  {
+    "figure": "SI 12",
+    "title": "Protein distribution comparison",
+    "scripts": [
+      "multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig01_distribution_and_landscape.py"
+    ],
+    "note": "Observed RNA/protein UMAPs and generated terminal states, redrawn in reproduce/si_protein_worm.py; protein energy values moved to SI 13."
+  },
+  {
+    "figure": "SI 13",
+    "title": "Protein quantitative checks",
+    "scripts": [
+      "multi-omics/scripts/downstream/cite_pcfm_nbt_figure_bank.py"
+    ],
+    "note": "Mean and per-time protein energy distance plus covariance, nearest-target ECDF, phenotype error and variance diagnostics in one figure (reproduce/si_protein_worm.py)."
+  },
+  {
+    "figure": "SI 14",
+    "title": "RNA\u2013protein coupling",
+    "scripts": [
+      "multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig06_rna_protein_regulatory_map.py"
+    ],
+    "note": "Readout validation (a) and binned trends (b\u2013e) in one figure, redrawn in reproduce/si_protein_worm.py."
+  }
+]

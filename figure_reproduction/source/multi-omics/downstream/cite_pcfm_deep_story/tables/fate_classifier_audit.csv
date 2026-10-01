@@ -1,0 +1,9 @@
+classifier,class,support,accuracy,balanced_accuracy,recall,used_for_main_fate,note
+protein_pca_knn25_distance,overall,2500,0.776,0.6360784214053041,,True,Nearest-observed protein phenotype readout used for generated fate assignment.
+protein_pca_knn25_distance,BP,17,,,0.0,False,BP is retained in the audit table but excluded from biological interpretation because of low support/recall.
+protein_pca_knn25_distance,EryP,447,,,0.8612975391498882,True,BP is retained in the audit table but excluded from biological interpretation because of low support/recall.
+protein_pca_knn25_distance,HSC,753,,,0.9110225763612217,True,BP is retained in the audit table but excluded from biological interpretation because of low support/recall.
+protein_pca_knn25_distance,MasP,478,,,0.6652719665271967,True,BP is retained in the audit table but excluded from biological interpretation because of low support/recall.
+protein_pca_knn25_distance,MkP,268,,,0.6007462686567164,True,BP is retained in the audit table but excluded from biological interpretation because of low support/recall.
+protein_pca_knn25_distance,MoP,99,,,0.6767676767676768,True,BP is retained in the audit table but excluded from biological interpretation because of low support/recall.
+protein_pca_knn25_distance,NeuP,438,,,0.7374429223744292,True,BP is retained in the audit table but excluded from biological interpretation because of low support/recall.

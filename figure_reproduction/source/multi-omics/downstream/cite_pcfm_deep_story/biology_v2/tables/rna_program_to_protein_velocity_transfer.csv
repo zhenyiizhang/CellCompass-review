@@ -1,0 +1,6 @@
+gene_module,protein_module,label,corr,top_neighborhood,top_gene_score,top_protein_velocity
+Erythroid RNA,Ery-Mk protein,erythroid,-0.8980263248975554,0,1.3635244369506836,-0.5126313257231018
+HLA/activation RNA,HLA/activation protein,HLA,-0.8603163371039932,5,0.4748026430606842,-0.3296498094733137
+Stem/HSPC RNA,Stem retention,stem,-0.6941961364285888,2,0.321240097284317,-0.3247803170490882
+Mast/Baso RNA,Mast/Baso protein,mast/baso,-0.09313594694350133,3,0.47951531410217285,-0.04493610444003525
+Myeloid/MasP RNA,Myeloid protein,myeloid,0.6693603076433405,4,0.8104355335235596,0.3905765399000589

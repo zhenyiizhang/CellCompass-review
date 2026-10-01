@@ -1,0 +1,9 @@
+-r requirements-plotting.txt
+anndata
+scanpy
+scvelo
+torch
+umap-learn
+pyyaml
+# Optional stream/baseline scripts additionally import dynamo or scdiffeq.
+# These require their own compatible environments.

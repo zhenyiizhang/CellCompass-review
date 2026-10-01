@@ -1,0 +1,18 @@
+{
+  "array_options": [
+    "linewidth"
+  ],
+  "color": "#1F2937",
+  "density": 0.66,
+  "cmap": null,
+  "norm": null,
+  "arrowsize": 0.48,
+  "arrowstyle": "fancy",
+  "minlength": 0.1,
+  "transform": null,
+  "start_points": null,
+  "maxlength": 4.0,
+  "integration_direction": "both",
+  "zorder": 3,
+  "linewidth": 0.62
+}

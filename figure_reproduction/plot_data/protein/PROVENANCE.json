@@ -1,0 +1,9 @@
+{
+  "source_data": "/Users/zhenyizhang/.cellcompass/algorithm_benchmarks/datasets/gse305370_citeseq_stage2_10k/data.h5ad",
+  "source_data_sha256": "1c22f9e759b82038278dab227da3ed65ce1a238f9b98a1783279fe9235d23a7e",
+  "trajectory": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics/training_runs/20260526T174204321821Z__final__cite_paired_coord_fm__campaign_20260-trial_20260526-gse305370_ci/artifacts/evaluation_trajectory.npz",
+  "trajectory_sha256": "2ee8fb0c2d2d6f2f5165772a91cf0538010332b3c7413acd384a705935cf574d",
+  "seed": 20260528,
+  "umap_version": "0.5.12",
+  "note": "Display coordinates recalculated once with the original UMAP settings. Observed cells, all three methods' target-time states and selected trajectories use the same fitted protein projection. The resulting coordinates are bundled for deterministic plotting. Dynamical models were not refitted. Historical coordinates remain in source/ for comparison."
+}

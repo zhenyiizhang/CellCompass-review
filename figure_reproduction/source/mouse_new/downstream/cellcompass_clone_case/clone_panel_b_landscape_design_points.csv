@@ -1,0 +1,10 @@
+key,label,x,y,cfcorr,color,note
+VGFM,"VGFM
+(no clone labels)",0.16,0.28,0.0355,#2C5AA0,"single expression path;
+clone fate not used"
+Clone-CUVGF-FP,"Clone-CUVGF-FP
+(terminal-fate penalty)",0.44,0.4,0.0679,#E5792A,"clone fate used as
+an endpoint penalty"
+Clone-CUVGF-BMF,"Clone-CUVGF-BMF
+(branch-mass)",0.84,0.76,0.4271,#6D28D9,"one starting cell can
+split across fate branches"

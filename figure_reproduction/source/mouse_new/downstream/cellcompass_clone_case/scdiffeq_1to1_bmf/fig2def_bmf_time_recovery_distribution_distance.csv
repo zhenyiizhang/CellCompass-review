@@ -1,0 +1,4 @@
+model_time,observed_time_point_processed,biological_day,energy_distance_latent,n_generated_particles,n_observed_cells
+0.0,0,2,0.5249436304844863,3740,4638
+1.0,1,4,1.045814598363279,3740,14985
+2.0,2,6,1.304943710385615,3740,29679

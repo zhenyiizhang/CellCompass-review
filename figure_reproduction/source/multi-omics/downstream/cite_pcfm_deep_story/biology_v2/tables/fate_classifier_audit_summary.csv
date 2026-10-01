@@ -1,0 +1,2 @@
+readout,n_train,n_test,accuracy,balanced_accuracy,n_iter
+observed_protein_pca_mlp,7500,2500,0.8212,0.6877293127288363,32

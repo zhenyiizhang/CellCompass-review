@@ -1,0 +1,8 @@
+step,trial,metric,status,why_it_failed,lesson
+Residual SB-FM real-data block,0,0.031822,failed,early/late protein errors plus paired covariance drift; stochastic residual path did not validate the biological claim,do not hide protein fidelity inside residual stochasticity; keep a simpler deterministic CITE geometry
+PCFM initial Stage 2,2,0.534965,failed,"paired coupling existed, but the protein readout was not yet calibrated to future target landscapes","protein metric must be scored from sealed rollout, not only endpoint/coupling plausibility"
+capacity and endpoint bracketing,8,0.039508,improved,"endpoint loss was low but intermediate protein readout still plateaued, especially at t2/t3",larger heads and endpoint weights alone do not explain intermediate biology
+scaled Fourier time basis,32,0.023627,near_pass,time conditioning improved rollout but still missed the required 10% Stage 2 margin,explicit time features matter; remaining error is local in biological time
+time-local protein weights,39,0.022801,passed,not a failure; the repair targeted t1-t3 supervision windows and crossed the formal gate,the metric rose because supervision moved from global endpoint emphasis to time-local CITE protein biology
+Stage 3 width tuning,48,0.022218,tuned,W1/protein tradeoff limited further SOTA chasing,small width changes preserve claim metric while improving guardrails; stop when scalar tuning saturates
+Final regression lock,70,0.022198,locked,not a failure; reproduced the tuned active best under the final-regression contract,lock the evidence-compatible rule rather than continuing uncontrolled search

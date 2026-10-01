@@ -1,0 +1,892 @@
+[
+  {
+    "script": "source/mouse_new/scripts/downstream/compose_clone_day2_fate_bias_mechanism.py",
+    "line": 32,
+    "path": "/Users/zhenyizhang/.cellcompass/algorithm_benchmarks/datasets/weinreb_rawrebuild_full_k10mindiff1/data.h5ad"
+  },
+  {
+    "script": "source/mouse_new/scripts/downstream/clone_fate_spring_final.py",
+    "line": 28,
+    "path": "/Users/zhenyizhang/.cellcompass/algorithm_benchmarks/datasets/weinreb_rawrebuild_full_k10mindiff1/data.h5ad"
+  },
+  {
+    "script": "source/mouse_new/scripts/downstream/clone_fate_spring_final.py",
+    "line": 29,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/mouse_new"
+  },
+  {
+    "script": "source/mouse_new/scripts/downstream/clone_fate_spring_final.py",
+    "line": 35,
+    "path": "/Users/zhenyizhang/.cellcompass/training_algorithms/clone_cuvgf/algorithm.py"
+  },
+  {
+    "script": "source/mouse_new/scripts/downstream/clone_fate_spring_diagnostics.py",
+    "line": 20,
+    "path": "/Users/zhenyizhang/.cellcompass/algorithm_benchmarks/datasets/weinreb_rawrebuild_full_k10mindiff1/data.h5ad"
+  },
+  {
+    "script": "source/mouse_new/scripts/downstream/clone_fate_spring_diagnostics.py",
+    "line": 21,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/mouse_new"
+  },
+  {
+    "script": "source/mouse_new/scripts/downstream/compose_clone_day2_fate_bias_perturbation.py",
+    "line": 29,
+    "path": "/Users/zhenyizhang/.cellcompass/algorithm_benchmarks/datasets/weinreb_rawrebuild_full_k10mindiff1/data.h5ad"
+  },
+  {
+    "script": "source/mouse_new/scripts/downstream/compose_clone_scdiffeq_1to1_bmf_analyses.py",
+    "line": 41,
+    "path": "/Users/zhenyizhang/.cellcompass/algorithm_benchmarks/datasets/weinreb_rawrebuild_full_k10mindiff1/data.h5ad"
+  },
+  {
+    "script": "source/mouse_new/scripts/downstream/compose_clone_panel_c_bmf_early_fate_bias_story.py",
+    "line": 32,
+    "path": "/Users/zhenyizhang/.cellcompass/algorithm_benchmarks/datasets/weinreb_rawrebuild_full_k10mindiff1/data.h5ad"
+  },
+  {
+    "script": "source/mouse_new/scripts/downstream/compose_clone_downstream_story_panels.py",
+    "line": 64,
+    "path": "/Users/zhenyizhang/.cellcompass/algorithm_benchmarks/datasets/weinreb_rawrebuild_full_k10mindiff1/data.h5ad"
+  },
+  {
+    "script": "source/mouse_new/scripts/downstream/compose_clone_downstream_story_panels.py",
+    "line": 65,
+    "path": "/Users/zhenyizhang/.cellcompass/training_algorithms/clone_cuvgf/algorithm.py"
+  },
+  {
+    "script": "source/mouse_new/scripts/downstream/compose_clone_scdiffeq_style_biology.py",
+    "line": 41,
+    "path": "/Users/zhenyizhang/.cellcompass/algorithm_benchmarks/datasets/weinreb_rawrebuild_full_k10mindiff1/data.h5ad"
+  },
+  {
+    "script": "source/mouse_new/scripts/downstream/compose_clone_scdiffeq_style_biology.py",
+    "line": 42,
+    "path": "/Users/zhenyizhang/.cellcompass/training_algorithms/clone_cuvgf/algorithm.py"
+  },
+  {
+    "script": "source/mouse_new/scripts/downstream/compose_clone_state_matched_fate_divergence.py",
+    "line": 33,
+    "path": "/Users/zhenyizhang/.cellcompass/algorithm_benchmarks/datasets/weinreb_rawrebuild_full_k10mindiff1/data.h5ad"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_gt_protein_comparison.py",
+    "line": 31,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_gt_protein_comparison.py",
+    "line": 32,
+    "path": "/Users/zhenyizhang/.cellcompass/algorithm_benchmarks/datasets/gse305370_citeseq_stage2_10k/data.h5ad"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_gt_distribution_umap_clean.py",
+    "line": 15,
+    "path": "/private/tmp/cytobridge_mplconfig"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_gt_distribution_umap_clean.py",
+    "line": 16,
+    "path": "/private/tmp/cytobridge_xdg_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_gt_distribution_umap_clean.py",
+    "line": 30,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_downstream_figures.py",
+    "line": 28,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_downstream_figures.py",
+    "line": 37,
+    "path": "/Users/zhenyizhang/.cellcompass/algorithm_benchmarks/datasets/gse305370_citeseq_stage2_10k/data.h5ad"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_downstream_figures.py",
+    "line": 38,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics/training_runs/20260526T174204321821Z__final__cite_paired_coord_fm__campaign_20260-trial_20260526-gse305370_ci"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_downstream_figures.py",
+    "line": 41,
+    "path": "/Users/zhenyizhang/.cellcompass/algorithm_benchmarks/datasets/gse305370_citeseq_stage2_10k/baseline_artifacts"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_gt_distribution_umap_fancy.py",
+    "line": 10,
+    "path": "/private/tmp/cytobridge_mplconfig"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_gt_distribution_umap_fancy.py",
+    "line": 11,
+    "path": "/private/tmp/cytobridge_xdg_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_gt_distribution_umap_fancy.py",
+    "line": 26,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_deep_story.py",
+    "line": 24,
+    "path": "/private/tmp/cytobridge_mplconfig"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_deep_story.py",
+    "line": 25,
+    "path": "/private/tmp/cytobridge_xdg_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_deep_story.py",
+    "line": 42,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_deep_story.py",
+    "line": 43,
+    "path": "/Users/zhenyizhang/.cellcompass/algorithm_benchmarks/datasets/gse305370_citeseq_stage2_10k/data.h5ad"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_nbt_biology_v2.py",
+    "line": 16,
+    "path": "/private/tmp/cytobridge_mplconfig"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_nbt_biology_v2.py",
+    "line": 17,
+    "path": "/private/tmp/cytobridge_xdg_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_nbt_biology_v2.py",
+    "line": 18,
+    "path": "/private/tmp/numba_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_nbt_biology_v2.py",
+    "line": 58,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_nbt_biology_v2.py",
+    "line": 59,
+    "path": "/Users/zhenyizhang/.cellcompass/algorithm_benchmarks/datasets/gse305370_citeseq_stage2_10k/data.h5ad"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_nbt_figure_bank.py",
+    "line": 38,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_nbt_figure_bank.py",
+    "line": 39,
+    "path": "/Users/zhenyizhang/.cellcompass/algorithm_benchmarks/datasets/gse305370_citeseq_stage2_10k/data.h5ad"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_nbt_figure_bank.py",
+    "line": 40,
+    "path": "/Users/zhenyizhang/.cellcompass"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_rna_to_protein_gt_analyses.py",
+    "line": 36,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_rna_to_protein_gt_analyses.py",
+    "line": 37,
+    "path": "/Users/zhenyizhang/.cellcompass/algorithm_benchmarks/datasets/gse305370_citeseq_stage2_10k/data.h5ad"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_rna_to_protein_gt_analyses.py",
+    "line": 54,
+    "path": "/Users/zhenyizhang/.cellcompass/algorithm_benchmarks/datasets/gse305370_citeseq_stage2_10k/baseline_artifacts/builtin_crufm/metrics.json"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_rna_to_protein_gt_analyses.py",
+    "line": 60,
+    "path": "/Users/zhenyizhang/.cellcompass/algorithm_benchmarks/datasets/gse305370_citeseq_stage2_10k/baseline_artifacts/builtin_balanced_ot_cfm/metrics.json"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_rna_to_protein_gene_story.py",
+    "line": 25,
+    "path": "/private/tmp/cytobridge_mplconfig"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_rna_to_protein_gene_story.py",
+    "line": 26,
+    "path": "/private/tmp/cytobridge_xdg_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_rna_to_protein_gene_story.py",
+    "line": 27,
+    "path": "/private/tmp/numba_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_rna_to_protein_gene_story.py",
+    "line": 46,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_rna_to_protein_gene_story.py",
+    "line": 47,
+    "path": "/Users/zhenyizhang/.cellcompass/algorithm_benchmarks/datasets/gse305370_citeseq_stage2_10k/data.h5ad"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_nbt_showcase_figures.py",
+    "line": 27,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_nbt_showcase_figures.py",
+    "line": 28,
+    "path": "/Users/zhenyizhang/.cellcompass/algorithm_benchmarks/datasets/gse305370_citeseq_stage2_10k/data.h5ad"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_nbt_biology_figures.py",
+    "line": 10,
+    "path": "/private/tmp/cytobridge_mplconfig"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_nbt_biology_figures.py",
+    "line": 11,
+    "path": "/private/tmp/cytobridge_xdg_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_nbt_biology_figures.py",
+    "line": 12,
+    "path": "/private/tmp/numba_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_nbt_biology_figures.py",
+    "line": 34,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_nbt_biology_figures.py",
+    "line": 35,
+    "path": "/Users/zhenyizhang/.cellcompass/algorithm_benchmarks/datasets/gse305370_citeseq_stage2_10k/data.h5ad"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_gt_distribution_fancy.py",
+    "line": 10,
+    "path": "/private/tmp/cytobridge_mplconfig"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_gt_distribution_fancy.py",
+    "line": 11,
+    "path": "/private/tmp/cytobridge_xdg_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_gt_distribution_fancy.py",
+    "line": 26,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_gt_distribution_fancy.py",
+    "line": 27,
+    "path": "/Users/zhenyizhang/.cellcompass/algorithm_benchmarks/datasets/gse305370_citeseq_stage2_10k/data.h5ad"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biological_downstream.py",
+    "line": 28,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biological_downstream.py",
+    "line": 35,
+    "path": "/Users/zhenyizhang/.cellcompass/algorithm_benchmarks/datasets/gse305370_citeseq_stage2_10k/data.h5ad"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biological_downstream.py",
+    "line": 36,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics/training_runs/20260526T174204321821Z__final__cite_paired_coord_fm__campaign_20260-trial_20260526-gse305370_ci"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_rna_protein_dynamic_story.py",
+    "line": 17,
+    "path": "/private/tmp/cytobridge_mplconfig"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_rna_protein_dynamic_story.py",
+    "line": 18,
+    "path": "/private/tmp/cytobridge_xdg_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_rna_protein_dynamic_story.py",
+    "line": 41,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_rna_protein_dynamic_story.py",
+    "line": 42,
+    "path": "/Users/zhenyizhang/.cellcompass/algorithm_benchmarks/datasets/gse305370_citeseq_stage2_10k/data.h5ad"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_umap_protein_dynamics.py",
+    "line": 34,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_umap_protein_dynamics.py",
+    "line": 35,
+    "path": "/Users/zhenyizhang/.cellcompass/algorithm_benchmarks/datasets/gse305370_citeseq_stage2_10k/data.h5ad"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_umap_protein_dynamics.py",
+    "line": 52,
+    "path": "/Users/zhenyizhang/.cellcompass/algorithm_benchmarks/datasets/gse305370_citeseq_stage2_10k/baseline_artifacts/builtin_crufm/metrics.json"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_umap_protein_dynamics.py",
+    "line": 57,
+    "path": "/Users/zhenyizhang/.cellcompass/algorithm_benchmarks/datasets/gse305370_citeseq_stage2_10k/baseline_artifacts/builtin_balanced_ot_cfm/metrics.json"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_extensive_downstream.py",
+    "line": 32,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_extensive_downstream.py",
+    "line": 33,
+    "path": "/Users/zhenyizhang/.cellcompass/algorithm_benchmarks/datasets/gse305370_citeseq_stage2_10k/data.h5ad"
+  },
+  {
+    "script": "source/multi-omics/scripts/preprocessing/create_cite_debug_subset.py",
+    "line": 8,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics/paper_intake/paper_input.h5ad"
+  },
+  {
+    "script": "source/multi-omics/scripts/preprocessing/create_cite_debug_subset.py",
+    "line": 9,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics/paper/debug_subsets/GSE305370_citeseq_debug_3000.h5ad"
+  },
+  {
+    "script": "source/multi-omics/scripts/preprocessing/make_gse305370_citeseq_stage1_proportional.py",
+    "line": 5,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics/paper_intake/paper_input.h5ad"
+  },
+  {
+    "script": "source/multi-omics/scripts/preprocessing/make_gse305370_citeseq_stage1_proportional.py",
+    "line": 6,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics/paper/debug_subsets/GSE305370_citeseq_stage1_5000_proportional.h5ad"
+  },
+  {
+    "script": "source/multi-omics/scripts/preprocessing/create_gse305370_citeseq_stage2_10k.py",
+    "line": 16,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics/paper_intake/paper_input.h5ad"
+  },
+  {
+    "script": "source/multi-omics/scripts/preprocessing/create_gse305370_citeseq_stage2_10k.py",
+    "line": 17,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics/paper/debug_subsets/GSE305370_citeseq_stage2_10000.h5ad"
+  },
+  {
+    "script": "source/multi-omics/scripts/preprocessing/prepare_gse305370_citeseq.py",
+    "line": 30,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics"
+  },
+  {
+    "script": "source/multi-omics/scripts/preprocessing/prepare_gse305370_citeseq.py",
+    "line": 131,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics_paper/science.adi8577-3.pdf"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_algorithm_search_landscape/make_algorithm_search_landscape.py",
+    "line": 12,
+    "path": "/private/tmp/cytobridge_mplconfig"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_algorithm_search_landscape/make_algorithm_search_landscape.py",
+    "line": 13,
+    "path": "/private/tmp/cytobridge_xdg_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_algorithm_search_landscape/make_algorithm_search_landscape.py",
+    "line": 36,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_algorithm_search_landscape/make_algorithm_search_landscape.py",
+    "line": 37,
+    "path": "/Users/zhenyizhang/.cellcompass"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig06j_program_push_terminal_composition.py",
+    "line": 19,
+    "path": "/private/tmp/cytobridge_mplconfig"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig06j_program_push_terminal_composition.py",
+    "line": 20,
+    "path": "/private/tmp/cytobridge_xdg_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig06j_program_push_terminal_composition.py",
+    "line": 21,
+    "path": "/private/tmp/numba_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig06j_program_push_terminal_composition.py",
+    "line": 53,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/compose_panel_c_rna_protein_relay.py",
+    "line": 13,
+    "path": "/private/tmp/cytobridge_mplconfig"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/compose_panel_c_rna_protein_relay.py",
+    "line": 14,
+    "path": "/private/tmp/cytobridge_xdg_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/compose_panel_c_rna_protein_relay.py",
+    "line": 39,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig02d_rna_priming_to_multimodal_fate_map.py",
+    "line": 16,
+    "path": "/private/tmp/cytobridge_mplconfig"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig02d_rna_priming_to_multimodal_fate_map.py",
+    "line": 17,
+    "path": "/private/tmp/cytobridge_xdg_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig02d_rna_priming_to_multimodal_fate_map.py",
+    "line": 18,
+    "path": "/private/tmp/numba_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig02d_rna_priming_to_multimodal_fate_map.py",
+    "line": 53,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig02d_rna_priming_to_multimodal_fate_map.py",
+    "line": 54,
+    "path": "/Users/zhenyizhang/.cellcompass/algorithm_benchmarks/datasets/gse305370_citeseq_stage2_10k/data.h5ad"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig06p_global_relay_observed_trend_match.py",
+    "line": 20,
+    "path": "/private/tmp/cytobridge_mplconfig"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig06p_global_relay_observed_trend_match.py",
+    "line": 21,
+    "path": "/private/tmp/cytobridge_xdg_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig06p_global_relay_observed_trend_match.py",
+    "line": 22,
+    "path": "/private/tmp/numba_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig04_protein_phenotype_sankey.py",
+    "line": 19,
+    "path": "/private/tmp/cytobridge_mplconfig"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig04_protein_phenotype_sankey.py",
+    "line": 20,
+    "path": "/private/tmp/cytobridge_xdg_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig04_protein_phenotype_sankey.py",
+    "line": 21,
+    "path": "/private/tmp/numba_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig04_protein_phenotype_sankey.py",
+    "line": 38,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig04_protein_phenotype_sankey.py",
+    "line": 39,
+    "path": "/Users/zhenyizhang/.cellcompass/algorithm_benchmarks/datasets/gse305370_citeseq_stage2_10k/data.h5ad"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig06k_program_push_responsive_composition.py",
+    "line": 16,
+    "path": "/private/tmp/cytobridge_mplconfig"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig06k_program_push_responsive_composition.py",
+    "line": 17,
+    "path": "/private/tmp/cytobridge_xdg_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig06k_program_push_responsive_composition.py",
+    "line": 30,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig06s_mkp_hsc_gene_push_sensitivity.py",
+    "line": 26,
+    "path": "/private/tmp/cytobridge_mplconfig"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig06s_mkp_hsc_gene_push_sensitivity.py",
+    "line": 27,
+    "path": "/private/tmp/cytobridge_xdg_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig06s_mkp_hsc_gene_push_sensitivity.py",
+    "line": 28,
+    "path": "/private/tmp/numba_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig06s_mkp_hsc_gene_push_sensitivity.py",
+    "line": 72,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig06u_mkp_candidate_eryp_effect_companion.py",
+    "line": 14,
+    "path": "/private/tmp/cytobridge_mplconfig"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig06u_mkp_candidate_eryp_effect_companion.py",
+    "line": 15,
+    "path": "/private/tmp/cytobridge_xdg_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig06u_mkp_candidate_eryp_effect_companion.py",
+    "line": 25,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig06m_hsc_seed_program_push_composition.py",
+    "line": 10,
+    "path": "/private/tmp/cytobridge_mplconfig"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig06m_hsc_seed_program_push_composition.py",
+    "line": 11,
+    "path": "/private/tmp/cytobridge_xdg_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig06m_hsc_seed_program_push_composition.py",
+    "line": 25,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/compose_panel_c_rna_protein_relay_2x2.py",
+    "line": 15,
+    "path": "/private/tmp/cytobridge_mplconfig"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/compose_panel_c_rna_protein_relay_2x2.py",
+    "line": 16,
+    "path": "/private/tmp/cytobridge_xdg_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/compose_panel_c_rna_protein_relay_2x2.py",
+    "line": 17,
+    "path": "/private/tmp/numba_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/compose_panel_c_rna_protein_relay_2x2.py",
+    "line": 51,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig01g_protein_rollout_trajectory_umap.py",
+    "line": 16,
+    "path": "/private/tmp/cytobridge_mplconfig"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig01g_protein_rollout_trajectory_umap.py",
+    "line": 17,
+    "path": "/private/tmp/cytobridge_xdg_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig01g_protein_rollout_trajectory_umap.py",
+    "line": 18,
+    "path": "/private/tmp/numba_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig01g_protein_rollout_trajectory_umap.py",
+    "line": 53,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig01g_protein_rollout_trajectory_umap.py",
+    "line": 54,
+    "path": "/Users/zhenyizhang/.cellcompass/algorithm_benchmarks/datasets/gse305370_citeseq_stage2_10k/data.h5ad"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig06r_program_activity_density_ridgeline.py",
+    "line": 19,
+    "path": "/private/tmp/cytobridge_mplconfig"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig06r_program_activity_density_ridgeline.py",
+    "line": 20,
+    "path": "/private/tmp/cytobridge_xdg_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig06r_program_activity_density_ridgeline.py",
+    "line": 21,
+    "path": "/private/tmp/numba_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig05_commitment_time_analysis.py",
+    "line": 24,
+    "path": "/private/tmp/cytobridge_mplconfig"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig05_commitment_time_analysis.py",
+    "line": 25,
+    "path": "/private/tmp/cytobridge_xdg_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig05_commitment_time_analysis.py",
+    "line": 26,
+    "path": "/private/tmp/numba_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig05_commitment_time_analysis.py",
+    "line": 43,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig05_commitment_time_analysis.py",
+    "line": 44,
+    "path": "/Users/zhenyizhang/.cellcompass/algorithm_benchmarks/datasets/gse305370_citeseq_stage2_10k/data.h5ad"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig01h_protein_rollout_on_fig01a_style.py",
+    "line": 19,
+    "path": "/private/tmp/cytobridge_mplconfig"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig01h_protein_rollout_on_fig01a_style.py",
+    "line": 20,
+    "path": "/private/tmp/cytobridge_xdg_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig01h_protein_rollout_on_fig01a_style.py",
+    "line": 21,
+    "path": "/private/tmp/numba_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig01h_protein_rollout_on_fig01a_style.py",
+    "line": 47,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig01h_protein_rollout_on_fig01a_style.py",
+    "line": 48,
+    "path": "/Users/zhenyizhang/.cellcompass/algorithm_benchmarks/datasets/gse305370_citeseq_stage2_10k/data.h5ad"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig06n_rna_protein_relay_heatmap.py",
+    "line": 23,
+    "path": "/private/tmp/cytobridge_mplconfig"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig06n_rna_protein_relay_heatmap.py",
+    "line": 24,
+    "path": "/private/tmp/cytobridge_xdg_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig06n_rna_protein_relay_heatmap.py",
+    "line": 25,
+    "path": "/private/tmp/numba_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig06n_rna_protein_relay_heatmap.py",
+    "line": 57,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig01f_protein_pushforward_velocity_stream.py",
+    "line": 25,
+    "path": "/private/tmp/cytobridge_mplconfig"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig01f_protein_pushforward_velocity_stream.py",
+    "line": 26,
+    "path": "/private/tmp/cytobridge_xdg_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig01f_protein_pushforward_velocity_stream.py",
+    "line": 27,
+    "path": "/private/tmp/numba_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig01f_protein_pushforward_velocity_stream.py",
+    "line": 50,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig01f_protein_pushforward_velocity_stream.py",
+    "line": 53,
+    "path": "/Users/zhenyizhang/.cellcompass/training_algorithms/cite_paired_coord_fm/algorithm.py"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig03_protein_phenotype_river.py",
+    "line": 22,
+    "path": "/private/tmp/cytobridge_mplconfig"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig03_protein_phenotype_river.py",
+    "line": 23,
+    "path": "/private/tmp/cytobridge_xdg_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig03_protein_phenotype_river.py",
+    "line": 24,
+    "path": "/private/tmp/numba_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig03_protein_phenotype_river.py",
+    "line": 39,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig03_protein_phenotype_river.py",
+    "line": 40,
+    "path": "/Users/zhenyizhang/.cellcompass/algorithm_benchmarks/datasets/gse305370_citeseq_stage2_10k/data.h5ad"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig06l_responsive_seed_rna_umap.py",
+    "line": 10,
+    "path": "/private/tmp/cytobridge_mplconfig"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig06l_responsive_seed_rna_umap.py",
+    "line": 11,
+    "path": "/private/tmp/cytobridge_xdg_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig06l_responsive_seed_rna_umap.py",
+    "line": 12,
+    "path": "/private/tmp/numba_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig06l_responsive_seed_rna_umap.py",
+    "line": 37,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig06_rna_protein_regulatory_map.py",
+    "line": 31,
+    "path": "/private/tmp/cytobridge_mplconfig"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig06_rna_protein_regulatory_map.py",
+    "line": 32,
+    "path": "/private/tmp/cytobridge_xdg_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig06_rna_protein_regulatory_map.py",
+    "line": 33,
+    "path": "/private/tmp/numba_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig06_rna_protein_regulatory_map.py",
+    "line": 71,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig06_rna_protein_regulatory_map.py",
+    "line": 74,
+    "path": "/Users/zhenyizhang/.cellcompass/training_algorithms/cite_paired_coord_fm/algorithm.py"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig06_rna_protein_regulatory_map.py",
+    "line": 75,
+    "path": "/Users/zhenyizhang/.cellcompass/algorithm_benchmarks/datasets/gse305370_citeseq_stage2_10k/data.h5ad"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig02_rna_priming_to_protein_fate_map.py",
+    "line": 16,
+    "path": "/private/tmp/cytobridge_mplconfig"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig02_rna_priming_to_protein_fate_map.py",
+    "line": 17,
+    "path": "/private/tmp/cytobridge_xdg_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig02_rna_priming_to_protein_fate_map.py",
+    "line": 18,
+    "path": "/private/tmp/numba_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig02_rna_priming_to_protein_fate_map.py",
+    "line": 53,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig02_rna_priming_to_protein_fate_map.py",
+    "line": 54,
+    "path": "/Users/zhenyizhang/.cellcompass/algorithm_benchmarks/datasets/gse305370_citeseq_stage2_10k/data.h5ad"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig01_distribution_and_landscape.py",
+    "line": 17,
+    "path": "/private/tmp/cytobridge_mplconfig"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig01_distribution_and_landscape.py",
+    "line": 18,
+    "path": "/private/tmp/cytobridge_xdg_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig01_distribution_and_landscape.py",
+    "line": 19,
+    "path": "/private/tmp/numba_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig01_distribution_and_landscape.py",
+    "line": 53,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig01_distribution_and_landscape.py",
+    "line": 55,
+    "path": "/Users/zhenyizhang/.cellcompass/algorithm_benchmarks/datasets/gse305370_citeseq_stage2_10k/data.h5ad"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig06q_relay_program_ridgeline.py",
+    "line": 15,
+    "path": "/private/tmp/cytobridge_mplconfig"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig06q_relay_program_ridgeline.py",
+    "line": 16,
+    "path": "/private/tmp/cytobridge_xdg_cache"
+  },
+  {
+    "script": "source/multi-omics/scripts/downstream/cite_pcfm_biology_landscape/fig06q_relay_program_ridgeline.py",
+    "line": 17,
+    "path": "/private/tmp/numba_cache"
+  },
+  {
+    "script": "source/emt/scripts/downstream/analyze_emt_mechanisms.py",
+    "line": 29,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/emt"
+  },
+  {
+    "script": "source/emt/scripts/downstream/analyze_emt_condition_dynamics.py",
+    "line": 31,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/emt"
+  },
+  {
+    "script": "source/emt/scripts/preprocessing/prepare_cook_vanderhyden_emt.py",
+    "line": 32,
+    "path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/emt"
+  }
+]

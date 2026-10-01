@@ -1,0 +1,2 @@
+method,readout,fhat_path,cohort,n,accuracy,negative_cross_entropy,terminal_readout_comparable,provided_fhat_path,eval_cache
+Dynamical-OT,provided_fate_probability,/tmp/weinreb_supp_metric_run/scores/Dynamical-OT.F_hat.normalized.by_cell_index.csv,unique_test.all_fates,859,0.5261932479627474,-9.844373106580884,False,/tmp/weinreb_supp_metric_run/Dynamical-OT.F_hat.by_cell_index.csv,/tmp/weinreb_supp_metric_run/mini_eval_preprocessed.pkl

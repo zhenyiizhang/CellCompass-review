@@ -1,0 +1,46 @@
+time,program_type,program,mean_score,features
+0.0,rna,erythroid RNA,1.4099886826180559,GATA1;KLF1;HBB;HBA1;HBA2;ALAS2
+0.0,rna,megakaryocyte RNA,1.7614512022529976,ITGA2B;GP1BA;NFE2;VWF
+0.0,rna,neutrophil RNA,2.0235851658811317,MPO;ELANE;CSF3R;CEBPE
+0.0,rna,mono-mast RNA,2.3978426987276693,SPI1;IRF8;LYZ;CTSS;FCER1A
+0.0,rna,stem RNA,1.4201909032005384,KIT;CD34;PROM1;MEIS1
+0.0,protein,stem / priming,3.2972195880158575,prot_CD49f;prot_CD45RA;prot_CD123;prot_CD62L
+0.0,protein,erythro-megakaryoid,3.352882615475432,prot_CD71;prot_CD41;prot_CD42b;prot_CD105
+0.0,protein,myeloid / inflammatory,1.5177734330601682,prot_CD11b;prot_CD16;prot_CD115;prot_HLA-DR
+0.0,protein,lymphoid / off-axis,0.3431615647344461,prot_CD20;prot_CD3;prot_CD8;prot_CD56
+1.0,rna,erythroid RNA,1.421478078797352,GATA1;KLF1;HBB;HBA1;HBA2;ALAS2
+1.0,rna,megakaryocyte RNA,1.7819831763354366,ITGA2B;GP1BA;NFE2;VWF
+1.0,rna,neutrophil RNA,2.070869356302536,MPO;ELANE;CSF3R;CEBPE
+1.0,rna,mono-mast RNA,2.4166213517484016,SPI1;IRF8;LYZ;CTSS;FCER1A
+1.0,rna,stem RNA,1.4110840034163008,KIT;CD34;PROM1;MEIS1
+1.0,protein,stem / priming,3.4564667964891607,prot_CD49f;prot_CD45RA;prot_CD123;prot_CD62L
+1.0,protein,erythro-megakaryoid,3.1887277387030943,prot_CD71;prot_CD41;prot_CD42b;prot_CD105
+1.0,protein,myeloid / inflammatory,1.6493090898584892,prot_CD11b;prot_CD16;prot_CD115;prot_HLA-DR
+1.0,protein,lymphoid / off-axis,0.3821494543056232,prot_CD20;prot_CD3;prot_CD8;prot_CD56
+2.0,rna,erythroid RNA,1.4421630157364644,GATA1;KLF1;HBB;HBA1;HBA2;ALAS2
+2.0,rna,megakaryocyte RNA,1.7737907313603765,ITGA2B;GP1BA;NFE2;VWF
+2.0,rna,neutrophil RNA,2.0812453626458893,MPO;ELANE;CSF3R;CEBPE
+2.0,rna,mono-mast RNA,2.4071531938023383,SPI1;IRF8;LYZ;CTSS;FCER1A
+2.0,rna,stem RNA,1.3927207029960875,KIT;CD34;PROM1;MEIS1
+2.0,protein,stem / priming,3.2608974136828572,prot_CD49f;prot_CD45RA;prot_CD123;prot_CD62L
+2.0,protein,erythro-megakaryoid,3.105550615215151,prot_CD71;prot_CD41;prot_CD42b;prot_CD105
+2.0,protein,myeloid / inflammatory,1.597997484958226,prot_CD11b;prot_CD16;prot_CD115;prot_HLA-DR
+2.0,protein,lymphoid / off-axis,0.34302615175641415,prot_CD20;prot_CD3;prot_CD8;prot_CD56
+3.0,rna,erythroid RNA,1.5029481123591755,GATA1;KLF1;HBB;HBA1;HBA2;ALAS2
+3.0,rna,megakaryocyte RNA,1.7933979222849497,ITGA2B;GP1BA;NFE2;VWF
+3.0,rna,neutrophil RNA,2.120494038145651,MPO;ELANE;CSF3R;CEBPE
+3.0,rna,mono-mast RNA,2.4470301805861325,SPI1;IRF8;LYZ;CTSS;FCER1A
+3.0,rna,stem RNA,1.350242740954043,KIT;CD34;PROM1;MEIS1
+3.0,protein,stem / priming,3.1531550438946248,prot_CD49f;prot_CD45RA;prot_CD123;prot_CD62L
+3.0,protein,erythro-megakaryoid,3.089707432236787,prot_CD71;prot_CD41;prot_CD42b;prot_CD105
+3.0,protein,myeloid / inflammatory,1.4951949907967628,prot_CD11b;prot_CD16;prot_CD115;prot_HLA-DR
+3.0,protein,lymphoid / off-axis,0.3798026028225039,prot_CD20;prot_CD3;prot_CD8;prot_CD56
+4.0,rna,erythroid RNA,1.4755742108156291,GATA1;KLF1;HBB;HBA1;HBA2;ALAS2
+4.0,rna,megakaryocyte RNA,1.8139777030457793,ITGA2B;GP1BA;NFE2;VWF
+4.0,rna,neutrophil RNA,2.082773212627272,MPO;ELANE;CSF3R;CEBPE
+4.0,rna,mono-mast RNA,2.4415355094887667,SPI1;IRF8;LYZ;CTSS;FCER1A
+4.0,rna,stem RNA,1.35071156120343,KIT;CD34;PROM1;MEIS1
+4.0,protein,stem / priming,3.2832302913292373,prot_CD49f;prot_CD45RA;prot_CD123;prot_CD62L
+4.0,protein,erythro-megakaryoid,3.0462704032998005,prot_CD71;prot_CD41;prot_CD42b;prot_CD105
+4.0,protein,myeloid / inflammatory,1.5533342475622312,prot_CD11b;prot_CD16;prot_CD115;prot_HLA-DR
+4.0,protein,lymphoid / off-axis,0.38252510544518825,prot_CD20;prot_CD3;prot_CD8;prot_CD56

@@ -1,0 +1,7 @@
+panel,result,biology_conclusion,insight_type
+A,PulseBridge route is 3.46x longer than endpoint shortcut and carries timed gene-program stations.,5-AZA-CdR response is a staged cell-state transition rather than a static endpoint difference.,reliability plus dynamic biology
+B,"Generated day slices match observed days; max centroid/radius 0.090, max state TVD 0.055.",The generated trajectory is constrained by measured treatment-time states.,model reliability
+C,Observed and generated early states collapse while late states expand across days.,"The drug response is carried by a population state handoff, not uniform gene changes in all cells.",state-level biology
+D,PulseBridge PCIE 0.680 versus WFR-FM 0.988.,The learned direction is validated against heldout metabolic RNA pulse direction.,directional reliability
+E,DKK1 new RNA +0.801; GAS5 new RNA +0.335; EREG old RNA -0.430; PCNA old RNA -0.467.,"Measured RNA layers support reactivation, immune-like remodeling, and total/old-layer repression readouts.",source-paper-aligned measured RNA evidence
+F,DKK1/GAS5 peak 1.6d; SAT1 peak 2.0d; MT peak 2.3d; LGALS1 peak 2.5d.,"PulseBridge places source-aligned, metabolic, mitochondrial, and adaptive programs at distinct positions on the generated route.",PulseBridge route timing and new biological insight

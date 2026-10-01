@@ -1,0 +1,5 @@
+panel,pulsebridge_point,evidence,biology
+A,PulseBridge exposes a route that endpoint analysis collapses.,Generated route is 3.46x longer than endpoint shortcut.,"Drug response is a staged transition with timed stations, not one terminal DE contrast."
+B,The route is validated by state matching and heldout metabolic RNA direction.,max centroid/radius 0.090; PCIE 0.680 vs 0.988.,The inferred direction is experimentally anchored rather than arbitrary latent drift.
+C,PulseBridge turns biology into route timing.,DKK1/GAS5 1.6d; SAT1 2.0d; LGALS1 2.5d.,Source-aligned reactivation/immune response and adaptive/metabolic branches are temporally separated.
+D,The main figure should be read as a PulseBridge advantage figure.,Only route-specific validation and route-derived biology are kept in the main panel.,"Ordinary RNA-layer readouts become supporting evidence, not the headline."

@@ -1,0 +1,2 @@
+method,readout,fhat_path,cohort,n,accuracy,negative_cross_entropy,terminal_readout_comparable,provided_fhat_path,eval_cache
+VGFM,provided_fate_probability,/tmp/weinreb_supp_metric_run/scores/VGFM.F_hat.normalized.by_cell_index.csv,unique_test.all_fates,859,0.30267753201396974,-15.838299019101246,False,/tmp/weinreb_supp_metric_run/VGFM.F_hat.by_cell_index.csv,/tmp/weinreb_supp_metric_run/mini_eval_preprocessed.pkl

@@ -1,0 +1,18 @@
+# Reference versions in the Python 3.10 environment used for the runtime smoke check.
+# This is not an assertion that all original training runs used this environment.
+# Use with: pip install -c requirements-runtime-constraints.txt -r requirements-agent.txt
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.15.3
+scikit-learn==1.7.2
+torch==2.11.0
+torchdiffeq==0.2.5
+torchsde==0.2.6
+POT==0.9.6.post1
+scanpy==1.11.5
+anndata==0.11.4
+matplotlib==3.10.8
+langgraph==1.1.4
+langchain==1.2.14
+openai==2.30.0
+pydantic==2.12.5

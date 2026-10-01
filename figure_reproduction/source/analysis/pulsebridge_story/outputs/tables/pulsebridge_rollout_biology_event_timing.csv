@@ -1,0 +1,9 @@
+module,label,class,expected,peak_time,peak_signed_delta,first_half_peak_time,end_signed_delta,retained_fraction_at_day3
+antigen_presentation_surface,B2M/HLA antigen presentation,immune,up,2.4,0.29167164580300453,0.6,0.1910604327765607,0.6550531583231207
+ifitm3_antiviral_membrane,IFITM3 antiviral membrane,immune,up,1.8,0.49549630608359974,1.2,0.20279023346006886,0.40926689254844667
+lgals1_adhesion_escape,LGALS1 adhesion/escape candidate,adaptive,up,2.5,0.41920193045437326,0.5,0.3375110781138142,0.8051276809436104
+mitochondrial_remodeling,mitochondrial remodeling,metabolic,up,2.3,0.7209042688916125,1.3,0.5493216557696461,0.7619897391011791
+oncogene_proliferation_repression,EREG/PCNA repression,desired,down,3.0,0.3518489810923736,1.7,0.3518489810923736,1.0
+proteostasis_iron_reduction,HSP/FTL proteostasis/iron reduction,remodeling,down,2.0,0.6299083501180016,1.6,0.6136704021761816,0.974221729337644
+sat1_polyamine_catabolism,SAT1 polyamine catabolism,metabolic,up,2.0,1.2834930772947768,1.4,0.9497132138493164,0.739944165379552
+tumor_suppressor_reactivation,DKK1/GAS5 reactivation,desired,up,1.6,0.5759352876551451,0.6,0.2449515935344002,0.42531096597968965

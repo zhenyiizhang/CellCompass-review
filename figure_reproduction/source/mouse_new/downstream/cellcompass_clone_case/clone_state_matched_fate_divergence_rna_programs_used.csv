@@ -1,0 +1,6 @@
+program,genes_used
+Stem,"Meis1,Mecom,Procr,Mpl,Kit"
+Neutrophil,"Cebpe,Lyz2,S100a8,S100a9"
+Monocyte,"Irf8,Csf1r,Lyz2,Ly6c2"
+Baso/Mast,"Gata2,Ms4a2,Cpa3,Prss34,Mcpt8"
+Meg/Ery,"Pf4,Ppbp,Itga2b,Car1,Car2"

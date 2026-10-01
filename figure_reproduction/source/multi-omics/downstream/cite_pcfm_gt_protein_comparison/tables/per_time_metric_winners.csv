@@ -1,0 +1,17 @@
+metric,time,best_method,best_value
+protein_energy_distance,1.0,balanced OT-CFM,0.018120288848876953
+protein_energy_distance,2.0,CRUFM,0.02131938934326172
+protein_energy_distance,3.0,CITE-PCFM,0.03923749923706055
+protein_energy_distance,4.0,CITE-PCFM,0.030485153198242188
+protein_mmd_rbf,1.0,balanced OT-CFM,0.001252293586730957
+protein_mmd_rbf,2.0,CRUFM,0.0015943050384521484
+protein_mmd_rbf,3.0,CITE-PCFM,0.0019936561584472656
+protein_mmd_rbf,4.0,CITE-PCFM,0.001662135124206543
+centroid_l2,1.0,balanced OT-CFM,0.08157673478126526
+centroid_l2,2.0,CRUFM,0.2177962064743042
+centroid_l2,3.0,CITE-PCFM,0.35214751958847046
+centroid_l2,4.0,CRUFM,0.37514084577560425
+mean_abs_masp_affinity_residual_on_rna_umap,1.0,CITE-PCFM,0.0264282263815403
+mean_abs_masp_affinity_residual_on_rna_umap,2.0,CITE-PCFM,0.027721351012587547
+mean_abs_masp_affinity_residual_on_rna_umap,3.0,CITE-PCFM,0.028637154027819633
+mean_abs_masp_affinity_residual_on_rna_umap,4.0,CITE-PCFM,0.024104436859488487

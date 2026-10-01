@@ -1,0 +1,91 @@
+model:
+  components:
+  - velocity
+  - growth
+  - score
+  velocity_net:
+    hidden_dim: 256
+    n_layers: 5
+    residual: false
+  growth_net:
+    hidden_dim: 256
+    n_layers: 5
+    residual: false
+  score_net:
+    hidden_dim: 256
+    n_layers: 4
+    residual: false
+  brgu:
+    hidden_dim: 256
+    n_layers: 4
+    activation: silu
+    residual_scale: 0.35
+    regulatory_scale: 0.1
+    max_abs_growth: 4.0
+    max_full_regulatory_dim: 64
+ckpt_dir: results
+training:
+  defaults:
+    lr: 0.0001
+    lambda_ot: 1.0
+    lambda_mass: 0.1
+    lambda_energy: 0.01
+    sigma: 0.05
+    batch_size: 400
+  plan:
+  - name: Train_BRGU_SFM
+    mode: flow_matching
+    lr: 0.0015
+    epochs: 3000
+    sigma: 0.01
+    train_strategy: v+g+s
+    batch_size: 512
+    scheduler_type: cosine
+    save_strategy: best
+    lambda_penalty: 0.001
+    lambda_branch: 0.3
+    lambda_sparse: 0.0002
+    lambda_resid: 0.001
+    lambda_jac: 0.0002
+    brgu:
+      lambda_branch: 0.3
+      lambda_sparse: 0.0002
+      lambda_resid: 0.001
+      lambda_jac: 0.0002
+      lambda_smoothA: 0.0001
+      branch_node_weight: 0.5
+      branch_entropy_floor: 0.2
+      jacobian_samples: 24
+      branch_node_samples_per_time: 32
+      smoothA_samples: 24
+    flow_matching:
+      backend: brgu_sfm
+      lambda_penalty: 0.001
+      coupling:
+        use_mini_batch: true
+        chunk_size: 20000
+        alpha_regm: 1.0
+        reg_strategy: max_over_time
+        auto_reg_device: cpu
+        gene_scale: 28.0
+        reg: 0.015
+      path:
+        sigma: 0.01
+      mass:
+        kind: uot
+evaluation:
+  trajectory_step: 0.1
+  integration_dt: 0.1
+  sigma: 0
+  score_weight: 0
+  stochastic_seed: 1729
+  max_trajectory_uncompressed_mb: 2048
+  dynbench_dt: 0.2
+dynbench:
+  output_root: /lustre/home/2501111653/CytoBridge-agent/cytobridge_output/dynbench_total_algorithm_remaininghard5_codex55_clean1
+  task_packages_root: /lustre/home/2501111653/CytoBridge-agent/cytobridge_output/dynbench_total_algorithm_remaininghard5_codex55_clean1/task_packages
+  scorer_path: /lustre/home/2501111653/CytoBridge-agent/cytobridge_output/dynbench_total_algorithm_remaininghard5_codex55_clean1/scripts/evaluation/score_dynbench_visible.py
+  max_perturbation_cells: 1000
+  perturbation_replicates: 3
+  fate_probability_power: 0.15
+  fate_branch_mix: 0.5

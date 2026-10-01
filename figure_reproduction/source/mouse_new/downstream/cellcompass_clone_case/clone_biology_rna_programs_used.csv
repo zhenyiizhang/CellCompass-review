@@ -1,0 +1,6 @@
+program,genes_used,target
+Stem/progenitor,"Meis1,Mecom,Procr,Mpl,Kit",Undifferentiated
+Neutrophil,"Cebpe,Lyz2,S100a8",Neutrophil
+Monocyte,"Irf8,Csf1r,Lyz2",Monocyte
+Baso/Mast,"Gata2,Ms4a2,Cpa3",Baso+Mast
+Meg/Ery,"Pf4,Ppbp,Itga2b,Car1,Car2",Meg+Erythroid

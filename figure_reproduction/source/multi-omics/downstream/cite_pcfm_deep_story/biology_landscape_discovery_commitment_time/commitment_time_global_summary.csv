@@ -1,0 +1,2 @@
+group,commitment_time_50pct_terminal_prob_gain,commitment_time_90pct_terminal_prob_gain,fastest_gain_interval_start,fastest_gain_interval_end,fastest_gain_slope,initial_terminal_basin_probability,final_terminal_basin_probability,initial_entropy,final_entropy
+all_particles,3.1,3.9,3.6,3.7,0.5866325924772958,0.18010291705271791,0.8256175661055983,0.30582480347951035,0.2603225054772161

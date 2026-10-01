@@ -1,0 +1,20 @@
+algorithm_id: cite_paired_coord_fm
+api_version: 1
+entrypoint: algorithm.py
+entry_function: build_training_algorithm
+description: 'CITE Paired-Coordinate Flow Matching: balanced temporal CITE-seq dynamics
+  using paired RNA/protein coordinate coupling and rollout protein readout.'
+requirements: Requires temporal paired CITE-seq AnnData with obs['time_point_processed'],
+  obsm['X_latent'], and paired protein coordinates/masks in obsm/layers/uns. Balanced-only;
+  TMV diagnostic; designed for rollout-derived protein fidelity with anti-shortcut
+  controls.
+base_config: ./config.yaml
+base_config_seed: vgfm
+minibatch_required: false
+minibatch_policy: scale_dependent
+scalability_required: true
+default_chunk_size: 1000
+tags:
+- flow-matching
+- custom
+author: agent

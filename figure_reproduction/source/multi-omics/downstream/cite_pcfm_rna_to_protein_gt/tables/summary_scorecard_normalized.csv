@@ -1,0 +1,4 @@
+method,protein_energy,phenotype_fraction_error,centroid_displacement,covariance_error,nearest_distance,variance_error
+CITE-PCFM,0.0,1.0,0.0,0.0,0.03138482594220672,0.0
+CRUFM,0.025030125067312767,0.25212464589235123,0.3097522020711486,0.48358076844916825,0.0,0.16346507456289464
+balanced OT-CFM,1.0,0.0,1.0,1.0,1.0,1.0

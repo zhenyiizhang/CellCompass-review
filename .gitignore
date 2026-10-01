@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv*/
+*.egg-info/
+.pytest_cache/
+.cellcompass/
+.env
+.env.*
+node_modules/
+web/dist/
+output/
+figure_reproduction/output/
+*.log
+build/
+dist/

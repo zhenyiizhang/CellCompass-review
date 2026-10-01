@@ -1,0 +1,38 @@
+[
+  {
+    "dataset": "lineage",
+    "source": "/Users/zhenyizhang/.cellcompass/algorithm_benchmarks/datasets/weinreb_rawrebuild_full_k10mindiff1/data.h5ad",
+    "source_sha256": "817e94c400d9a725f484b3549ab252aaf30f51fd5cc912063e31f2e69c1d4774",
+    "obsm": [
+      "X_latent"
+    ],
+    "cells": 49302
+  },
+  {
+    "dataset": "pulse",
+    "source": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/analysis/pulsebridge_story/outputs/downstream/dynamo_stream/pulsebridge_full_umap_velocity_for_dynamo.h5ad",
+    "source_sha256": "08552b0c44d4195e0e069f941f0fafb441ce267e2205fac764bd223a3eab55df",
+    "obsm": [
+      "X_umap",
+      "velocity_umap",
+      "X_latent",
+      "velocity_latent"
+    ],
+    "cells": 20000
+  },
+  {
+    "dataset": "worm",
+    "source": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/lcfbm_packer_ea6cebc5_data_model_bundle/data/converted_input.h5ad",
+    "source_sha256": "36879c2cc8a39668b25bb52fdd381710469f3c1ad3f75b71244314759ffa4ce6",
+    "obsm": [
+      "X_latent",
+      "X_pca"
+    ],
+    "cells": 1800
+  },
+  {
+    "dataset": "worm_trajectory",
+    "source": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/lcfbm_packer_ea6cebc5_data_model_bundle/trained_model/final_run/artifacts/evaluation_trajectory.npz",
+    "source_sha256": "8c300131faf112872c5e0a60d1a36d7cafbf2abf23e88404f14933bb95b0d1f5"
+  }
+]

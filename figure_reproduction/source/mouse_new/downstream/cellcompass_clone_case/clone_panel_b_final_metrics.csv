@@ -1,0 +1,4 @@
+run_key,run_label,CFCorr,CFCorr_brier,w1_mean,tmv_mean,source
+clone_cuvgf_bmf_final,Clone-CUVGF-BMF final locked release,0.4271099373187193,0.3541874948862689,6.428019896677698,0.0339998088990036,/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/mouse_new/downstream/clone_fate_spring_final/final_metric_summary.csv
+vgfm_no_clone_anchor,VGFM no-clone anchor,0.0355056081500779,0.8241570024561293,6.720906272269812,0.0137400136914676,/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/mouse_new/downstream/clone_fate_spring_final/final_metric_summary.csv
+dynamical_ot_claim_sota,Dynamical OT strongest CFCorr baseline,0.2772904174423206,0.5999432253230501,6.649036951461563,3.815006468305304,/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/mouse_new/downstream/clone_fate_spring_final/final_metric_summary.csv

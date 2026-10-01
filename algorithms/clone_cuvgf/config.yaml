@@ -1,0 +1,83 @@
+model:
+  components:
+  - velocity
+  - growth
+  velocity_net:
+    hidden_dim: 256
+    n_layers: 5
+    residual: false
+  growth_net:
+    hidden_dim: 256
+    n_layers: 5
+    residual: false
+  branch_velocity_net:
+    hidden_dim: 256
+    n_layers: 5
+    residual: false
+  branch_growth_net:
+    hidden_dim: 256
+    n_layers: 5
+    residual: false
+  gate_net:
+    hidden_dim: 256
+    n_layers: 3
+    residual: false
+training:
+  defaults:
+    lr: 0.0001
+    lambda_ot: 1.0
+    lambda_mass: 0.1
+    lambda_energy: 0.01
+    sigma: 0.0
+    batch_size: 400
+  plan:
+  - name: Train_FM
+    mode: flow_matching
+    lr: 0.005
+    epochs: 3000
+    sigma: 0.0
+    train_strategy: v+g
+    batch_size: 400
+    scheduler_type: cosine
+    save_strategy: best
+    flow_matching:
+      backend: vgfm
+      lambda_penalty: 0
+      coupling:
+        use_mini_batch: true
+        chunk_size: 1000
+        alpha_regm: 1.0
+        reg_strategy: max_over_time
+        regularization_block_policy: first_block_per_time
+        clone_lambda: 1
+        lambda_fate: 0
+        dirichlet_alpha: 5.0
+        terminal_onehot_eta: 0.05
+        label_key: Cell type annotation
+        reliability_pseudocount: 2.0
+        reliability_min: 0.1
+        same_clone_discount: 0.75
+        mismatch_penalty: 0.25
+        reg: 1
+        reg_m: 50
+      path:
+        sigma: 0.0
+      mass:
+        kind: uot
+      branch:
+        max_edges_per_row: 160
+        branch_ipf_iter: 28
+        branch_eps: 1.0e-09
+        lambda_gate: 1
+        source_prior_power: 2
+        mid_prior_power: 0.25
+        terminal_prior_power: 1.25
+evaluation:
+  max_trajectory_uncompressed_mb: 2000
+  trajectory_step: 1.0
+  trajectory_integration_dt: 0.0125
+  branch_metric_coreset_particles: 5950
+  custom_metrics:
+    primary: CFCorr
+    direction: greater
+ckpt_dir: /Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/mouse_new/training_runs/20260607T110929412611Z__pilot__clone_cuvgf__campaign_20260-trial_20260607-weinreb_rawr/artifacts/checkpoints

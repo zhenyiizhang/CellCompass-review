@@ -1,0 +1,345 @@
+{
+  "w1_scores": [
+    7.8635686950866255,
+    7.790822237459584,
+    8.666686886792077,
+    9.486726830959164
+  ],
+  "tmv_scores": [
+    0.0006796716833505911,
+    0.0023630258604256937,
+    0.005582570364168871,
+    0.011162160496454132
+  ],
+  "custom_metrics": {
+    "protein_energy": 0.02557516098022461,
+    "rna_energy_guardrail": 0.047209978103637695,
+    "residual_energy": 0.033431053161621094,
+    "paired_cov_error": 0.5249530408319161,
+    "protein_energy_per_time_json": "[{\"paired_cov_error\": 0.44448021746892075, \"protein_energy\": 0.027367115020751953, \"residual_energy\": 0.021348953247070312, \"residual_energy_chart_source\": 0.0, \"rna_energy_guardrail\": 0.051815032958984375, \"time_index\": 1.0, \"time_point\": 1.0}, {\"paired_cov_error\": 0.5068966133980921, \"protein_energy\": 0.01349496841430664, \"residual_energy\": 0.014556884765625, \"residual_energy_chart_source\": 0.0, \"rna_energy_guardrail\": 0.03602027893066406, \"time_index\": 2.0, \"time_point\": 2.0}, {\"paired_cov_error\": 0.5679230289589534, \"protein_energy\": 0.03380584716796875, \"residual_energy\": 0.07390213012695312, \"residual_energy_chart_source\": 0.0, \"rna_energy_guardrail\": 0.05705451965332031, \"time_index\": 3.0, \"time_point\": 3.0}, {\"paired_cov_error\": 0.5805123035016979, \"protein_energy\": 0.027632713317871094, \"residual_energy\": 0.023916244506835938, \"residual_energy_chart_source\": 0.0, \"rna_energy_guardrail\": 0.04395008087158203, \"time_index\": 4.0, \"time_point\": 4.0}]",
+    "protein_energy_per_time_count": 4,
+    "claim_metric_semantics": "sealed decoded EvaluationTrajectory protein/residual/pairing diagnostics; residual_energy uses stored interval-local charts when available and fixed t0 ridge fallback otherwise; observed future blocks used only for scoring; no prediction repair",
+    "claim_metric_evaluator_source": "/Users/zhenyizhang/.cellcompass/training_algorithms/cite_residual_sb_fm/metrics/protein_energy_evaluator.py"
+  },
+  "runtime_sec": 126.81717920303345,
+  "config": {
+    "model": {
+      "components": [
+        "velocity",
+        "growth",
+        "score"
+      ],
+      "velocity_net": {
+        "hidden_dim": 256,
+        "n_layers": 5,
+        "residual": false
+      },
+      "growth_net": {
+        "hidden_dim": 256,
+        "n_layers": 5,
+        "residual": false
+      },
+      "score_net": {
+        "hidden_dim": 256,
+        "n_layers": 4
+      }
+    },
+    "ckpt_dir": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics/training_runs/20260525T220649168798Z__pilot__crufm__campaign_20260-stage2_c-baseline-crufm-gse305370_ci/artifacts/checkpoints",
+    "training": {
+      "defaults": {
+        "lr": 0.0001,
+        "lambda_ot": 1.0,
+        "lambda_mass": 0.1,
+        "lambda_energy": 0.01,
+        "sigma": 0.05,
+        "batch_size": 400
+      },
+      "plan": [
+        {
+          "name": "Train_FM",
+          "mode": "flow_matching",
+          "lr": 0.005,
+          "epochs": 3000,
+          "sigma": 0.05,
+          "train_strategy": "v+g+s",
+          "batch_size": 400,
+          "scheduler_type": "cosine",
+          "save_strategy": "best",
+          "flow_matching": {
+            "lambda_penalty": 1
+          }
+        }
+      ]
+    }
+  },
+  "stage": "pilot",
+  "training_mode": "builtin",
+  "algorithm_id": "crufm",
+  "base_config_name": "crufm",
+  "notes": "Reconstructed inside isolated training worker",
+  "requested_device": "cpu",
+  "resolved_device": "cpu",
+  "preflight_warnings": [
+    "t0->1: coupling plan shape (0, 0) does not match dense shape (2000, 2000); accepted because runtime sample_pairs returned a non-empty batch. This is expected for chunked/metadata-backed couplings that do not materialize the full plan.",
+    "t1->2: coupling plan shape (0, 0) does not match dense shape (2000, 2000); accepted because runtime sample_pairs returned a non-empty batch. This is expected for chunked/metadata-backed couplings that do not materialize the full plan.",
+    "t2->3: coupling plan shape (0, 0) does not match dense shape (2000, 2000); accepted because runtime sample_pairs returned a non-empty batch. This is expected for chunked/metadata-backed couplings that do not materialize the full plan.",
+    "t3->4: coupling plan shape (0, 0) does not match dense shape (2000, 2000); accepted because runtime sample_pairs returned a non-empty batch. This is expected for chunked/metadata-backed couplings that do not materialize the full plan."
+  ],
+  "training_summary": {
+    "stages": [
+      {
+        "name": "Train_FM",
+        "mode": "flow_matching",
+        "save_strategy": "best",
+        "saved_loss": 2.3129196166992188,
+        "best_loss": 2.3129196166992188,
+        "last_epoch_loss": 2.327986478805542,
+        "last_epoch_penalty": 0.0,
+        "epochs": 3000,
+        "completed_epochs": 3000,
+        "stopped_early_timeout": false,
+        "loss_hook_logs": []
+      }
+    ],
+    "last_stage": {
+      "name": "Train_FM",
+      "mode": "flow_matching",
+      "save_strategy": "best",
+      "saved_loss": 2.3129196166992188,
+      "best_loss": 2.3129196166992188,
+      "last_epoch_loss": 2.327986478805542,
+      "last_epoch_penalty": 0.0,
+      "epochs": 3000,
+      "completed_epochs": 3000,
+      "stopped_early_timeout": false,
+      "loss_hook_logs": []
+    },
+    "final_saved_loss": 2.3129196166992188,
+    "final_best_loss": 2.3129196166992188,
+    "final_last_epoch_loss": 2.327986478805542,
+    "time_budget": {
+      "enabled": true,
+      "budget_rule": "continuous_adjacent_gap_bottleneck_cells",
+      "cell_count": 10000,
+      "timepoint_count": 5,
+      "gap_count": 4,
+      "timepoint_cell_counts": [
+        2000,
+        2000,
+        2000,
+        2000,
+        2000
+      ],
+      "gap_effective_cell_counts": [
+        2000,
+        2000,
+        2000,
+        2000
+      ],
+      "gap_cell_units": [
+        0.4,
+        0.4,
+        0.4,
+        0.4
+      ],
+      "effective_cell_count": 8000,
+      "cell_block_size": 5000,
+      "seconds_per_cell_block": 90,
+      "base_seconds": 60,
+      "gap_overhead_seconds": 64,
+      "linear_cell_budget_sec": 144.0,
+      "gap_overhead_sec": 161.909,
+      "safety_multiplier": 1.33,
+      "raw_budget_sec": 486.658,
+      "rounding_seconds": 30,
+      "min_budget_sec": 120,
+      "budget_sec": 510,
+      "elapsed_sec": 115.493,
+      "timed_out": false,
+      "completed_epochs": 3000,
+      "last_stage_name": "Train_FM",
+      "last_stage_mode": "flow_matching",
+      "last_epoch": 3000,
+      "last_total_epochs": 3000,
+      "message": ""
+    },
+    "inference_time_budget": {
+      "enabled": true,
+      "budget_rule": "strict_adjacent_gap_bottleneck_cells",
+      "cell_count": 10000,
+      "timepoint_count": 5,
+      "gap_count": 4,
+      "timepoint_cell_counts": [
+        2000,
+        2000,
+        2000,
+        2000,
+        2000
+      ],
+      "gap_effective_cell_counts": [
+        2000,
+        2000,
+        2000,
+        2000
+      ],
+      "effective_cell_count": 8000,
+      "cell_block_size": 5000,
+      "seconds_per_cell_block": 25,
+      "base_seconds": 10,
+      "gap_overhead_seconds": 5,
+      "linear_cell_budget_sec": 40.0,
+      "gap_overhead_sec": 20.0,
+      "raw_budget_sec": 70.0,
+      "safety_multiplier": 1.15,
+      "scaled_budget_sec": 80.5,
+      "rounding_seconds": 5,
+      "min_budget_sec": 15,
+      "tiny_effective_cell_max": 5000,
+      "tiny_max_budget_sec": 30,
+      "max_budget_sec": 150,
+      "budget_sec": 85.0,
+      "elapsed_sec": 11.173,
+      "timed_out": false,
+      "message": ""
+    }
+  },
+  "final_train_loss": 2.3129196166992188,
+  "best_train_loss": 2.3129196166992188,
+  "last_epoch_train_loss": 2.327986478805542,
+  "training_time_budget": {
+    "enabled": true,
+    "budget_rule": "continuous_adjacent_gap_bottleneck_cells",
+    "cell_count": 10000,
+    "timepoint_count": 5,
+    "gap_count": 4,
+    "timepoint_cell_counts": [
+      2000,
+      2000,
+      2000,
+      2000,
+      2000
+    ],
+    "gap_effective_cell_counts": [
+      2000,
+      2000,
+      2000,
+      2000
+    ],
+    "gap_cell_units": [
+      0.4,
+      0.4,
+      0.4,
+      0.4
+    ],
+    "effective_cell_count": 8000,
+    "cell_block_size": 5000,
+    "seconds_per_cell_block": 90,
+    "base_seconds": 60,
+    "gap_overhead_seconds": 64,
+    "linear_cell_budget_sec": 144.0,
+    "gap_overhead_sec": 161.909,
+    "safety_multiplier": 1.33,
+    "raw_budget_sec": 486.658,
+    "rounding_seconds": 30,
+    "min_budget_sec": 120,
+    "budget_sec": 510,
+    "elapsed_sec": 115.493,
+    "timed_out": false,
+    "completed_epochs": 3000,
+    "last_stage_name": "Train_FM",
+    "last_stage_mode": "flow_matching",
+    "last_epoch": 3000,
+    "last_total_epochs": 3000,
+    "message": ""
+  },
+  "training_timed_out": false,
+  "training_timeout_message": "",
+  "last_completed_epoch": 3000,
+  "completed_epochs": 3000,
+  "inference_time_budget": {
+    "enabled": true,
+    "budget_rule": "strict_adjacent_gap_bottleneck_cells",
+    "cell_count": 10000,
+    "timepoint_count": 5,
+    "gap_count": 4,
+    "timepoint_cell_counts": [
+      2000,
+      2000,
+      2000,
+      2000,
+      2000
+    ],
+    "gap_effective_cell_counts": [
+      2000,
+      2000,
+      2000,
+      2000
+    ],
+    "effective_cell_count": 8000,
+    "cell_block_size": 5000,
+    "seconds_per_cell_block": 25,
+    "base_seconds": 10,
+    "gap_overhead_seconds": 5,
+    "linear_cell_budget_sec": 40.0,
+    "gap_overhead_sec": 20.0,
+    "raw_budget_sec": 70.0,
+    "safety_multiplier": 1.15,
+    "scaled_budget_sec": 80.5,
+    "rounding_seconds": 5,
+    "min_budget_sec": 15,
+    "tiny_effective_cell_max": 5000,
+    "tiny_max_budget_sec": 30,
+    "max_budget_sec": 150,
+    "budget_sec": 85.0,
+    "elapsed_sec": 11.173,
+    "timed_out": false,
+    "message": ""
+  },
+  "inference_timed_out": false,
+  "inference_timeout_message": "",
+  "last_training_stage_name": "Train_FM",
+  "last_training_stage_mode": "flow_matching",
+  "claim_metric_evaluator": {
+    "name": "protein_energy",
+    "direction": "lower",
+    "source": "/Users/zhenyizhang/.cellcompass/training_algorithms/cite_residual_sb_fm/metrics/protein_energy_evaluator.py",
+    "function_name": "evaluate_claim_metric",
+    "version": "",
+    "fingerprint_payload": {
+      "name": "protein_energy",
+      "direction": "lower",
+      "source": "/Users/zhenyizhang/.cellcompass/training_algorithms/cite_residual_sb_fm/metrics/protein_energy_evaluator.py",
+      "function_name": "evaluate_claim_metric",
+      "version": "",
+      "baseline_metric_adapter": {}
+    },
+    "fingerprint_json": "{\"baseline_metric_adapter\": {}, \"direction\": \"lower\", \"function_name\": \"evaluate_claim_metric\", \"name\": \"protein_energy\", \"source\": \"/Users/zhenyizhang/.cellcompass/training_algorithms/cite_residual_sb_fm/metrics/protein_energy_evaluator.py\", \"version\": \"\"}"
+  },
+  "training_isolation": {
+    "isolated": true,
+    "returncode": 0,
+    "elapsed_sec": 140.398,
+    "timeout_sec": 1140,
+    "timed_out": false,
+    "memory_limit_mb": 65536,
+    "stdout_tail": "███▉ | 2685/3000 [01:43<00:12, 26.03it/s]\nFlow matching:  90%|████████▉ | 2688/3000 [01:43<00:12, 25.93it/s]\nFlow matching:  90%|████████▉ | 2691/3000 [01:43<00:11, 25.76it/s]\nFlow matching:  90%|████████▉ | 2694/3000 [01:43<00:11, 25.58it/s]\nFlow matching:  90%|████████▉ | 2697/3000 [01:44<00:11, 25.55it/s]\nFlow matching:  90%|█████████ | 2700/3000 [01:44<00:11, 25.63it/s]\nFlow matching:  90%|█████████ | 2703/3000 [01:44<00:11, 25.48it/s]\nFlow matching:  90%|█████████ | 2706/3000 [01:44<00:11, 25.50it/s]\nFlow matching:  90%|█████████ | 2709/3000 [01:44<00:11, 25.50it/s]\nFlow matching:  90%|█████████ | 2712/3000 [01:44<00:11, 25.45it/s]\nFlow matching:  90%|█████████ | 2715/3000 [01:44<00:11, 25.50it/s]\nFlow matching:  91%|█████████ | 2718/3000 [01:44<00:11, 25.42it/s]\nFlow matching:  91%|█████████ | 2721/3000 [01:44<00:10, 25.51it/s]\nFlow matching:  91%|█████████ | 2724/3000 [01:45<00:10, 25.63it/s]\nFlow matching:  91%|█████████ | 2727/3000 [01:45<00:10, 25.80it/s]\nFlow matching:  91%|█████████ | 2730/3000 [01:45<00:10, 25.77it/s]\nFlow matching:  91%|█████████ | 2733/3000 [01:45<00:10, 25.64it/s]\nFlow matching:  91%|█████████ | 2736/3000 [01:45<00:10, 25.79it/s]\nFlow matching:  91%|█████████▏| 2739/3000 [01:45<00:10, 25.64it/s]\nFlow matching:  91%|█████████▏| 2742/3000 [01:45<00:10, 25.42it/s]\nFlow matching:  92%|█████████▏| 2745/3000 [01:45<00:10, 25.32it/s]\nFlow matching:  92%|█████████▏| 2748/3000 [01:46<00:09, 25.50it/s]\nFlow matching:  92%|█████████▏| 2751/3000 [01:46<00:09, 25.65it/s]\nFlow matching:  92%|█████████▏| 2754/3000 [01:46<00:09, 25.54it/s]\nFlow matching:  92%|█████████▏| 2757/3000 [01:46<00:09, 25.65it/s]\nFlow matching:  92%|█████████▏| 2760/3000 [01:46<00:09, 26.10it/s]\nFlow matching:  92%|█████████▏| 2763/3000 [01:46<00:08, 27.09it/s]\nFlow matching:  92%|█████████▏| 2766/3000 [01:46<00:08, 27.89it/s]\nFlow matching:  92%|█████████▏| 2769/3000 [01:46<00:08, 27.68it/s]\nFlow matching:  92%|█████████▏| 2772/3000 [01:46<00:08, 27.86it/s]\nFlow matching:  92%|█████████▎| 2775/3000 [01:47<00:07, 28.18it/s]\nFlow matching:  93%|█████████▎| 2778/3000 [01:47<00:08, 27.45it/s]\nFlow matching:  93%|█████████▎| 2781/3000 [01:47<00:07, 27.56it/s]\nFlow matching:  93%|█████████▎| 2784/3000 [01:47<00:07, 27.71it/s]\nFlow matching:  93%|█████████▎| 2787/3000 [01:47<00:07, 27.52it/s]\nFlow matching:  93%|█████████▎| 2790/3000 [01:47<00:07, 28.03it/s]\nFlow matching:  93%|█████████▎| 2793/3000 [01:47<00:07, 27.92it/s]\nFlow matching:  93%|█████████▎| 2796/3000 [01:47<00:07, 28.06it/s]\nFlow matching:  93%|█████████▎| 2799/3000 [01:47<00:07, 27.47it/s]\nFlow matching:  93%|█████████▎| 2802/3000 [01:47<00:07, 27.87it/s]\nFlow matching:  94%|█████████▎| 2805/3000 [01:48<00:06, 27.94it/s]\nFlow matching:  94%|█████████▎| 2808/3000 [01:48<00:06, 27.92it/s]\nFlow matching:  94%|█████████▎| 2811/3000 [01:48<00:06, 27.19it/s]\nFlow matching:  94%|█████████▍| 2814/3000 [01:48<00:06, 27.64it/s]\nFlow matching:  94%|█████████▍| 2817/3000 [01:48<00:06, 27.86it/s]\nFlow matching:  94%|█████████▍| 2820/3000 [01:48<00:06, 28.25it/s]\nFlow matching:  94%|█████████▍| 2823/3000 [01:48<00:06, 28.32it/s]\nFlow matching:  94%|█████████▍| 2826/3000 [01:48<00:06, 28.22it/s]\nFlow matching:  94%|█████████▍| 2829/3000 [01:48<00:06, 27.83it/s]\nFlow matching:  94%|█████████▍| 2832/3000 [01:49<00:05, 28.32it/s]\nFlow matching:  94%|█████████▍| 2835/3000 [01:49<00:05, 28.20it/s]\nFlow matching:  95%|█████████▍| 2838/3000 [01:49<00:05, 28.34it/s]\nFlow matching:  95%|█████████▍| 2841/3000 [01:49<00:05, 28.27it/s]\nFlow matching:  95%|█████████▍| 2844/3000 [01:49<00:05, 27.75it/s]\nFlow matching:  95%|█████████▍| 2847/3000 [01:49<00:05, 27.57it/s]\nFlow matching:  95%|█████████▌| 2850/3000 [01:49<00:05, 27.82it/s]\nFlow matching:  95%|█████████▌| 2853/3000 [01:49<00:05, 27.34it/s]\nFlow matching:  95%|█████████▌| 2856/3000 [01:49<00:05, 26.68it/s]\nFlow matching:  95%|█████████▌| 2859/3000 [01:50<00:05, 26.19it/s]\nFlow matching:  95%|█████████▌| 2862/3000 [01:50<00:05, 26.70it/s]\nFlow matching:  96%|█████████▌| 2865/3000 [01:50<00:05, 26.63it/s]\nFlow matching:  96%|█████████▌| 2868/3000 [01:50<00:04, 26.96it/s]\nFlow matching:  96%|█████████▌| 2871/3000 [01:50<00:04, 27.10it/s]\nFlow matching:  96%|█████████▌| 2874/3000 [01:50<00:04, 27.06it/s]\nFlow matching:  96%|█████████▌| 2877/3000 [01:50<00:04, 27.05it/s]\nFlow matching:  96%|█████████▌| 2880/3000 [01:50<00:04, 27.26it/s]\nFlow matching:  96%|█████████▌| 2883/3000 [01:50<00:04, 27.34it/s]\nFlow matching:  96%|█████████▌| 2886/3000 [01:51<00:04, 27.74it/s]\nFlow matching:  96%|█████████▋| 2889/3000 [01:51<00:04, 27.52it/s]\nFlow matching:  96%|█████████▋| 2892/3000 [01:51<00:03, 27.43it/s]\nFlow matching:  96%|█████████▋| 2895/3000 [01:51<00:03, 27.34it/s]\nFlow matching:  97%|█████████▋| 2898/3000 [01:51<00:03, 27.48it/s]\nFlow matching:  97%|█████████▋| 2901/3000 [01:51<00:03, 27.96it/s]\nFlow matching:  97%|█████████▋| 2904/3000 [01:51<00:03, 28.15it/s]\nFlow matching:  97%|█████████▋| 2907/3000 [01:51<00:03, 28.09it/s]\nFlow matching:  97%|█████████▋| 2910/3000 [01:51<00:03, 28.27it/s]\nFlow matching:  97%|█████████▋| 2913/3000 [01:52<00:03, 27.90it/s]\nFlow matching:  97%|█████████▋| 2916/3000 [01:52<00:02, 28.22it/s]\nFlow matching:  97%|█████████▋| 2919/3000 [01:52<00:02, 27.81it/s]\nFlow matching:  97%|█████████▋| 2922/3000 [01:52<00:02, 27.70it/s]\nFlow matching:  98%|█████████▊| 2925/3000 [01:52<00:02, 27.64it/s]\nFlow matching:  98%|█████████▊| 2928/3000 [01:52<00:02, 27.76it/s]\nFlow matching:  98%|█████████▊| 2931/3000 [01:52<00:02, 27.81it/s]\nFlow matching:  98%|█████████▊| 2934/3000 [01:52<00:02, 27.90it/s]\nFlow matching:  98%|█████████▊| 2937/3000 [01:52<00:02, 27.73it/s]\nFlow matching:  98%|█████████▊| 2940/3000 [01:53<00:02, 26.71it/s]\nFlow matching:  98%|█████████▊| 2943/3000 [01:53<00:02, 27.48it/s]\nFlow matching:  98%|█████████▊| 2946/3000 [01:53<00:01, 27.40it/s]\nFlow matching:  98%|█████████▊| 2949/3000 [01:53<00:01, 27.48it/s]\nFlow matching:  98%|█████████▊| 2952/3000 [01:53<00:01, 27.57it/s]\nFlow matching:  98%|█████████▊| 2955/3000 [01:53<00:01, 27.34it/s]\nFlow matching:  99%|█████████▊| 2958/3000 [01:53<00:01, 27.12it/s]\nFlow matching:  99%|█████████▊| 2961/3000 [01:53<00:01, 27.50it/s]\nFlow matching:  99%|█████████▉| 2964/3000 [01:53<00:01, 27.24it/s]\nFlow matching:  99%|█████████▉| 2967/3000 [01:53<00:01, 27.72it/s]\nFlow matching:  99%|█████████▉| 2970/3000 [01:54<00:01, 27.42it/s]\nFlow matching:  99%|█████████▉| 2973/3000 [01:54<00:01, 26.83it/s]\nFlow matching:  99%|█████████▉| 2976/3000 [01:54<00:00, 27.45it/s]\nFlow matching:  99%|█████████▉| 2979/3000 [01:54<00:00, 27.05it/s]\nFlow matching:  99%|█████████▉| 2982/3000 [01:54<00:00, 26.16it/s]\nFlow matching: 100%|█████████▉| 2985/3000 [01:54<00:00, 26.56it/s]\nFlow matching: 100%|█████████▉| 2988/3000 [01:54<00:00, 26.47it/s]\nFlow matching: 100%|█████████▉| 2991/3000 [01:54<00:00, 26.63it/s]\nFlow matching: 100%|█████████▉| 2994/3000 [01:55<00:00, 26.00it/s]\nFlow matching: 100%|█████████▉| 2997/3000 [01:55<00:00, 26.42it/s]\nFlow matching: 100%|██████████| 3000/3000 [01:55<00:00, 26.67it/s]\nFlow matching: 100%|██████████| 3000/3000 [01:55<00:00, 26.04it/s]\n  Best model (loss=2.3129) saved → /Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics/training_runs/20260525T220649168798Z__pilot__crufm__campaign_20260-stage2_c-baseline-crufm-gse305370_ci/artifacts/checkpoints/Train_FM/best_model.pth\nModel & data saved -> /Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics/training_runs/20260525T220649168798Z__pilot__crufm__campaign_20260-stage2_c-baseline-crufm-gse305370_ci/artifacts/checkpoints\n\n--- Starting Evaluation ---\n  Time Point 1.0: Wasserstein-1 Distance = 7.8636\n  Time Point 1.0: TMV = 0.0007\n  Time Point 2.0: Wasserstein-1 Distance = 7.7908\n  Time Point 2.0: TMV = 0.0024\n  Time Point 3.0: Wasserstein-1 Distance = 8.6667\n  Time Point 3.0: TMV = 0.0056\n  Time Point 4.0: Wasserstein-1 Distance = 9.4867\n  Time Point 4.0: TMV = 0.0112\n"
+  },
+  "run_id": "20260525T220649168798Z__pilot__crufm__campaign_20260-stage2_c-baseline-crufm-gse305370_ci",
+  "run_dir": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics/training_runs/20260525T220649168798Z__pilot__crufm__campaign_20260-stage2_c-baseline-crufm-gse305370_ci",
+  "trained_model_path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics/training_runs/20260525T220649168798Z__pilot__crufm__campaign_20260-stage2_c-baseline-crufm-gse305370_ci/artifacts/trained_model.h5ad",
+  "metrics_path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics/training_runs/20260525T220649168798Z__pilot__crufm__campaign_20260-stage2_c-baseline-crufm-gse305370_ci/artifacts/metrics.json",
+  "resolved_config_path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics/training_runs/20260525T220649168798Z__pilot__crufm__campaign_20260-stage2_c-baseline-crufm-gse305370_ci/resolved_config.yaml",
+  "algorithm_snapshot_path": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics/training_runs/20260525T220649168798Z__pilot__crufm__campaign_20260-stage2_c-baseline-crufm-gse305370_ci/algorithm_snapshot",
+  "input_adata_path": "/Users/zhenyizhang/.cellcompass/algorithm_benchmarks/datasets/gse305370_citeseq_stage2_10k/data.h5ad",
+  "adata_path": "/Users/zhenyizhang/.cellcompass/algorithm_benchmarks/datasets/gse305370_citeseq_stage2_10k/data.h5ad",
+  "run_verdict": {
+    "status": "provisional",
+    "reasons": [],
+    "likely_cause": "needs_manual_w1_scale_check",
+    "next_action": "verify that W1 is within the latent data scale range; if not, inspect training quality and hyperparameters first",
+    "tmv_pass": true,
+    "tmv_gate_required": true,
+    "tmv_gate_reason": "config.model.components",
+    "w1_manual_check_required": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "source_algorithm_id": "brgusfm_rh5_0613",
+  "source_trial_id": "trial_20260616T090900937187Z",
+  "source_snapshot_id": "snapshot_20260616T090901103022Z",
+  "eval_algorithm_id": "brgusfm_rh5_0613",
+  "n_cases": 100,
+  "n_ok": 100,
+  "n_failed": 0,
+  "current_means": {
+    "M1_velocity": 0.72870443005859,
+    "M2_growth": 0.7101581246371914,
+    "M3_distribution": 0.9000135813047095,
+    "M4_fate": 0.7468650205927858,
+    "M5_perturbation": 0.5940563866537889,
+    "M6_grn": 0.5812878964126914,
+    "total_score": 0.7101809066099595
+  },
+  "completed_at": "2026-06-17T02:56:46+0800",
+  "status": "completed"
+}

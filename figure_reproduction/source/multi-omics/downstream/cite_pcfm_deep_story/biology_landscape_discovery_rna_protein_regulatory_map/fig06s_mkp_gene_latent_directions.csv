@@ -1,0 +1,19 @@
+gene,gene_class,role,available,gene_feature_std,latent_direction_norm
+NFE2,Mk regulator,megakaryocyte maturation TF,True,1.850688055856441,0.04770920847095874
+FLI1,Mk regulator,ETS megakaryocyte regulator,True,2.1460954154808727,0.037050201138721164
+GFI1B,Mk regulator,erythro-megakaryocyte regulator,True,2.112497072643448,0.05236972832374869
+RUNX1,Mk regulator,hematopoietic/Mk regulator,True,1.9840564641869196,0.05532359513326421
+TAL1,Ery-Mk regulator,erythroid-megakaryocyte TF,True,2.0872087013468414,0.031654799772735887
+GATA1,Ery-Mk regulator,erythroid-megakaryocyte TF,True,2.3763373928117697,0.049677285099254315
+KLF1,Ery-Mk regulator,erythroid-biased TF,True,2.2933513656866977,0.05613615812963373
+ITGA2B,Mk marker,CD41 alpha-IIb transcript,True,2.59052941613447,0.05927490059262416
+GP9,Mk marker,GPIb complex transcript,True,1.937729275494845,0.0306872485172355
+GP1BA,Mk marker,GPIb alpha transcript,True,1.4832719610892093,0.016551347455114433
+GP6,Mk marker,platelet collagen receptor,True,1.1346775772855155,0.00893602836927796
+VWF,Mk effector,platelet/endothelial effector,True,1.243166451766114,0.01784721342471665
+TUBB1,Mk effector,platelet beta-tubulin,True,1.465508658241464,0.01708603008495006
+THBS1,Mk effector,platelet alpha-granule matrix,True,1.9294147985795653,0.0339954659473623
+FERMT3,Mk effector,integrin activation effector,True,1.9143921286634478,0.044730561849590185
+MYL9,Mk effector,contractile platelet program,True,0.7903374534699946,0.005600146905819963
+PF4,Mk effector,"platelet factor 4, absent if not in panel",False,,
+PPBP,Mk effector,"platelet basic protein, absent if not in panel",False,,

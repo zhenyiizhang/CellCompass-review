@@ -1,0 +1,61 @@
+metric,time,method,rank
+protein_energy_distance,1.0,balanced OT-CFM,1
+protein_energy_distance,1.0,CITE-PCFM,2
+protein_energy_distance,1.0,CRUFM,3
+protein_energy_distance,2.0,CRUFM,1
+protein_energy_distance,2.0,CITE-PCFM,2
+protein_energy_distance,2.0,balanced OT-CFM,3
+protein_energy_distance,3.0,CITE-PCFM,1
+protein_energy_distance,3.0,CRUFM,2
+protein_energy_distance,3.0,balanced OT-CFM,3
+protein_energy_distance,4.0,CITE-PCFM,1
+protein_energy_distance,4.0,CRUFM,2
+protein_energy_distance,4.0,balanced OT-CFM,3
+protein_mmd,1.0,balanced OT-CFM,1
+protein_mmd,1.0,CITE-PCFM,2
+protein_mmd,1.0,CRUFM,3
+protein_mmd,2.0,CRUFM,1
+protein_mmd,2.0,CITE-PCFM,2
+protein_mmd,2.0,balanced OT-CFM,3
+protein_mmd,3.0,CITE-PCFM,1
+protein_mmd,3.0,CRUFM,2
+protein_mmd,3.0,balanced OT-CFM,3
+protein_mmd,4.0,CITE-PCFM,1
+protein_mmd,4.0,CRUFM,2
+protein_mmd,4.0,balanced OT-CFM,3
+rna_energy_distance,1.0,balanced OT-CFM,1
+rna_energy_distance,1.0,CRUFM,2
+rna_energy_distance,1.0,CITE-PCFM,3
+rna_energy_distance,2.0,balanced OT-CFM,1
+rna_energy_distance,2.0,CRUFM,2
+rna_energy_distance,2.0,CITE-PCFM,3
+rna_energy_distance,3.0,CRUFM,1
+rna_energy_distance,3.0,CITE-PCFM,2
+rna_energy_distance,3.0,balanced OT-CFM,3
+rna_energy_distance,4.0,CITE-PCFM,1
+rna_energy_distance,4.0,CRUFM,2
+rna_energy_distance,4.0,balanced OT-CFM,3
+centroid_l2_protein,1.0,balanced OT-CFM,1
+centroid_l2_protein,1.0,CRUFM,2
+centroid_l2_protein,1.0,CITE-PCFM,3
+centroid_l2_protein,2.0,CRUFM,1
+centroid_l2_protein,2.0,balanced OT-CFM,2
+centroid_l2_protein,2.0,CITE-PCFM,3
+centroid_l2_protein,3.0,CITE-PCFM,1
+centroid_l2_protein,3.0,CRUFM,2
+centroid_l2_protein,3.0,balanced OT-CFM,3
+centroid_l2_protein,4.0,CRUFM,1
+centroid_l2_protein,4.0,CITE-PCFM,2
+centroid_l2_protein,4.0,balanced OT-CFM,3
+mean_abs_affinity_residual,1.0,CITE-PCFM,1
+mean_abs_affinity_residual,1.0,balanced OT-CFM,2
+mean_abs_affinity_residual,1.0,CRUFM,3
+mean_abs_affinity_residual,2.0,CITE-PCFM,1
+mean_abs_affinity_residual,2.0,CRUFM,2
+mean_abs_affinity_residual,2.0,balanced OT-CFM,3
+mean_abs_affinity_residual,3.0,CITE-PCFM,1
+mean_abs_affinity_residual,3.0,CRUFM,2
+mean_abs_affinity_residual,3.0,balanced OT-CFM,3
+mean_abs_affinity_residual,4.0,CITE-PCFM,1
+mean_abs_affinity_residual,4.0,CRUFM,2
+mean_abs_affinity_residual,4.0,balanced OT-CFM,3

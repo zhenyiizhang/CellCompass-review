@@ -1,0 +1,7 @@
+Suggested submission wording (use after attaching the review ZIP):
+
+The CellCompass source code, dynamical-model implementations, DynBench simulation and evaluation code, and scripts and compact data for reproducing the figures are provided in the accompanying Supplementary Code archive. A version-controlled copy is maintained at https://github.com/zhenyiizhang/CellCompass-review, which is private during peer review. The accompanying README describes installation, example execution and the additional data required for full model retraining.
+
+Editor-facing access note:
+
+Please make CellCompass-review-v0.1.0-review.zip available to the reviewers as a confidential supplementary-code file. The archive is self-contained for the documented figure-redrawing workflow and includes the model source code. Reviewers do not need a GitHub account to inspect or run the archive. The private GitHub URL is for version tracking and is not an anonymous-access link.

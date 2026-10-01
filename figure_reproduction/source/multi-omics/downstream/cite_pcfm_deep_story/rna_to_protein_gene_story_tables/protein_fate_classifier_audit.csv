@@ -1,0 +1,2 @@
+balanced_accuracy,support,classes
+0.6360784214053041,2500,"['BP', 'EryP', 'HSC', 'MasP', 'MkP', 'MoP', 'NeuP']"

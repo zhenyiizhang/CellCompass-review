@@ -1,0 +1,120 @@
+method,source,time,phenotype,fraction
+Observed,Observed,0.0,BP,0.006
+Observed,Observed,0.0,EryP,0.1655
+Observed,Observed,0.0,HSC,0.486
+Observed,Observed,0.0,MasP,0.0885
+Observed,Observed,0.0,MkP,0.0965
+Observed,Observed,0.0,MoP,0.0025
+Observed,Observed,0.0,NeuP,0.155
+Observed,Observed,1.0,BP,0.002
+Observed,Observed,1.0,EryP,0.216
+Observed,Observed,1.0,HSC,0.4295
+Observed,Observed,1.0,MasP,0.111
+Observed,Observed,1.0,MkP,0.0605
+Observed,Observed,1.0,MoP,0.01
+Observed,Observed,1.0,NeuP,0.171
+Observed,Observed,2.0,BP,0.0025
+Observed,Observed,2.0,EryP,0.252
+Observed,Observed,2.0,HSC,0.321
+Observed,Observed,2.0,MasP,0.163
+Observed,Observed,2.0,MkP,0.062
+Observed,Observed,2.0,MoP,0.012
+Observed,Observed,2.0,NeuP,0.1875
+Observed,Observed,3.0,BP,0.0035
+Observed,Observed,3.0,EryP,0.1735
+Observed,Observed,3.0,HSC,0.1875
+Observed,Observed,3.0,MasP,0.249
+Observed,Observed,3.0,MkP,0.1485
+Observed,Observed,3.0,MoP,0.038
+Observed,Observed,3.0,NeuP,0.2
+Observed,Observed,4.0,BP,0.02
+Observed,Observed,4.0,EryP,0.088
+Observed,Observed,4.0,HSC,0.0825
+Observed,Observed,4.0,MasP,0.344
+Observed,Observed,4.0,MkP,0.168
+Observed,Observed,4.0,MoP,0.136
+Observed,Observed,4.0,NeuP,0.1615
+CITE-PCFM,Generated,1.0,BP,0.0
+CITE-PCFM,Generated,1.0,EryP,0.169
+CITE-PCFM,Generated,1.0,HSC,0.61
+CITE-PCFM,Generated,1.0,MasP,0.05
+CITE-PCFM,Generated,1.0,MkP,0.0075
+CITE-PCFM,Generated,1.0,MoP,0.003
+CITE-PCFM,Generated,1.0,NeuP,0.1605
+CITE-PCFM,Generated,2.0,BP,0.0
+CITE-PCFM,Generated,2.0,EryP,0.1965
+CITE-PCFM,Generated,2.0,HSC,0.5095
+CITE-PCFM,Generated,2.0,MasP,0.088
+CITE-PCFM,Generated,2.0,MkP,0.0195
+CITE-PCFM,Generated,2.0,MoP,0.0065
+CITE-PCFM,Generated,2.0,NeuP,0.18
+CITE-PCFM,Generated,3.0,BP,0.0
+CITE-PCFM,Generated,3.0,EryP,0.1545
+CITE-PCFM,Generated,3.0,HSC,0.304
+CITE-PCFM,Generated,3.0,MasP,0.1405
+CITE-PCFM,Generated,3.0,MkP,0.087
+CITE-PCFM,Generated,3.0,MoP,0.0295
+CITE-PCFM,Generated,3.0,NeuP,0.2845
+CITE-PCFM,Generated,4.0,BP,0.0
+CITE-PCFM,Generated,4.0,EryP,0.08
+CITE-PCFM,Generated,4.0,HSC,0.162
+CITE-PCFM,Generated,4.0,MasP,0.2685
+CITE-PCFM,Generated,4.0,MkP,0.1385
+CITE-PCFM,Generated,4.0,MoP,0.086
+CITE-PCFM,Generated,4.0,NeuP,0.265
+CRUFM,Generated,1.0,BP,0.0
+CRUFM,Generated,1.0,EryP,0.193
+CRUFM,Generated,1.0,HSC,0.5845
+CRUFM,Generated,1.0,MasP,0.0655
+CRUFM,Generated,1.0,MkP,0.0105
+CRUFM,Generated,1.0,MoP,0.0055
+CRUFM,Generated,1.0,NeuP,0.141
+CRUFM,Generated,2.0,BP,0.0
+CRUFM,Generated,2.0,EryP,0.2265
+CRUFM,Generated,2.0,HSC,0.4765
+CRUFM,Generated,2.0,MasP,0.1035
+CRUFM,Generated,2.0,MkP,0.032
+CRUFM,Generated,2.0,MoP,0.0105
+CRUFM,Generated,2.0,NeuP,0.151
+CRUFM,Generated,3.0,BP,0.0
+CRUFM,Generated,3.0,EryP,0.1745
+CRUFM,Generated,3.0,HSC,0.256
+CRUFM,Generated,3.0,MasP,0.1925
+CRUFM,Generated,3.0,MkP,0.1525
+CRUFM,Generated,3.0,MoP,0.036
+CRUFM,Generated,3.0,NeuP,0.1885
+CRUFM,Generated,4.0,BP,0.0
+CRUFM,Generated,4.0,EryP,0.0865
+CRUFM,Generated,4.0,HSC,0.145
+CRUFM,Generated,4.0,MasP,0.2915
+CRUFM,Generated,4.0,MkP,0.1785
+CRUFM,Generated,4.0,MoP,0.105
+CRUFM,Generated,4.0,NeuP,0.1935
+balanced OT-CFM,Generated,1.0,BP,0.0
+balanced OT-CFM,Generated,1.0,EryP,0.2055
+balanced OT-CFM,Generated,1.0,HSC,0.5565
+balanced OT-CFM,Generated,1.0,MasP,0.073
+balanced OT-CFM,Generated,1.0,MkP,0.0125
+balanced OT-CFM,Generated,1.0,MoP,0.007
+balanced OT-CFM,Generated,1.0,NeuP,0.1455
+balanced OT-CFM,Generated,2.0,BP,0.0
+balanced OT-CFM,Generated,2.0,EryP,0.2245
+balanced OT-CFM,Generated,2.0,HSC,0.4465
+balanced OT-CFM,Generated,2.0,MasP,0.1025
+balanced OT-CFM,Generated,2.0,MkP,0.037
+balanced OT-CFM,Generated,2.0,MoP,0.007
+balanced OT-CFM,Generated,2.0,NeuP,0.1825
+balanced OT-CFM,Generated,3.0,BP,0.0
+balanced OT-CFM,Generated,3.0,EryP,0.1625
+balanced OT-CFM,Generated,3.0,HSC,0.25
+balanced OT-CFM,Generated,3.0,MasP,0.2075
+balanced OT-CFM,Generated,3.0,MkP,0.124
+balanced OT-CFM,Generated,3.0,MoP,0.066
+balanced OT-CFM,Generated,3.0,NeuP,0.19
+balanced OT-CFM,Generated,4.0,BP,0.0
+balanced OT-CFM,Generated,4.0,EryP,0.0915
+balanced OT-CFM,Generated,4.0,HSC,0.1345
+balanced OT-CFM,Generated,4.0,MasP,0.3175
+balanced OT-CFM,Generated,4.0,MkP,0.1685
+balanced OT-CFM,Generated,4.0,MoP,0.137
+balanced OT-CFM,Generated,4.0,NeuP,0.151

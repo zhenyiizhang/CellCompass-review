@@ -1,0 +1,75 @@
+model:
+  components:
+  - velocity
+  velocity_net:
+    hidden_dim: 256
+    n_layers: 5
+    residual: false
+ckpt_dir: /Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics/training_runs/20260526T162606149518Z__pilot__cite_paired_coord_fm__campaign_20260-trial_20260526-gse305370_ci/artifacts/checkpoints
+cite_pcfm:
+  rna_dim: 50
+  protein_dim: 30
+  lambda_p: 0.25
+  alpha_r: 1.0
+  alpha_protein: 3
+  protein_head_hidden_dim: 1024
+  protein_scale_floor: 0.001
+  endpoint_protein_weight: 500
+  time_fourier_features: 2
+  time_fourier_scale: 4
+  protein_time_weight_centers:
+  - 1
+  - 2
+  - 3
+  protein_time_weight_strength: 1
+  protein_time_weight_width: 0.6
+  protein_time_weight_max: 3
+training:
+  defaults:
+    lr: 0.0001
+    lambda_ot: 1.0
+    lambda_mass: 0.0
+    lambda_energy: 0.01
+    sigma: 0.0
+    batch_size: 400
+  plan:
+  - name: Train_PCFM
+    mode: flow_matching
+    lr: 0.0035
+    epochs: 3000
+    sigma: 0.0
+    train_strategy: v
+    batch_size: 400
+    scheduler_type: cosine
+    save_strategy: best
+    cite_pcfm:
+      rna_dim: 50
+      protein_dim: 30
+      lambda_p: 0.25
+      alpha_r: 1.0
+      alpha_protein: 3
+      protein_head_hidden_dim: 1024
+      protein_scale_floor: 0.001
+      endpoint_protein_weight: 500
+      time_fourier_features: 2
+      time_fourier_scale: 4
+      protein_time_weight_centers:
+      - 1
+      - 2
+      - 3
+      protein_time_weight_strength: 1
+      protein_time_weight_width: 0.84
+      protein_time_weight_max: 3
+    flow_matching:
+      backend: balanced_ot_cfm
+      lambda_penalty: 0
+      coupling:
+        method: sinkhorn
+        reg: 0.05
+        normalize_cost: true
+        use_mini_batch_balanced: true
+        chunk_size: 1000
+      path:
+        sigma: 0.0
+      mass:
+        kind: null

@@ -1,0 +1,9 @@
+fate,module,source,r,genes
+Neutrophil,early_candidate_module,barcode,0.25208205331919975,"Calr,F630028O10Rik,Gsr,Sell,Emb,Sgms2,Dstn,Golga3"
+Neutrophil,early_candidate_module,bmf,0.46483883128254677,"Calr,F630028O10Rik,Gsr,Sell,Emb,Sgms2,Dstn,Golga3"
+Neutrophil,mature_marker_module,barcode,0.014441211177902123,"Cebpe,Lyz2,S100a8,S100a9"
+Neutrophil,mature_marker_module,bmf,0.19380129399646365,"Cebpe,Lyz2,S100a8,S100a9"
+Monocyte,early_candidate_module,barcode,0.3255143432729813,"Sirpa,Casp6,Rbms1,Pou2f2,Emb,Egfl7,Cd44,Mef2c"
+Monocyte,early_candidate_module,bmf,0.4392773668703335,"Sirpa,Casp6,Rbms1,Pou2f2,Emb,Egfl7,Cd44,Mef2c"
+Monocyte,mature_marker_module,barcode,0.034392756303699895,"Irf8,Csf1r,Lyz2,Ly6c2"
+Monocyte,mature_marker_module,bmf,0.24771174735547458,"Irf8,Csf1r,Lyz2,Ly6c2"

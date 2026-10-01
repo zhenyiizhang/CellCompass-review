@@ -1,0 +1,9 @@
+# Tested on Python 3.14. These are the redraw-only dependencies, not training dependencies.
+numpy==2.5.3
+pandas==3.0.5
+scipy==1.18.1
+matplotlib==3.11.2
+scikit-learn==1.9.1
+seaborn==0.13.2
+pillow==12.3.0
+pymupdf==1.28.2

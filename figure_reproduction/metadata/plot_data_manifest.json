@@ -1,0 +1,62 @@
+[
+  {
+    "path": "plot_data/PROVENANCE.json",
+    "bytes": 1418,
+    "sha256": "4b0aaf2acccd846fa8be7bf19e860452bb791ae3d4e2ddee6128baf442d9eec2"
+  },
+  {
+    "path": "plot_data/lineage/arrays.npz",
+    "bytes": 9231075,
+    "sha256": "13caaf7e6a7b63aeec7639aa45895a5a0df66a8c582c1de4bcb81ccba1964a0a"
+  },
+  {
+    "path": "plot_data/lineage/obs.csv",
+    "bytes": 4648422,
+    "sha256": "dae351f1b63984dd5a96904d5d634ad16e484a09b7084fc9d00dc511092e268e"
+  },
+  {
+    "path": "plot_data/lineage/particles.csv.gz",
+    "bytes": 8349178,
+    "sha256": "9edcdde40042629f6ad21f45a9345a1a5993f1edbaf14562b2a7614a5e58b77a"
+  },
+  {
+    "path": "plot_data/protein/PROVENANCE.json",
+    "bytes": 968,
+    "sha256": "a1e48d2413ee28a4b9a7f9ef25760686856e56b1347a8b459073621443e2e85c"
+  },
+  {
+    "path": "plot_data/protein/generated_target_coordinates.csv",
+    "bytes": 272827,
+    "sha256": "f07170f2fc0380aa997686da719ef94039bfda9ae947afa7330766b706e0d1e3"
+  },
+  {
+    "path": "plot_data/protein/observed_coordinates.csv",
+    "bytes": 449909,
+    "sha256": "5318cf33fb6cead3cac2ab930eb7729d1eca6addf315c2977b81796bd9e57bca"
+  },
+  {
+    "path": "plot_data/protein/selected_paths.npz",
+    "bytes": 50871,
+    "sha256": "8c598880c62ba433df9fc50ba9ce9e8bf38adf068fa50ff361569afeb98a1440"
+  },
+  {
+    "path": "plot_data/pulse/arrays.npz",
+    "bytes": 4899870,
+    "sha256": "98c8959021eaef522da25878a10004385c5b19ffa734bbf42fd102f90addd764"
+  },
+  {
+    "path": "plot_data/pulse/obs.csv",
+    "bytes": 6307811,
+    "sha256": "90cad401aa545e190317bd61e119f0eb420670c6a5c010c765a8a01b123b9eee"
+  },
+  {
+    "path": "plot_data/pulse/stream_grid.npz",
+    "bytes": 44546,
+    "sha256": "ccfb4eabfd5e50106344e44e8483e74049761781cd877aa342ef7943e0ec9319"
+  },
+  {
+    "path": "plot_data/pulse/stream_options.json",
+    "bytes": 320,
+    "sha256": "f11b31682b3ec81492f83451713e9765f790e941126bb7be14d5be0f8eee40a6"
+  }
+]

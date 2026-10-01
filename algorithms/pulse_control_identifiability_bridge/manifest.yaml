@@ -1,0 +1,22 @@
+algorithm_id: pulse_control_identifiability_bridge
+api_version: 1
+entrypoint: algorithm.py
+entry_function: build_training_algorithm
+description: 'Pulse-Control Identifiability Bridge (PCIB): balanced endpoint-valid
+  flow matching with train-only baseline nuisance subspace and deconfounded metabolic
+  pulse/control identifiability metric for HCT116 Well-TEMP-seq.'
+requirements: Approved proposal proposal_20260620T213736784915Z; nearest builtin anchor
+  balanced_ot_cfm; balanced_only; deterministic rollout; requires obs['time_point_processed'],
+  obsm['X_latent'], obsm metabolic velocity/synthesis/decay sidecars, layers['new']/['old'],
+  baseline sample_name/treatment columns, mvab_anchor_split train/heldout anchors,
+  and reviewed PCIE evaluator provenance via active-workspace evaluation_metrics_hook.
+base_config: ./config.yaml
+base_config_seed: vgfm
+minibatch_required: false
+minibatch_policy: scale_dependent
+scalability_required: true
+default_chunk_size: 1000
+tags:
+- flow-matching
+- custom
+author: agent

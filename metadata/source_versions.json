@@ -1,0 +1,21 @@
+{
+  "snapshot_date": "2026-10-01",
+  "manuscript": "CellCompass_0808_new_pz_revised_v6.docx",
+  "runtime_head": "75ad5241c2bb29e5c740963c36c9d647743ef90e",
+  "figure_head": "1acc110ca3229b42939ad6ff4af7796f1df66fdc",
+  "si_head": "c378bdb2a41b1ad0bad4544cae2b77f59d19394f",
+  "runtime_note": "Snapshot of tracked working-tree files, including existing local modifications. Per-file SHA256 identifies the supplied source, not HEAD alone.",
+  "algorithm_sources": {
+    "LineageBridge": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/mouse_new/training_runs/20260607T113528987593Z__final__clone_cuvgf__campaign_20260-trial_20260607-weinreb_rawr/algorithm_snapshot",
+    "ProteinBridge": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/multi-omics/training_runs/20260526T174204321821Z__final__cite_paired_coord_fm__campaign_20260-trial_20260526-gse305370_ci/algorithm_snapshot",
+    "PulseBridge": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/downloads/pulsebridge_remote_history_20260629/pulsebridge_history_export_20260629/algorithm_campaigns/campaign_20260620T224339184404Z/archive_worktree/workspace",
+    "BRGU-SFM": "/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/dynbench_results_share_20260618_170313/06_total_score_algorithm_brgusfm/algorithm_workspace_brgusfm_rh5_0613/registry/workspace_snapshots/snapshot_20260616T090901103022Z"
+  },
+  "excluded": [
+    "Credentials and session histories",
+    "Literature full-text corpora and pretrained embedding caches",
+    "Large raw datasets and fitted checkpoints",
+    "Retired C. elegans case",
+    "Git history and unrelated work"
+  ]
+}

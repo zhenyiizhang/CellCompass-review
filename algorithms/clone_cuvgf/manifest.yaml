@@ -1,0 +1,21 @@
+algorithm_id: clone_cuvgf
+api_version: 1
+entrypoint: algorithm.py
+entry_function: build_training_algorithm
+description: 'Clone-CUVGF: clone-censored unbalanced velocity-growth flow matching
+  for lineage-barcoded temporal hematopoiesis; uses sparse/reliability-weighted clone
+  evidence in UOT coupling and evaluates rollout-derived clone-fate correlation.'
+requirements: Requires prepared temporal scRNA-seq AnnData with obs['time_point_processed'],
+  obsm['X_latent'], obs['clone'], terminal obs['Cell type annotation'], and optional
+  obs['SPRING-x']/obs['SPRING-y']; models unbalanced mass; primary claim metric compares
+  day-2 model-native fate probabilities to clone-derived day-6 fate probabilities.
+base_config: ./config.yaml
+base_config_seed: vgfm
+minibatch_required: false
+minibatch_policy: scale_dependent
+scalability_required: true
+default_chunk_size: 1000
+tags:
+- flow-matching
+- custom
+author: agent

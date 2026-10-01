@@ -1,0 +1,6 @@
+{
+  "captured_at": "2026-09-16T13:21:20.179409+00:00",
+  "runtime_head": "75ad5241c2bb29e5c740963c36c9d647743ef90e",
+  "si_head": "b82343d3f6b79b3ec91868c0432da4ed88316c68",
+  "note": "Runtime working tree is not clean. File hashes, not HEAD alone, identify the captured source."
+}

@@ -1,0 +1,4 @@
+method,method_type,protein_energy,w1_mean,paired_cov_error
+CITE-PCFM,custom_final,0.022197961807250977,,0.4668241546875966
+CRUFM,best_protein_baseline,0.02557516098022461,,0.5249530408319161
+balanced OT-CFM,rna_only_balanced_baseline,0.17054009437561035,,0.6990058527200217

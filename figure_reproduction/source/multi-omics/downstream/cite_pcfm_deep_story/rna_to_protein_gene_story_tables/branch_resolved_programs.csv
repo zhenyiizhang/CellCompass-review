@@ -1,0 +1,271 @@
+terminal_fate,time,type,program,score,n_particles
+EryP,0.0,RNA program,erythroid RNA,1.4222320980734844,157
+EryP,0.0,RNA program,megakaryocyte RNA,1.759223521396866,157
+EryP,0.0,RNA program,neutrophil RNA,2.0093921043649785,157
+EryP,0.0,RNA program,mono-mast RNA,2.3915739788214636,157
+EryP,0.0,RNA program,stem RNA,1.4178357168052234,157
+EryP,0.0,Protein program,stem / priming,3.280656767135452,157
+EryP,0.0,Protein program,erythro-megakaryoid,3.340596486151423,157
+EryP,0.0,Protein program,myeloid / inflammatory,1.5017630311816548,157
+EryP,0.0,Protein program,lymphoid / off-axis,0.34482127761892933,157
+EryP,1.0,RNA program,erythroid RNA,1.4507081201447019,157
+EryP,1.0,RNA program,megakaryocyte RNA,1.7845022336804133,157
+EryP,1.0,RNA program,neutrophil RNA,2.053488389547553,157
+EryP,1.0,RNA program,mono-mast RNA,2.4180979209420848,157
+EryP,1.0,RNA program,stem RNA,1.4029581581453179,157
+EryP,1.0,Protein program,stem / priming,3.3660035137265445,157
+EryP,1.0,Protein program,erythro-megakaryoid,3.2199365885930638,157
+EryP,1.0,Protein program,myeloid / inflammatory,1.6771559567782,157
+EryP,1.0,Protein program,lymphoid / off-axis,0.3833242571446918,157
+EryP,2.0,RNA program,erythroid RNA,1.4922529939044402,157
+EryP,2.0,RNA program,megakaryocyte RNA,1.7774507033536475,157
+EryP,2.0,RNA program,neutrophil RNA,2.0548783537815987,157
+EryP,2.0,RNA program,mono-mast RNA,2.408452915160799,157
+EryP,2.0,RNA program,stem RNA,1.3883185799066347,157
+EryP,2.0,Protein program,stem / priming,3.3071166358940323,157
+EryP,2.0,Protein program,erythro-megakaryoid,3.186068986496035,157
+EryP,2.0,Protein program,myeloid / inflammatory,1.6287514780996568,157
+EryP,2.0,Protein program,lymphoid / off-axis,0.33512253444016227,157
+EryP,3.0,RNA program,erythroid RNA,1.6254562356285025,157
+EryP,3.0,RNA program,megakaryocyte RNA,1.7794967671841508,157
+EryP,3.0,RNA program,neutrophil RNA,2.0965597957975945,157
+EryP,3.0,RNA program,mono-mast RNA,2.42195774461581,157
+EryP,3.0,RNA program,stem RNA,1.3442135007305118,157
+EryP,3.0,Protein program,stem / priming,3.1893419207418487,157
+EryP,3.0,Protein program,erythro-megakaryoid,3.1632711413634422,157
+EryP,3.0,Protein program,myeloid / inflammatory,1.5663663363207023,157
+EryP,3.0,Protein program,lymphoid / off-axis,0.35600597631404557,157
+EryP,4.0,RNA program,erythroid RNA,1.6079726574054063,157
+EryP,4.0,RNA program,megakaryocyte RNA,1.776595837136276,157
+EryP,4.0,RNA program,neutrophil RNA,2.0694888614513487,157
+EryP,4.0,RNA program,mono-mast RNA,2.407607139648959,157
+EryP,4.0,RNA program,stem RNA,1.3317744530009856,157
+EryP,4.0,Protein program,stem / priming,3.2612709836172553,157
+EryP,4.0,Protein program,erythro-megakaryoid,3.1102935043765716,157
+EryP,4.0,Protein program,myeloid / inflammatory,1.6437010793906868,157
+EryP,4.0,Protein program,lymphoid / off-axis,0.3833596586686838,157
+MkP,0.0,RNA program,erythroid RNA,1.4288018382651562,272
+MkP,0.0,RNA program,megakaryocyte RNA,1.7649166003213255,272
+MkP,0.0,RNA program,neutrophil RNA,2.0232119937384705,272
+MkP,0.0,RNA program,mono-mast RNA,2.384257162636332,272
+MkP,0.0,RNA program,stem RNA,1.4297299575139975,272
+MkP,0.0,Protein program,stem / priming,3.3376155254413344,272
+MkP,0.0,Protein program,erythro-megakaryoid,3.371754754321961,272
+MkP,0.0,Protein program,myeloid / inflammatory,1.5032923066133235,272
+MkP,0.0,Protein program,lymphoid / off-axis,0.3400741269880379,272
+MkP,1.0,RNA program,erythroid RNA,1.441244483108898,272
+MkP,1.0,RNA program,megakaryocyte RNA,1.786759971188994,272
+MkP,1.0,RNA program,neutrophil RNA,2.0679485223234213,272
+MkP,1.0,RNA program,mono-mast RNA,2.405752189875567,272
+MkP,1.0,RNA program,stem RNA,1.418704903204814,272
+MkP,1.0,Protein program,stem / priming,3.5602976794980403,272
+MkP,1.0,Protein program,erythro-megakaryoid,3.2249202128847942,272
+MkP,1.0,Protein program,myeloid / inflammatory,1.6229021460962294,272
+MkP,1.0,Protein program,lymphoid / off-axis,0.38088626125709396,272
+MkP,2.0,RNA program,erythroid RNA,1.4625517073893892,272
+MkP,2.0,RNA program,megakaryocyte RNA,1.7844479702941618,272
+MkP,2.0,RNA program,neutrophil RNA,2.086765303891663,272
+MkP,2.0,RNA program,mono-mast RNA,2.399344036397877,272
+MkP,2.0,RNA program,stem RNA,1.4002662742733016,272
+MkP,2.0,Protein program,stem / priming,3.302855120040504,272
+MkP,2.0,Protein program,erythro-megakaryoid,3.1936326610617574,272
+MkP,2.0,Protein program,myeloid / inflammatory,1.5684091290908606,272
+MkP,2.0,Protein program,lymphoid / off-axis,0.35392036378168906,272
+MkP,3.0,RNA program,erythroid RNA,1.530226755350291,272
+MkP,3.0,RNA program,megakaryocyte RNA,1.872627104526752,272
+MkP,3.0,RNA program,neutrophil RNA,2.109406430572255,272
+MkP,3.0,RNA program,mono-mast RNA,2.395186832367468,272
+MkP,3.0,RNA program,stem RNA,1.3835624266527176,272
+MkP,3.0,Protein program,stem / priming,3.3050988075599377,272
+MkP,3.0,Protein program,erythro-megakaryoid,3.5270214729283254,272
+MkP,3.0,Protein program,myeloid / inflammatory,1.4359776276351213,272
+MkP,3.0,Protein program,lymphoid / off-axis,0.35151216085133474,272
+MkP,4.0,RNA program,erythroid RNA,1.5492015588299861,272
+MkP,4.0,RNA program,megakaryocyte RNA,2.019447085177876,272
+MkP,4.0,RNA program,neutrophil RNA,2.0470278118901484,272
+MkP,4.0,RNA program,mono-mast RNA,2.304077939146662,272
+MkP,4.0,RNA program,stem RNA,1.4265590034381497,272
+MkP,4.0,Protein program,stem / priming,3.5424927513490965,272
+MkP,4.0,Protein program,erythro-megakaryoid,3.638675217880542,272
+MkP,4.0,Protein program,myeloid / inflammatory,1.3815858735321649,272
+MkP,4.0,Protein program,lymphoid / off-axis,0.32187550511891094,272
+NeuP,0.0,RNA program,erythroid RNA,1.399109046455067,546
+NeuP,0.0,RNA program,megakaryocyte RNA,1.7614309230608822,546
+NeuP,0.0,RNA program,neutrophil RNA,2.035870101311837,546
+NeuP,0.0,RNA program,mono-mast RNA,2.4076043950804644,546
+NeuP,0.0,RNA program,stem RNA,1.4091486773854982,546
+NeuP,0.0,Protein program,stem / priming,3.246496785297729,546
+NeuP,0.0,Protein program,erythro-megakaryoid,3.3457633725868545,546
+NeuP,0.0,Protein program,myeloid / inflammatory,1.519048649084006,546
+NeuP,0.0,Protein program,lymphoid / off-axis,0.34695366814233763,546
+NeuP,1.0,RNA program,erythroid RNA,1.4096608719972052,546
+NeuP,1.0,RNA program,megakaryocyte RNA,1.7803821868780876,546
+NeuP,1.0,RNA program,neutrophil RNA,2.0912572585057223,546
+NeuP,1.0,RNA program,mono-mast RNA,2.424079908524011,546
+NeuP,1.0,RNA program,stem RNA,1.4005759311263506,546
+NeuP,1.0,Protein program,stem / priming,3.402375043518394,546
+NeuP,1.0,Protein program,erythro-megakaryoid,3.1714366353649885,546
+NeuP,1.0,Protein program,myeloid / inflammatory,1.6332852467852417,546
+NeuP,1.0,Protein program,lymphoid / off-axis,0.3794610103959174,546
+NeuP,2.0,RNA program,erythroid RNA,1.426070843251951,546
+NeuP,2.0,RNA program,megakaryocyte RNA,1.771707299918631,546
+NeuP,2.0,RNA program,neutrophil RNA,2.117496058855725,546
+NeuP,2.0,RNA program,mono-mast RNA,2.4133159783818265,546
+NeuP,2.0,RNA program,stem RNA,1.384418183716381,546
+NeuP,2.0,Protein program,stem / priming,3.233388078586493,546
+NeuP,2.0,Protein program,erythro-megakaryoid,3.0774853675601634,546
+NeuP,2.0,Protein program,myeloid / inflammatory,1.5717581674094427,546
+NeuP,2.0,Protein program,lymphoid / off-axis,0.34759549056395805,546
+NeuP,3.0,RNA program,erythroid RNA,1.488862210857502,546
+NeuP,3.0,RNA program,megakaryocyte RNA,1.7817025589477329,546
+NeuP,3.0,RNA program,neutrophil RNA,2.1881399754863033,546
+NeuP,3.0,RNA program,mono-mast RNA,2.456062334490412,546
+NeuP,3.0,RNA program,stem RNA,1.3363478894544003,546
+NeuP,3.0,Protein program,stem / priming,3.0976723355210813,546
+NeuP,3.0,Protein program,erythro-megakaryoid,2.9917467685511134,546
+NeuP,3.0,Protein program,myeloid / inflammatory,1.4841921447752664,546
+NeuP,3.0,Protein program,lymphoid / off-axis,0.41195670992144207,546
+NeuP,4.0,RNA program,erythroid RNA,1.4650547940743273,546
+NeuP,4.0,RNA program,megakaryocyte RNA,1.7794906285674117,546
+NeuP,4.0,RNA program,neutrophil RNA,2.195882393410079,546
+NeuP,4.0,RNA program,mono-mast RNA,2.465102778335866,546
+NeuP,4.0,RNA program,stem RNA,1.3205235233818344,546
+NeuP,4.0,Protein program,stem / priming,3.2230454232651855,546
+NeuP,4.0,Protein program,erythro-megakaryoid,2.91385181636282,546
+NeuP,4.0,Protein program,myeloid / inflammatory,1.5233396370866152,546
+NeuP,4.0,Protein program,lymphoid / off-axis,0.4347058764288501,546
+MasP,0.0,RNA program,erythroid RNA,1.412242703253835,529
+MasP,0.0,RNA program,megakaryocyte RNA,1.7636817725967384,529
+MasP,0.0,RNA program,neutrophil RNA,2.022251314843013,529
+MasP,0.0,RNA program,mono-mast RNA,2.3971242054383772,529
+MasP,0.0,RNA program,stem RNA,1.4269724209985988,529
+MasP,0.0,Protein program,stem / priming,3.318208906360919,529
+MasP,0.0,Protein program,erythro-megakaryoid,3.3686116042464787,529
+MasP,0.0,Protein program,myeloid / inflammatory,1.5046683076928593,529
+MasP,0.0,Protein program,lymphoid / off-axis,0.3476259876924217,529
+MasP,1.0,RNA program,erythroid RNA,1.424490937897424,529
+MasP,1.0,RNA program,megakaryocyte RNA,1.7850766950069468,529
+MasP,1.0,RNA program,neutrophil RNA,2.067155283422109,529
+MasP,1.0,RNA program,mono-mast RNA,2.4165532044945888,529
+MasP,1.0,RNA program,stem RNA,1.4176025840846003,529
+MasP,1.0,Protein program,stem / priming,3.445105745468072,529
+MasP,1.0,Protein program,erythro-megakaryoid,3.2048079889225427,529
+MasP,1.0,Protein program,myeloid / inflammatory,1.6475416336724142,529
+MasP,1.0,Protein program,lymphoid / off-axis,0.3868337610193304,529
+MasP,2.0,RNA program,erythroid RNA,1.4425545201737324,529
+MasP,2.0,RNA program,megakaryocyte RNA,1.7765400553953474,529
+MasP,2.0,RNA program,neutrophil RNA,2.0642607010088345,529
+MasP,2.0,RNA program,mono-mast RNA,2.4046187125546203,529
+MasP,2.0,RNA program,stem RNA,1.3961764302860795,529
+MasP,2.0,Protein program,stem / priming,3.249585737326296,529
+MasP,2.0,Protein program,erythro-megakaryoid,3.0733983611816615,529
+MasP,2.0,Protein program,myeloid / inflammatory,1.579442211222816,529
+MasP,2.0,Protein program,lymphoid / off-axis,0.3403435291067538,529
+MasP,3.0,RNA program,erythroid RNA,1.4889761166363746,529
+MasP,3.0,RNA program,megakaryocyte RNA,1.7978769924136546,529
+MasP,3.0,RNA program,neutrophil RNA,2.086736770905828,529
+MasP,3.0,RNA program,mono-mast RNA,2.457116822543168,529
+MasP,3.0,RNA program,stem RNA,1.3520188077711246,529
+MasP,3.0,Protein program,stem / priming,3.144213808405949,529
+MasP,3.0,Protein program,erythro-megakaryoid,2.9861327704309644,529
+MasP,3.0,Protein program,myeloid / inflammatory,1.4526459784909938,529
+MasP,3.0,Protein program,lymphoid / off-axis,0.3743997828183194,529
+MasP,4.0,RNA program,erythroid RNA,1.4401250322129533,529
+MasP,4.0,RNA program,megakaryocyte RNA,1.8218677878040568,529
+MasP,4.0,RNA program,neutrophil RNA,2.0395766639196222,529
+MasP,4.0,RNA program,mono-mast RNA,2.46048177062006,529
+MasP,4.0,RNA program,stem RNA,1.349332603226547,529
+MasP,4.0,Protein program,stem / priming,3.181785618722439,529
+MasP,4.0,Protein program,erythro-megakaryoid,2.8771581947148595,529
+MasP,4.0,Protein program,myeloid / inflammatory,1.449482439313417,529
+MasP,4.0,Protein program,lymphoid / off-axis,0.3772059929350422,529
+MoP,0.0,RNA program,erythroid RNA,1.4031401545229167,170
+MoP,0.0,RNA program,megakaryocyte RNA,1.7547580155501943,170
+MoP,0.0,RNA program,neutrophil RNA,2.0316266167470145,170
+MoP,0.0,RNA program,mono-mast RNA,2.3982157694647506,170
+MoP,0.0,RNA program,stem RNA,1.4082702597775025,170
+MoP,0.0,Protein program,stem / priming,3.311257144015148,170
+MoP,0.0,Protein program,erythro-megakaryoid,3.3150500782457497,170
+MoP,0.0,Protein program,myeloid / inflammatory,1.5575260419328354,170
+MoP,0.0,Protein program,lymphoid / off-axis,0.3385772615053598,170
+MoP,1.0,RNA program,erythroid RNA,1.4092968511765072,170
+MoP,1.0,RNA program,megakaryocyte RNA,1.7708746707961562,170
+MoP,1.0,RNA program,neutrophil RNA,2.07606706129464,170
+MoP,1.0,RNA program,mono-mast RNA,2.4174760294262105,170
+MoP,1.0,RNA program,stem RNA,1.400889097091387,170
+MoP,1.0,Protein program,stem / priming,3.4986028845196295,170
+MoP,1.0,Protein program,erythro-megakaryoid,3.1785304261067795,170
+MoP,1.0,Protein program,myeloid / inflammatory,1.6822011546601259,170
+MoP,1.0,Protein program,lymphoid / off-axis,0.37293801195334325,170
+MoP,2.0,RNA program,erythroid RNA,1.4282055746858837,170
+MoP,2.0,RNA program,megakaryocyte RNA,1.7551900400139917,170
+MoP,2.0,RNA program,neutrophil RNA,2.073675713798964,170
+MoP,2.0,RNA program,mono-mast RNA,2.4173344955566956,170
+MoP,2.0,RNA program,stem RNA,1.3793146428814513,170
+MoP,2.0,Protein program,stem / priming,3.2439529388296426,170
+MoP,2.0,Protein program,erythro-megakaryoid,3.1145214496678912,170
+MoP,2.0,Protein program,myeloid / inflammatory,1.631474483671993,170
+MoP,2.0,Protein program,lymphoid / off-axis,0.32908517226210765,170
+MoP,3.0,RNA program,erythroid RNA,1.4453028639938994,170
+MoP,3.0,RNA program,megakaryocyte RNA,1.720068405777027,170
+MoP,3.0,RNA program,neutrophil RNA,2.0798669469279645,170
+MoP,3.0,RNA program,mono-mast RNA,2.497524894026486,170
+MoP,3.0,RNA program,stem RNA,1.318786532292762,170
+MoP,3.0,Protein program,stem / priming,3.081787417596626,170
+MoP,3.0,Protein program,erythro-megakaryoid,3.0712771756853283,170
+MoP,3.0,Protein program,myeloid / inflammatory,1.5522823891870283,170
+MoP,3.0,Protein program,lymphoid / off-axis,0.32303064201190634,170
+MoP,4.0,RNA program,erythroid RNA,1.3886882221322014,170
+MoP,4.0,RNA program,megakaryocyte RNA,1.6564481203933674,170
+MoP,4.0,RNA program,neutrophil RNA,1.975998884969687,170
+MoP,4.0,RNA program,mono-mast RNA,2.5337742645578376,170
+MoP,4.0,RNA program,stem RNA,1.3502374543473952,170
+MoP,4.0,Protein program,stem / priming,3.180474364996641,170
+MoP,4.0,Protein program,erythro-megakaryoid,3.1133842851371876,170
+MoP,4.0,Protein program,myeloid / inflammatory,1.9517244082050438,170
+MoP,4.0,Protein program,lymphoid / off-axis,0.3106929729160921,170
+HSC,0.0,RNA program,erythroid RNA,1.4065308901098534,326
+HSC,0.0,RNA program,megakaryocyte RNA,1.759537398836911,326
+HSC,0.0,RNA program,neutrophil RNA,2.0081274949843295,326
+HSC,0.0,RNA program,mono-mast RNA,2.3968188630167,326
+HSC,0.0,RNA program,stem RNA,1.4270721401715818,326
+HSC,0.0,Protein program,stem / priming,3.3150649385010786,326
+HSC,0.0,Protein program,erythro-megakaryoid,3.349182319229886,326
+HSC,0.0,Protein program,myeloid / inflammatory,1.5359663758528317,326
+HSC,0.0,Protein program,lymphoid / off-axis,0.333733256414281,326
+HSC,1.0,RNA program,erythroid RNA,1.4121640379391143,326
+HSC,1.0,RNA program,megakaryocyte RNA,1.7802388039576342,326
+HSC,1.0,RNA program,neutrophil RNA,2.050846714354682,326
+HSC,1.0,RNA program,mono-mast RNA,2.412151944872818,326
+HSC,1.0,RNA program,stem RNA,1.4209769032233246,326
+HSC,1.0,Protein program,stem / priming,3.5004597209135104,326
+HSC,1.0,Protein program,erythro-megakaryoid,3.1516844589109048,326
+HSC,1.0,Protein program,myeloid / inflammatory,1.6704841886961856,326
+HSC,1.0,Protein program,lymphoid / off-axis,0.38434264996973894,326
+HSC,2.0,RNA program,erythroid RNA,1.434623551337268,326
+HSC,2.0,RNA program,megakaryocyte RNA,1.771864026110819,326
+HSC,2.0,RNA program,neutrophil RNA,2.0601319962417497,326
+HSC,2.0,RNA program,mono-mast RNA,2.401524584790495,326
+HSC,2.0,RNA program,stem RNA,1.4038337825894875,326
+HSC,2.0,Protein program,stem / priming,3.2768962494615503,326
+HSC,2.0,Protein program,erythro-megakaryoid,3.0877819801998116,326
+HSC,2.0,Protein program,myeloid / inflammatory,1.6644728631148158,326
+HSC,2.0,Protein program,lymphoid / off-axis,0.341712830144638,326
+HSC,3.0,RNA program,erythroid RNA,1.4975131857717763,326
+HSC,3.0,RNA program,megakaryocyte RNA,1.7845463942832245,326
+HSC,3.0,RNA program,neutrophil RNA,2.103938895193157,326
+HSC,3.0,RNA program,mono-mast RNA,2.4445340831963995,326
+HSC,3.0,RNA program,stem RNA,1.3621391865063195,326
+HSC,3.0,Protein program,stem / priming,3.1536026679257665,326
+HSC,3.0,Protein program,erythro-megakaryoid,3.031154489538691,326
+HSC,3.0,Protein program,myeloid / inflammatory,1.5680304056552083,326
+HSC,3.0,Protein program,lymphoid / off-axis,0.3993862016629373,326
+HSC,4.0,RNA program,erythroid RNA,1.4708307762243706,326
+HSC,4.0,RNA program,megakaryocyte RNA,1.78765070269865,326
+HSC,4.0,RNA program,neutrophil RNA,2.055329621816982,326
+HSC,4.0,RNA program,mono-mast RNA,2.4542481595108185,326
+HSC,4.0,RNA program,stem RNA,1.3495930252703874,326
+HSC,4.0,Protein program,stem / priming,3.3964876515558906,326
+HSC,4.0,Protein program,erythro-megakaryoid,2.9823618464337227,326
+HSC,4.0,Protein program,myeloid / inflammatory,1.6641204491362953,326
+HSC,4.0,Protein program,lymphoid / off-axis,0.39142154263350964,326

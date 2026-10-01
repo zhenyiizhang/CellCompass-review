@@ -1,0 +1,13 @@
+target,module,strength_z,target_future_probability,delta_from_baseline,genes_used
+Neutrophil,early-state genes,-5.0,0.13867505297192614,-0.04592737941765945,"Calr,F630028O10Rik,Gsr,Sell,Dstn,Sgms2,Emb,Golga3"
+Neutrophil,early-state genes,0.0,0.1846024323895856,0.0,
+Neutrophil,early-state genes,5.0,0.23407357714904367,0.049471144759458074,"Calr,F630028O10Rik,Gsr,Sell,Dstn,Sgms2,Emb,Golga3"
+Neutrophil,mature markers,-5.0,0.06666753550644622,-0.11793489688313938,"Cebpe,Lyz2,S100a8,S100a9"
+Neutrophil,mature markers,0.0,0.1846024323895856,0.0,
+Neutrophil,mature markers,5.0,0.3599699999596106,0.175367567570025,"Cebpe,Lyz2,S100a8,S100a9"
+Monocyte,early-state genes,-5.0,0.08416879177344248,-0.04928082926439674,"Casp6,Sirpa,Mef2c,Emb,Il6st,Pou2f2,Fth1,Cd44"
+Monocyte,early-state genes,0.0,0.13344962103783922,0.0,
+Monocyte,early-state genes,5.0,0.1986470599577953,0.06519743891995608,"Casp6,Sirpa,Mef2c,Emb,Il6st,Pou2f2,Fth1,Cd44"
+Monocyte,mature markers,-5.0,0.08938877445374276,-0.044060846584096466,"Irf8,Csf1r,Lyz2,Ly6c2"
+Monocyte,mature markers,0.0,0.13344962103783922,0.0,
+Monocyte,mature markers,5.0,0.1847018016558865,0.05125218061804729,"Irf8,Csf1r,Lyz2,Ly6c2"

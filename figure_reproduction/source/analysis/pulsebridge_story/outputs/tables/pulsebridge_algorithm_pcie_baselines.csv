@@ -1,0 +1,10 @@
+algorithm,pcie,kind,source
+PulseBridge,0.6804491553375556,candidate,/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/analysis/pulsebridge_story/outputs/tables/existing_metric_summary_long.csv
+WFR-FM,0.9882174390368164,builtin/reference,/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/analysis/pulsebridge_story/outputs/tables/existing_metric_summary_long.csv
+SF2M,0.9975073846580926,builtin/reference,/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/analysis/pulsebridge_story/outputs/tables/existing_metric_summary_long.csv
+Unbalanced OT,1.0067413228098303,builtin/reference,/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/analysis/pulsebridge_story/outputs/tables/existing_metric_summary_long.csv
+VGFM,1.0089188607307733,builtin/reference,/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/analysis/pulsebridge_story/outputs/tables/existing_metric_summary_long.csv
+CRUFM,1.010840060256669,builtin/reference,/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/analysis/pulsebridge_story/outputs/tables/existing_metric_summary_long.csv
+Cyto simulation,1.0142869071569294,builtin/reference,/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/analysis/pulsebridge_story/outputs/tables/existing_metric_summary_long.csv
+Dynamical OT,1.0159284960245714,builtin/reference,/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/analysis/pulsebridge_story/outputs/tables/existing_metric_summary_long.csv
+RUOT,1.02101411530748,builtin/reference,/Users/zhenyizhang/Documents/GitHub/CytoBridge-agent-runtime-v2-20260309/analysis/pulsebridge_story/outputs/tables/existing_metric_summary_long.csv

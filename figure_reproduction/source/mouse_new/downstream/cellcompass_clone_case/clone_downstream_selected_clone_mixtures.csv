@@ -1,0 +1,89 @@
+clone,source,fate,fraction,n_day2,n_day4,n_day6
+2431,observed descendants,Baso,0.9615384615384616,3,2,26
+2431,observed descendants,Ccr7_DC,0.0,3,2,26
+2431,observed descendants,Eos,0.0,3,2,26
+2431,observed descendants,Erythroid,0.0,3,2,26
+2431,observed descendants,Lymphoid,0.0,3,2,26
+2431,observed descendants,Mast,0.0,3,2,26
+2431,observed descendants,Meg,0.0,3,2,26
+2431,observed descendants,Monocyte,0.0,3,2,26
+2431,observed descendants,Neutrophil,0.0,3,2,26
+2431,observed descendants,Undifferentiated,0.038461538461538464,3,2,26
+2431,observed descendants,pDC,0.0,3,2,26
+2431,BMF from day-2 cells,Baso,0.991425265592832,3,2,26
+2431,BMF from day-2 cells,Ccr7_DC,0.0,3,2,26
+2431,BMF from day-2 cells,Eos,0.00017509104462164337,3,2,26
+2431,BMF from day-2 cells,Erythroid,0.0,3,2,26
+2431,BMF from day-2 cells,Lymphoid,0.0,3,2,26
+2431,BMF from day-2 cells,Mast,7.071369114488221e-05,3,2,26
+2431,BMF from day-2 cells,Meg,0.0,3,2,26
+2431,BMF from day-2 cells,Monocyte,0.0,3,2,26
+2431,BMF from day-2 cells,Neutrophil,0.0011835684809838965,3,2,26
+2431,BMF from day-2 cells,Undifferentiated,0.007145361190417638,3,2,26
+2431,BMF from day-2 cells,pDC,0.0,3,2,26
+2484,observed descendants,Baso,0.0,3,3,22
+2484,observed descendants,Ccr7_DC,0.0,3,3,22
+2484,observed descendants,Eos,0.0,3,3,22
+2484,observed descendants,Erythroid,0.0,3,3,22
+2484,observed descendants,Lymphoid,0.0,3,3,22
+2484,observed descendants,Mast,0.0,3,3,22
+2484,observed descendants,Meg,0.0,3,3,22
+2484,observed descendants,Monocyte,0.8636363636363636,3,3,22
+2484,observed descendants,Neutrophil,0.0,3,3,22
+2484,observed descendants,Undifferentiated,0.13636363636363635,3,3,22
+2484,observed descendants,pDC,0.0,3,3,22
+2484,BMF from day-2 cells,Baso,0.005079667802611358,3,3,22
+2484,BMF from day-2 cells,Ccr7_DC,0.0,3,3,22
+2484,BMF from day-2 cells,Eos,1.2204874777294263e-05,3,3,22
+2484,BMF from day-2 cells,Erythroid,0.0,3,3,22
+2484,BMF from day-2 cells,Lymphoid,6.764350753681484e-05,3,3,22
+2484,BMF from day-2 cells,Mast,0.0,3,3,22
+2484,BMF from day-2 cells,Meg,8.589627377810359e-05,3,3,22
+2484,BMF from day-2 cells,Monocyte,0.9360967687092429,3,3,22
+2484,BMF from day-2 cells,Neutrophil,0.0,3,3,22
+2484,BMF from day-2 cells,Undifferentiated,0.05863113210891625,3,3,22
+2484,BMF from day-2 cells,pDC,2.668672313735313e-05,3,3,22
+3530,observed descendants,Baso,0.0,5,29,33
+3530,observed descendants,Ccr7_DC,0.0,5,29,33
+3530,observed descendants,Eos,0.0,5,29,33
+3530,observed descendants,Erythroid,0.0,5,29,33
+3530,observed descendants,Lymphoid,0.0,5,29,33
+3530,observed descendants,Mast,0.0,5,29,33
+3530,observed descendants,Meg,0.0,5,29,33
+3530,observed descendants,Monocyte,0.12121212121212122,5,29,33
+3530,observed descendants,Neutrophil,0.7272727272727273,5,29,33
+3530,observed descendants,Undifferentiated,0.15151515151515152,5,29,33
+3530,observed descendants,pDC,0.0,5,29,33
+3530,BMF from day-2 cells,Baso,0.0074373793101176625,5,29,33
+3530,BMF from day-2 cells,Ccr7_DC,0.0,5,29,33
+3530,BMF from day-2 cells,Eos,2.1292931520191575e-05,5,29,33
+3530,BMF from day-2 cells,Erythroid,2.3798405134805317e-05,5,29,33
+3530,BMF from day-2 cells,Lymphoid,1.7282326044397528e-06,5,29,33
+3530,BMF from day-2 cells,Mast,0.0008914401080235993,5,29,33
+3530,BMF from day-2 cells,Meg,0.00017672302978513063,5,29,33
+3530,BMF from day-2 cells,Monocyte,0.017572598016371017,5,29,33
+3530,BMF from day-2 cells,Neutrophil,0.5025802561405012,5,29,33
+3530,BMF from day-2 cells,Undifferentiated,0.4712947086568081,5,29,33
+3530,BMF from day-2 cells,pDC,7.51691338131079e-08,5,29,33
+4061,observed descendants,Baso,0.0,1,19,51
+4061,observed descendants,Ccr7_DC,0.0,1,19,51
+4061,observed descendants,Eos,0.0,1,19,51
+4061,observed descendants,Erythroid,0.0,1,19,51
+4061,observed descendants,Lymphoid,0.0,1,19,51
+4061,observed descendants,Mast,0.0,1,19,51
+4061,observed descendants,Meg,0.0,1,19,51
+4061,observed descendants,Monocyte,0.47058823529411764,1,19,51
+4061,observed descendants,Neutrophil,0.3333333333333333,1,19,51
+4061,observed descendants,Undifferentiated,0.19607843137254902,1,19,51
+4061,observed descendants,pDC,0.0,1,19,51
+4061,BMF from day-2 cells,Baso,0.0,1,19,51
+4061,BMF from day-2 cells,Ccr7_DC,0.0,1,19,51
+4061,BMF from day-2 cells,Eos,0.0,1,19,51
+4061,BMF from day-2 cells,Erythroid,0.0,1,19,51
+4061,BMF from day-2 cells,Lymphoid,0.00014558761327303045,1,19,51
+4061,BMF from day-2 cells,Mast,0.0,1,19,51
+4061,BMF from day-2 cells,Meg,0.0,1,19,51
+4061,BMF from day-2 cells,Monocyte,0.5781086685515445,1,19,51
+4061,BMF from day-2 cells,Neutrophil,0.2195391576976215,1,19,51
+4061,BMF from day-2 cells,Undifferentiated,0.20220484061149427,1,19,51
+4061,BMF from day-2 cells,pDC,1.7455260665881358e-06,1,19,51
