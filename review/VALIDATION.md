@@ -46,5 +46,21 @@ the active figure selection, and archive indexes. The four model implementations
 are copied without modification. Internal package and algorithm identifiers are
 preserved. The development repository and manuscript were not changed.
 
+## Getting-started checks
+
+The revised installation command completed dependency resolution with pip's
+`--dry-run --ignore-installed` options under Python 3.10. This checks dependency
+compatibility, not a fresh installation. `npm ci` and `npm run build` completed.
+Using the existing scientific environment and an empty temporary home directory,
+the local web server started and returned HTTP 200 for the interface, setup
+configuration and runtime-status endpoints. No language-model call was made.
+The example-data script generated an AnnData file with 600 cells, 32 artificial
+genes and three sampling times.
+
+The frontend dependency audit reported ten findings (six high, two moderate and
+two low). These dependencies were not changed in the documentation update.
+Public hosting requires a separate security review, user/session isolation and
+API usage controls. The documented startup binds to localhost.
+
 The GitHub Actions workflow is available for a manually requested Linux figure
 check. It has not been run as part of this local validation.

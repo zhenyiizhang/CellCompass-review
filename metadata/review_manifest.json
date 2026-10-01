@@ -231,8 +231,8 @@
   },
   {
     "path": "README.md",
-    "sha256": "9c20e36430c8c684e5fa327e18b131d80fc1438739d826357228db7deb1a35f3",
-    "bytes": 4702
+    "sha256": "5cef8cd818cd04fdc6f4c77a9ce4d859e2678ac000bf4f54776920de694c9cc0",
+    "bytes": 2472
   },
   {
     "path": "algorithms/brgusfm_rh5_0613/IMPLEMENTATION_MAP.md",
@@ -2645,9 +2645,19 @@
     "bytes": 124600
   },
   {
+    "path": "docs/getting-started.md",
+    "sha256": "212250dec68a292a3684e8c6b710ed4beba19ab4211ba72cd7e2251bf29e83ec",
+    "bytes": 4967
+  },
+  {
     "path": "docs/runtime-upstream.md",
-    "sha256": "2341212d1e302fe6854ef9b03ff9aa63a919acc06c2250da81cd63a32b48b1e6",
-    "bytes": 21364
+    "sha256": "4541e91f711210f678724dc06769c6ced201b7ff4ea753c2f6b5c36287ff5e61",
+    "bytes": 241
+  },
+  {
+    "path": "examples/make_demo_data.py",
+    "sha256": "0f660d047bc00e5f475114cb06e33efe03d5a5895d9b97d1905623890ef386d6",
+    "bytes": 1839
   },
   {
     "path": "figure_reproduction/FIGURE_INDEX.md",
@@ -2656,8 +2666,8 @@
   },
   {
     "path": "figure_reproduction/README.md",
-    "sha256": "87f00830fd030c6b3c71c2b8da97ec4996e1a0588aa97399b1d5387b9383d457",
-    "bytes": 1232
+    "sha256": "7679b96c50a25f9567487a8e99b0085c06e1e07b03ccb9330dcb152239a2163c",
+    "bytes": 1160
   },
   {
     "path": "figure_reproduction/REPRODUCTION.md",
@@ -5346,18 +5356,18 @@
   },
   {
     "path": "review/CODE_AVAILABILITY.txt",
-    "sha256": "0db64bdc4df780825fa0c9a65b6446506682cc51a317c58aa96e9e57ff2909f7",
-    "bytes": 960
+    "sha256": "ce12b8abd0be6d91e6b6e67218bcc09d00ee989b5051ed1ba741c97997ade9ea",
+    "bytes": 260
   },
   {
     "path": "review/REVIEWER_GUIDE.md",
-    "sha256": "328eb8518a3e0e16e36a40fdcbb03c1dbc3f2bb620b96d36f164aebe3dc83736",
-    "bytes": 5735
+    "sha256": "7b1cf961510a9327fbf9f91e852fb169f87ce5303f63a303410805639984fe2c",
+    "bytes": 3556
   },
   {
     "path": "review/VALIDATION.md",
-    "sha256": "f58690deaa6e9122c2a75cddc2a7a8824eb281cc82c9469ee8a8f221b5c73368",
-    "bytes": 2658
+    "sha256": "a54ea5ac25572650e40e8f41d907b1b52f5853ec4d08ddcf17420f9ad70f5719",
+    "bytes": 3568
   },
   {
     "path": "review/check_archive.py",
